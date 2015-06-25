@@ -1,0 +1,2110 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>NotificationService</title>
+	<meta name="keywords" content="contentbox.model.system.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/system/NotificationService.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.system"><span class="label label-success">contentbox.model.system</span></a>
+</div>
+
+<h2>
+
+Class
+
+ NotificationService</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">coldbox.system.FrameworkSupertype
+            <img src="../../../resources/inherit.gif" alt="extended by ">coldbox.system.Interceptor
+                <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.system.NotificationService
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp] 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License. 
+You may obtain a copy of the License at 
+http://www.apache.org/licenses/LICENSE-2.0 
+Unless required by applicable law or agreed to in writing, software 
+distributed under the License is distributed on an "AS IS" BASIS, 
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+See the License for the specific language governing permissions and 
+limitations under the License.
+Notification services event listener for ContentBox</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#CBHelper()">CBHelper</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:CBHelper@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#mailService()">mailService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = coldbox:plugin:MailService</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#renderer()">renderer</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = provider:ColdBoxRenderer</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#securityService()">securityService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:securityService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#settingService()">settingService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:settingService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_postAuthorSave()">cbadmin_postAuthorSave</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when authors are saved.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_postContentStoreSave()">cbadmin_postContentStoreSave</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when contentstore are saved.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_postEntrySave()">cbadmin_postEntrySave</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when entries are saved.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_postPageSave()">cbadmin_postPageSave</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when pages are saved.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_preAuthorRemove()">cbadmin_preAuthorRemove</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when authors are removed.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_preContentStoreRemove()">cbadmin_preContentStoreRemove</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when content store objects are removed.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_preEntryRemove()">cbadmin_preEntryRemove</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when entries are removed.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#cbadmin_prePageRemove()">cbadmin_prePageRemove</A></strong>([any event], [any interceptData], [any buffer])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to when pages are removed.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#configure()">configure</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#getCBHelper()">getCBHelper</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#getMailService()">getMailService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#getSecurityService()">getSecurityService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#getSettingService()">getSettingService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#setCBHelper()">setCBHelper</A></strong>(any CBHelper)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#setMailService()">setMailService</A></strong>(any mailService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#setRenderer()">setRenderer</A></strong>(any renderer)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#setSecurityService()">setSecurityService</A></strong>(any securityService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="NotificationService.html#setSettingService()">setSettingService</A></strong>(any settingService)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.Interceptor"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.Interceptor</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//coldbox/system/Interceptor.html#appendToBuffer()">appendToBuffer</a>, <a href="../../..//coldbox/system/Interceptor.html#clearBuffer()">clearBuffer</a>, <a href="../../..//coldbox/system/Interceptor.html#getBufferObject()">getBufferObject</a>, <a href="../../..//coldbox/system/Interceptor.html#getBufferString()">getBufferString</a>, <a href="../../..//coldbox/system/Interceptor.html#getInterceptorService()">getInterceptorService</a>, <a href="../../..//coldbox/system/Interceptor.html#getProperties()">getProperties</a>, <a href="../../..//coldbox/system/Interceptor.html#getProperty()">getProperty</a>, <a href="../../..//coldbox/system/Interceptor.html#init()">init</a>, <a href="../../..//coldbox/system/Interceptor.html#propertyExists()">propertyExists</a>, <a href="../../..//coldbox/system/Interceptor.html#setProperties()">setProperties</a>, <a href="../../..//coldbox/system/Interceptor.html#setProperty()">setProperty</a>, <a href="../../..//coldbox/system/Interceptor.html#unregister()">unregister</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.FrameworkSupertype"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.FrameworkSupertype</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//coldbox/system/FrameworkSupertype.html#addAsset()">addAsset</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#announceInterception()">announceInterception</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getCache()">getCache</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getController()">getController</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getDatasource()">getDatasource</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getInstance()">getInstance</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getInterceptor()">getInterceptor</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getModel()">getModel</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getModuleConfig()">getModuleConfig</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getModuleSettings()">getModuleSettings</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getMyPlugin()">getMyPlugin</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getPlugin()">getPlugin</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getRenderer()">getRenderer</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getRequestCollection()">getRequestCollection</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getRequestContext()">getRequestContext</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getSetting()">getSetting</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#getSettingStructure()">getSettingStructure</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#includeUDF()">includeUDF</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#loadApplicationHelpers()">loadApplicationHelpers</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#locateDirectoryPath()">locateDirectoryPath</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#locateFilePath()">locateFilePath</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#persistVariables()">persistVariables</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#populateModel()">populateModel</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#renderExternalView()">renderExternalView</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#renderLayout()">renderLayout</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#renderView()">renderView</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#runEvent()">runEvent</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#setController()">setController</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#setNextEvent()">setNextEvent</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#setSetting()">setSetting</a>, <a href="../../..//coldbox/system/FrameworkSupertype.html#settingExists()">settingExists</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="CBHelper()"><!-- --></a>
+		<h3>CBHelper</h3>
+
+		<kbd>
+			property any 
+			<strong>CBHelper</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:CBHelper@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="mailService()"><!-- --></a>
+		<h3>mailService</h3>
+
+		<kbd>
+			property any 
+			<strong>mailService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - coldbox:plugin:MailService</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="renderer()"><!-- --></a>
+		<h3>renderer</h3>
+
+		<kbd>
+			property any 
+			<strong>renderer</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - provider:ColdBoxRenderer</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="securityService()"><!-- --></a>
+		<h3>securityService</h3>
+
+		<kbd>
+			property any 
+			<strong>securityService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:securityService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="settingService()"><!-- --></a>
+		<h3>settingService</h3>
+
+		<kbd>
+			property any 
+			<strong>settingService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:settingService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="cbadmin_postAuthorSave()"><!-- --></a>
+	<h3>cbadmin_postAuthorSave</h3>
+	
+	<kbd>public any <strong>cbadmin_postAuthorSave</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when authors are saved</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_postContentStoreSave()"><!-- --></a>
+	<h3>cbadmin_postContentStoreSave</h3>
+	
+	<kbd>public any <strong>cbadmin_postContentStoreSave</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when contentstore are saved</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_postEntrySave()"><!-- --></a>
+	<h3>cbadmin_postEntrySave</h3>
+	
+	<kbd>public any <strong>cbadmin_postEntrySave</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when entries are saved</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_postPageSave()"><!-- --></a>
+	<h3>cbadmin_postPageSave</h3>
+	
+	<kbd>public any <strong>cbadmin_postPageSave</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when pages are saved</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_preAuthorRemove()"><!-- --></a>
+	<h3>cbadmin_preAuthorRemove</h3>
+	
+	<kbd>public any <strong>cbadmin_preAuthorRemove</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when authors are removed</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_preContentStoreRemove()"><!-- --></a>
+	<h3>cbadmin_preContentStoreRemove</h3>
+	
+	<kbd>public any <strong>cbadmin_preContentStoreRemove</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when content store objects are removed</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_preEntryRemove()"><!-- --></a>
+	<h3>cbadmin_preEntryRemove</h3>
+	
+	<kbd>public any <strong>cbadmin_preEntryRemove</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when entries are removed</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="cbadmin_prePageRemove()"><!-- --></a>
+	<h3>cbadmin_prePageRemove</h3>
+	
+	<kbd>public any <strong>cbadmin_prePageRemove</strong>([any event], [any interceptData], [any buffer])</kbd>
+	
+	<br><br>
+
+	
+		<p>Listen to when pages are removed</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code></dd>
+		
+		<dd><code>interceptData</code></dd>
+		
+		<dd><code>buffer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="configure()"><!-- --></a>
+	<h3>configure</h3>
+	
+	<kbd>public any <strong>configure</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+		<dl>
+			<dt><strong>Overrides:</strong></dt>
+			<dd>
+			<code>
+			<a href="../../..//coldbox/system/Interceptor.html#configure()">configure</a></code>
+			in class
+			<code>
+				coldbox.system.Interceptor
+			</code>
+			</dd>
+		</dl>
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCBHelper()"><!-- --></a>
+	<h3>getCBHelper</h3>
+	
+	<kbd>public string <strong>getCBHelper</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMailService()"><!-- --></a>
+	<h3>getMailService</h3>
+	
+	<kbd>public string <strong>getMailService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSecurityService()"><!-- --></a>
+	<h3>getSecurityService</h3>
+	
+	<kbd>public string <strong>getSecurityService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSettingService()"><!-- --></a>
+	<h3>getSettingService</h3>
+	
+	<kbd>public string <strong>getSettingService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCBHelper()"><!-- --></a>
+	<h3>setCBHelper</h3>
+	
+	<kbd>public any <strong>setCBHelper</strong>(any CBHelper)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>CBHelper</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setMailService()"><!-- --></a>
+	<h3>setMailService</h3>
+	
+	<kbd>public any <strong>setMailService</strong>(any mailService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>mailService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRenderer()"><!-- --></a>
+	<h3>setRenderer</h3>
+	
+	<kbd>public any <strong>setRenderer</strong>(any renderer)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>renderer</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setSecurityService()"><!-- --></a>
+	<h3>setSecurityService</h3>
+	
+	<kbd>public any <strong>setSecurityService</strong>(any securityService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>securityService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setSettingService()"><!-- --></a>
+	<h3>setSettingService</h3>
+	
+	<kbd>public any <strong>setSettingService</strong>(any settingService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>settingService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,2392 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Comment</title>
+	<meta name="keywords" content="contentbox.model.comments.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/comments/Comment.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.comments"><span class="label label-success">contentbox.model.comments</span></a>
+</div>
+
+<h2>
+
+Class
+
+ Comment</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.comments.Comment
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				entityname 
+				
+				: cbComment		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cacheuse 
+				
+				: read-write		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				table 
+				
+				: cb_comment		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cachename 
+				
+				: cbComment		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				batchsize 
+				
+				: 25		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+I am a Comment Entity</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#author()">author</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#authorEmail()">authorEmail</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 255</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#authorIP()">authorIP</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#authorURL()">authorURL</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 255</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#commentID()">commentID</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = id</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">generator = native</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">setter = no</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#content()">content</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = text</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#createdDate()">createdDate</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+				<li class="label label-default label-annotations">update = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_createdDate</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#isApproved()">isApproved</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_contentComment,idx_approved</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>false</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#relatedContent()">relatedContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-one</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_contentComment</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.BaseContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="Comment.html#init()">init</A></strong>()
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getAuthor()">getAuthor</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getAuthorEmail()">getAuthorEmail</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getAuthorIP()">getAuthorIP</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getAuthorURL()">getAuthorURL</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getCommentID()">getCommentID</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getContent()">getContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getCreatedDate()">getCreatedDate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getDisplayContent()">getDisplayContent</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get Display Content.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getDisplayCreatedDate()">getDisplayCreatedDate</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get formatted createdDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getIsApproved()">getIsApproved</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getMemento()">getMemento</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get memento representation.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getParentSlug()">getParentSlug</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get parent slug from either the page it belongs or the entry it belongs to.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getParentTitle()">getParentTitle</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get parent title from either the page it belongs or the entry it belongs to.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#getRelatedContent()">getRelatedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#hasRelatedContent()">hasRelatedContent</A></strong>([any relatedContent])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#isLoaded()">isLoaded</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is loaded?.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setAuthor()">setAuthor</A></strong>(any author)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setAuthorEmail()">setAuthorEmail</A></strong>(any authorEmail)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setAuthorIP()">setAuthorIP</A></strong>(any authorIP)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setAuthorURL()">setAuthorURL</A></strong>(any authorURL)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setContent()">setContent</A></strong>(any content)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setCreatedDate()">setCreatedDate</A></strong>(any createdDate)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setIsApproved()">setIsApproved</A></strong>(any isApproved)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Comment.html#setRelatedContent()">setRelatedContent</A></strong>(any relatedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>()</kbd>
+
+	<br><br>
+
+	
+	<p>constructor</p>
+	
+
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="author()"><!-- --></a>
+		<h3>author</h3>
+
+		<kbd>
+			property any 
+			<strong>author</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="authorEmail()"><!-- --></a>
+		<h3>authorEmail</h3>
+
+		<kbd>
+			property any 
+			<strong>authorEmail</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>length</code> - 255</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="authorIP()"><!-- --></a>
+		<h3>authorIP</h3>
+
+		<kbd>
+			property any 
+			<strong>authorIP</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="authorURL()"><!-- --></a>
+		<h3>authorURL</h3>
+
+		<kbd>
+			property any 
+			<strong>authorURL</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>length</code> - 255</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="commentID()"><!-- --></a>
+		<h3>commentID</h3>
+
+		<kbd>
+			property any 
+			<strong>commentID</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - id</dd>
+			
+		
+			
+		
+			
+			<dd><code>generator</code> - native</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>setter</code> - no</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="content()"><!-- --></a>
+		<h3>content</h3>
+
+		<kbd>
+			property any 
+			<strong>content</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - text</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="createdDate()"><!-- --></a>
+		<h3>createdDate</h3>
+
+		<kbd>
+			property any 
+			<strong>createdDate</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+			<dd><code>update</code> - false</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_createdDate</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="isApproved()"><!-- --></a>
+		<h3>isApproved</h3>
+
+		<kbd>
+			property any 
+			<strong>isApproved</strong>
+			
+			= [false]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_contentComment,idx_approved</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="relatedContent()"><!-- --></a>
+		<h3>relatedContent</h3>
+
+		<kbd>
+			property any 
+			<strong>relatedContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-one</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_contentComment</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.BaseContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="getAuthor()"><!-- --></a>
+	<h3>getAuthor</h3>
+	
+	<kbd>public string <strong>getAuthor</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorEmail()"><!-- --></a>
+	<h3>getAuthorEmail</h3>
+	
+	<kbd>public string <strong>getAuthorEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorIP()"><!-- --></a>
+	<h3>getAuthorIP</h3>
+	
+	<kbd>public string <strong>getAuthorIP</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorURL()"><!-- --></a>
+	<h3>getAuthorURL</h3>
+	
+	<kbd>public string <strong>getAuthorURL</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCommentID()"><!-- --></a>
+	<h3>getCommentID</h3>
+	
+	<kbd>public string <strong>getCommentID</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContent()"><!-- --></a>
+	<h3>getContent</h3>
+	
+	<kbd>public string <strong>getContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreatedDate()"><!-- --></a>
+	<h3>getCreatedDate</h3>
+	
+	<kbd>public string <strong>getCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayContent()"><!-- --></a>
+	<h3>getDisplayContent</h3>
+	
+	<kbd>public string <strong>getDisplayContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get Display Content</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayCreatedDate()"><!-- --></a>
+	<h3>getDisplayCreatedDate</h3>
+	
+	<kbd>public string <strong>getDisplayCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get formatted createdDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getIsApproved()"><!-- --></a>
+	<h3>getIsApproved</h3>
+	
+	<kbd>public string <strong>getIsApproved</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMemento()"><!-- --></a>
+	<h3>getMemento</h3>
+	
+	<kbd>public any <strong>getMemento</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get memento representation</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParentSlug()"><!-- --></a>
+	<h3>getParentSlug</h3>
+	
+	<kbd>public any <strong>getParentSlug</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get parent slug from either the page it belongs or the entry it belongs to.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParentTitle()"><!-- --></a>
+	<h3>getParentTitle</h3>
+	
+	<kbd>public any <strong>getParentTitle</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get parent title from either the page it belongs or the entry it belongs to.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRelatedContent()"><!-- --></a>
+	<h3>getRelatedContent</h3>
+	
+	<kbd>public string <strong>getRelatedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasRelatedContent()"><!-- --></a>
+	<h3>hasRelatedContent</h3>
+	
+	<kbd>public boolean <strong>hasRelatedContent</strong>([any relatedContent])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isLoaded()"><!-- --></a>
+	<h3>isLoaded</h3>
+	
+	<kbd>public boolean <strong>isLoaded</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>is loaded?</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthor()"><!-- --></a>
+	<h3>setAuthor</h3>
+	
+	<kbd>public any <strong>setAuthor</strong>(any author)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>author</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthorEmail()"><!-- --></a>
+	<h3>setAuthorEmail</h3>
+	
+	<kbd>public any <strong>setAuthorEmail</strong>(any authorEmail)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>authorEmail</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthorIP()"><!-- --></a>
+	<h3>setAuthorIP</h3>
+	
+	<kbd>public any <strong>setAuthorIP</strong>(any authorIP)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>authorIP</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthorURL()"><!-- --></a>
+	<h3>setAuthorURL</h3>
+	
+	<kbd>public any <strong>setAuthorURL</strong>(any authorURL)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>authorURL</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setContent()"><!-- --></a>
+	<h3>setContent</h3>
+	
+	<kbd>public any <strong>setContent</strong>(any content)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCreatedDate()"><!-- --></a>
+	<h3>setCreatedDate</h3>
+	
+	<kbd>public any <strong>setCreatedDate</strong>(any createdDate)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>createdDate</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setIsApproved()"><!-- --></a>
+	<h3>setIsApproved</h3>
+	
+	<kbd>public any <strong>setIsApproved</strong>(any isApproved)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>isApproved</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRelatedContent()"><!-- --></a>
+	<h3>setRelatedContent</h3>
+	
+	<kbd>public any <strong>setRelatedContent</strong>(any relatedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

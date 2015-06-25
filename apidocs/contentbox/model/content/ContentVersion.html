@@ -1,0 +1,2759 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ContentVersion</title>
+	<meta name="keywords" content="contentbox.model.content.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/content/ContentVersion.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.content"><span class="label label-success">contentbox.model.content</span></a>
+</div>
+
+<h2>
+
+Class
+
+ ContentVersion</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.content.ContentVersion
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				entityname 
+				
+				: cbContentVersion		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cacheuse 
+				
+				: read-write		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				table 
+				
+				: cb_contentVersion		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cachename 
+				
+				: cbContentVersion		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				batchsize 
+				
+				: 25		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+I am a versioned piece of content</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#author()">author</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-one</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fetch = join</li>
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_authorID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.security.Author</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#changelog()">changelog</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = text</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 8000</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#content()">content</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = text</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 8000</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#contentVersionID()">contentVersionID</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = id</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">generator = native</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">setter = no</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#createdDate()">createdDate</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+				<li class="label label-default label-annotations">update = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_createdDate</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#interceptorService()">interceptorService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = coldbox:interceptorService</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#isActive()">isActive</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_active,idx_contentVersions</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>false</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#relatedContent()">relatedContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-one</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fetch = join</li>
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_contentVersions</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.BaseContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#renderedContent()">renderedContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#version()">version</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = integer</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_version</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>1</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="ContentVersion.html#init()">init</A></strong>()
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getAuthor()">getAuthor</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getAuthorEmail()">getAuthorEmail</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Author email.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getAuthorName()">getAuthorName</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Author name.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getChangelog()">getChangelog</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getContent()">getContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getContentVersionID()">getContentVersionID</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getCreatedDate()">getCreatedDate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getDisplayCreatedDate()">getDisplayCreatedDate</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get formatted createdDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getInterceptorService()">getInterceptorService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getIsActive()">getIsActive</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getMemento()">getMemento</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get memento representation.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getParentSlug()">getParentSlug</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get parent slug from the related content it belongs to.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getParentTitle()">getParentTitle</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get parent title from the related content it belongs to.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getRelatedContent()">getRelatedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getRenderedContent()">getRenderedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#getVersion()">getVersion</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#hasAuthor()">hasAuthor</A></strong>([any author])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#hasRelatedContent()">hasRelatedContent</A></strong>([any relatedContent])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#isLoaded()">isLoaded</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is loaded?.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#renderContent()">renderContent</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render version content out.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setAuthor()">setAuthor</A></strong>(any author)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setChangelog()">setChangelog</A></strong>(any changelog)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setContent()">setContent</A></strong>(any content)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setCreatedDate()">setCreatedDate</A></strong>(any createdDate)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setInterceptorService()">setInterceptorService</A></strong>(any interceptorService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setIsActive()">setIsActive</A></strong>(any isActive)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setRelatedContent()">setRelatedContent</A></strong>(any relatedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setRenderedContent()">setRenderedContent</A></strong>(any renderedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentVersion.html#setVersion()">setVersion</A></strong>(any version)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>()</kbd>
+
+	<br><br>
+
+	
+	<p>constructor</p>
+	
+
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="author()"><!-- --></a>
+		<h3>author</h3>
+
+		<kbd>
+			property any 
+			<strong>author</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-one</dd>
+			
+		
+			
+		
+			
+			<dd><code>fetch</code> - join</dd>
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_authorID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.security.Author</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="changelog()"><!-- --></a>
+		<h3>changelog</h3>
+
+		<kbd>
+			property any 
+			<strong>changelog</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - text</dd>
+			
+		
+			
+			<dd><code>length</code> - 8000</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="content()"><!-- --></a>
+		<h3>content</h3>
+
+		<kbd>
+			property any 
+			<strong>content</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - text</dd>
+			
+		
+			
+			<dd><code>length</code> - 8000</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentVersionID()"><!-- --></a>
+		<h3>contentVersionID</h3>
+
+		<kbd>
+			property any 
+			<strong>contentVersionID</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - id</dd>
+			
+		
+			
+		
+			
+			<dd><code>generator</code> - native</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>setter</code> - no</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="createdDate()"><!-- --></a>
+		<h3>createdDate</h3>
+
+		<kbd>
+			property any 
+			<strong>createdDate</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+			<dd><code>update</code> - false</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_createdDate</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="interceptorService()"><!-- --></a>
+		<h3>interceptorService</h3>
+
+		<kbd>
+			property any 
+			<strong>interceptorService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - coldbox:interceptorService</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="isActive()"><!-- --></a>
+		<h3>isActive</h3>
+
+		<kbd>
+			property any 
+			<strong>isActive</strong>
+			
+			= [false]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_active,idx_contentVersions</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="relatedContent()"><!-- --></a>
+		<h3>relatedContent</h3>
+
+		<kbd>
+			property any 
+			<strong>relatedContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-one</dd>
+			
+		
+			
+		
+			
+			<dd><code>fetch</code> - join</dd>
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_contentVersions</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.BaseContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="renderedContent()"><!-- --></a>
+		<h3>renderedContent</h3>
+
+		<kbd>
+			property any 
+			<strong>renderedContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="version()"><!-- --></a>
+		<h3>version</h3>
+
+		<kbd>
+			property any 
+			<strong>version</strong>
+			
+			= [1]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - integer</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_version</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="getAuthor()"><!-- --></a>
+	<h3>getAuthor</h3>
+	
+	<kbd>public string <strong>getAuthor</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorEmail()"><!-- --></a>
+	<h3>getAuthorEmail</h3>
+	
+	<kbd>public string <strong>getAuthorEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Author email</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorName()"><!-- --></a>
+	<h3>getAuthorName</h3>
+	
+	<kbd>public string <strong>getAuthorName</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Author name</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getChangelog()"><!-- --></a>
+	<h3>getChangelog</h3>
+	
+	<kbd>public string <strong>getChangelog</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContent()"><!-- --></a>
+	<h3>getContent</h3>
+	
+	<kbd>public string <strong>getContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentVersionID()"><!-- --></a>
+	<h3>getContentVersionID</h3>
+	
+	<kbd>public string <strong>getContentVersionID</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreatedDate()"><!-- --></a>
+	<h3>getCreatedDate</h3>
+	
+	<kbd>public string <strong>getCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayCreatedDate()"><!-- --></a>
+	<h3>getDisplayCreatedDate</h3>
+	
+	<kbd>public string <strong>getDisplayCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get formatted createdDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getInterceptorService()"><!-- --></a>
+	<h3>getInterceptorService</h3>
+	
+	<kbd>public string <strong>getInterceptorService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getIsActive()"><!-- --></a>
+	<h3>getIsActive</h3>
+	
+	<kbd>public string <strong>getIsActive</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMemento()"><!-- --></a>
+	<h3>getMemento</h3>
+	
+	<kbd>public any <strong>getMemento</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get memento representation</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParentSlug()"><!-- --></a>
+	<h3>getParentSlug</h3>
+	
+	<kbd>public any <strong>getParentSlug</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get parent slug from the related content it belongs to</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParentTitle()"><!-- --></a>
+	<h3>getParentTitle</h3>
+	
+	<kbd>public any <strong>getParentTitle</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get parent title from the related content it belongs to</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRelatedContent()"><!-- --></a>
+	<h3>getRelatedContent</h3>
+	
+	<kbd>public string <strong>getRelatedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRenderedContent()"><!-- --></a>
+	<h3>getRenderedContent</h3>
+	
+	<kbd>public string <strong>getRenderedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getVersion()"><!-- --></a>
+	<h3>getVersion</h3>
+	
+	<kbd>public string <strong>getVersion</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasAuthor()"><!-- --></a>
+	<h3>hasAuthor</h3>
+	
+	<kbd>public boolean <strong>hasAuthor</strong>([any author])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>author</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasRelatedContent()"><!-- --></a>
+	<h3>hasRelatedContent</h3>
+	
+	<kbd>public boolean <strong>hasRelatedContent</strong>([any relatedContent])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isLoaded()"><!-- --></a>
+	<h3>isLoaded</h3>
+	
+	<kbd>public boolean <strong>isLoaded</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>is loaded?</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="renderContent()"><!-- --></a>
+	<h3>renderContent</h3>
+	
+	<kbd>public any <strong>renderContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Render version content out</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthor()"><!-- --></a>
+	<h3>setAuthor</h3>
+	
+	<kbd>public any <strong>setAuthor</strong>(any author)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>author</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setChangelog()"><!-- --></a>
+	<h3>setChangelog</h3>
+	
+	<kbd>public any <strong>setChangelog</strong>(any changelog)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>changelog</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setContent()"><!-- --></a>
+	<h3>setContent</h3>
+	
+	<kbd>public any <strong>setContent</strong>(any content)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCreatedDate()"><!-- --></a>
+	<h3>setCreatedDate</h3>
+	
+	<kbd>public any <strong>setCreatedDate</strong>(any createdDate)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>createdDate</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setInterceptorService()"><!-- --></a>
+	<h3>setInterceptorService</h3>
+	
+	<kbd>public any <strong>setInterceptorService</strong>(any interceptorService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>interceptorService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setIsActive()"><!-- --></a>
+	<h3>setIsActive</h3>
+	
+	<kbd>public any <strong>setIsActive</strong>(any isActive)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>isActive</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRelatedContent()"><!-- --></a>
+	<h3>setRelatedContent</h3>
+	
+	<kbd>public any <strong>setRelatedContent</strong>(any relatedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRenderedContent()"><!-- --></a>
+	<h3>setRenderedContent</h3>
+	
+	<kbd>public any <strong>setRenderedContent</strong>(any renderedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>renderedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setVersion()"><!-- --></a>
+	<h3>setVersion</h3>
+	
+	<kbd>public any <strong>setVersion</strong>(any version)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>version</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

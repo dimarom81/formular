@@ -1,0 +1,1915 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CategoryService</title>
+	<meta name="keywords" content="contentbox.model.content.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/content/CategoryService.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.content"><span class="label label-success">contentbox.model.content</span></a>
+</div>
+
+<h2>
+
+Class
+
+ CategoryService</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">coldbox.system.orm.hibernate.BaseORMService
+            <img src="../../../resources/inherit.gif" alt="extended by ">coldbox.system.orm.hibernate.VirtualEntityService
+                <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.content.CategoryService
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				singleton 
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+Category service for contentbox</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#contentService()">contentService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = contentService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#htmlHelper()">htmlHelper</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = coldbox:plugin:HTMLHelper</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#populator()">populator</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = wirebox:populator</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="CategoryService.html#init()">init</A></strong>()
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#createCategories()">createCategories</A></strong>([any categories])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create categories via a comma delimited list and return the entities created.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#deleteCategory()">deleteCategory</A></strong>(any category)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete a category which also removes itself from all many-to-many relationships.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#getAllForExport()">getAllForExport</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get all data prepared for export.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#getAllNames()">getAllNames</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an array of names of all categories in the system.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#importFromData()">importFromData</A></strong>(any importData, [boolean override='false'], [any importLog])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import data from an array of structures of categories or just one structure of categories.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#importFromFile()">importFromFile</A></strong>(any importFile, [boolean override='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import data from a ContentBox JSON file.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#inflateCategories()">inflateCategories</A></strong>([struct memento])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inflate categories from a collection via 'category_X' pattern and returns an array of category objects .
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="CategoryService.html#removeAllRelatedContent()">removeAllRelatedContent</A></strong>(any category)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.orm.hibernate.VirtualEntityService"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.orm.hibernate.VirtualEntityService</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#clear()">clear</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#convertIDValueToJavaType()">convertIDValueToJavaType</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#convertValueToJavaType()">convertValueToJavaType</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#count()">count</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#countWhere()">countWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#criteriaCount()">criteriaCount</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#criteriaQuery()">criteriaQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteAll()">deleteAll</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteByID()">deleteByID</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteByQuery()">deleteByQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteWhere()">deleteWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#evict()">evict</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#executeQuery()">executeQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#exists()">exists</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#findAllWhere()">findAllWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#findWhere()">findWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#get()">get</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getAll()">getAll</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getDatasource()">getDatasource</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getEntityName()">getEntityName</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getKey()">getKey</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getPropertyNames()">getPropertyNames</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getSessionStatistics()">getSessionStatistics</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getTableName()">getTableName</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#isSessionDirty()">isSessionDirty</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#list()">list</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#new()">new</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#newCriteria()">newCriteria</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#onMissingMethod()">onMissingMethod</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#setDatasource()">setDatasource</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#setEntityName()">setEntityName</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.orm.hibernate.BaseORMService"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.orm.hibernate.BaseORMService</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$delete()">$delete</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteAll()">$deleteAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteByID()">$deleteByID</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteByQuery()">$deleteByQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteWhere()">$deleteWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$save()">$save</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$saveAll()">$saveAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$transactioned()">$transactioned</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#compileHQLFromDynamicMethod()">compileHQLFromDynamicMethod</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#createCriteriaQuery()">createCriteriaQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#createService()">createService</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#delete()">delete</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#evictEntity()">evictEntity</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#evictQueries()">evictQueries</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findAll()">findAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findByExample()">findByExample</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findDynamically()">findDynamically</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findIt()">findIt</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getDefaultAsQuery()">getDefaultAsQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getEntityGivenName()">getEntityGivenName</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getEventHandling()">getEventHandling</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getHQLDynamicCache()">getHQLDynamicCache</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getORM()">getORM</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getORMEventHandler()">getORMEventHandler</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getQueryCacheRegion()">getQueryCacheRegion</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getRestrictions()">getRestrictions</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getUseQueryCaching()">getUseQueryCaching</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getUseTransactions()">getUseTransactions</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#merge()">merge</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populate()">populate</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateFromJSON()">populateFromJSON</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateFromQuery()">populateFromQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateFromXML()">populateFromXML</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateWithPrefix()">populateWithPrefix</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#refresh()">refresh</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#save()">save</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#saveAll()">saveAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#sessionContains()">sessionContains</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setDefaultAsQuery()">setDefaultAsQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setEventHandling()">setEventHandling</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setHQLDynamicCache()">setHQLDynamicCache</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setORM()">setORM</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setORMEventHandler()">setORMEventHandler</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setQueryCacheRegion()">setQueryCacheRegion</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setUseQueryCaching()">setUseQueryCaching</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setUseTransactions()">setUseTransactions</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>()</kbd>
+
+	<br><br>
+
+	
+	<p>Constructor</p>
+	
+
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="contentService()"><!-- --></a>
+		<h3>contentService</h3>
+
+		<kbd>
+			property any 
+			<strong>contentService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - contentService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="htmlHelper()"><!-- --></a>
+		<h3>htmlHelper</h3>
+
+		<kbd>
+			property any 
+			<strong>htmlHelper</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - coldbox:plugin:HTMLHelper</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="populator()"><!-- --></a>
+		<h3>populator</h3>
+
+		<kbd>
+			property any 
+			<strong>populator</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - wirebox:populator</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="createCategories()"><!-- --></a>
+	<h3>createCategories</h3>
+	
+	<kbd>public array <strong>createCategories</strong>([any categories])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create categories via a comma delimited list and return the entities created</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>categories</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="deleteCategory()"><!-- --></a>
+	<h3>deleteCategory</h3>
+	
+	<kbd>public boolean <strong>deleteCategory</strong>(any category)</kbd>
+	
+	<br><br>
+
+	
+		<p>Delete a category which also removes itself from all many-to-many relationships</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code> - The category object to remove from the system</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllForExport()"><!-- --></a>
+	<h3>getAllForExport</h3>
+	
+	<kbd>public array <strong>getAllForExport</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get all data prepared for export</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllNames()"><!-- --></a>
+	<h3>getAllNames</h3>
+	
+	<kbd>public array <strong>getAllNames</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get an array of names of all categories in the system</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="importFromData()"><!-- --></a>
+	<h3>importFromData</h3>
+	
+	<kbd>public string <strong>importFromData</strong>(any importData, [boolean override='false'], [any importLog])</kbd>
+	
+	<br><br>
+
+	
+		<p>Import data from an array of structures of categories or just one structure of categories</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>importData</code></dd>
+		
+		<dd><code>override</code></dd>
+		
+		<dd><code>importLog</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="importFromFile()"><!-- --></a>
+	<h3>importFromFile</h3>
+	
+	<kbd>public string <strong>importFromFile</strong>(any importFile, [boolean override='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Import data from a ContentBox JSON file. Returns the import log</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>importFile</code></dd>
+		
+		<dd><code>override</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="inflateCategories()"><!-- --></a>
+	<h3>inflateCategories</h3>
+	
+	<kbd>public array <strong>inflateCategories</strong>([struct memento])</kbd>
+	
+	<br><br>
+
+	
+		<p>Inflate categories from a collection via 'category_X' pattern and returns an array of category objects 
+as its representation</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>memento</code></dd>
+		
+		</dl>
+	
+
+	
+		<dl>
+			<dt><strong>Returns:</strong></dt>
+			<dd>array of categories</dd>
+		</dl>
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeAllRelatedContent()"><!-- --></a>
+	<h3>removeAllRelatedContent</h3>
+	
+	<kbd>public array <strong>removeAllRelatedContent</strong>(any category)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

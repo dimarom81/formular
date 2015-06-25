@@ -1,0 +1,5243 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Author</title>
+	<meta name="keywords" content="contentbox.model.security.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/security/Author.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.security"><span class="label label-success">contentbox.model.security</span></a>
+</div>
+
+<h2>
+
+Class
+
+ Author</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.security.Author
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				entityname 
+				
+				: cbAuthor		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cacheuse 
+				
+				: read-write		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				table 
+				
+				: cb_author		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cachename 
+				
+				: cbAuthor		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				batchsize 
+				
+				: 25		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>I am a author entity</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#authorID()">authorID</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = id</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">generator = native</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">setter = no</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#authorService()">authorService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = authorService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#biography()">biography</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = text</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 8000</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#createdDate()">createdDate</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+				<li class="label label-default label-annotations">update = false</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#email()">email</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_email</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 255</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#entries()">entries</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = save-update</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = publishedDate DESC</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 10</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = entry</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_authorID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.Entry</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#firstName()">firstName</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#isActive()">isActive</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_login,idx_active</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>false</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#lastLogin()">lastLogin</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#lastName()">lastName</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#loggedIn()">loggedIn</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>false</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#numberOfEntries()">numberOfEntries</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select count(*) from cb_content as content where content.FK_authorID=authorID and content.contentType='entry'</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#numberOfPages()">numberOfPages</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select count(*) from cb_content as content where content.FK_authorID=authorID and content.contentType='page'</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#pages()">pages</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = save-update</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = publishedDate DESC</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 10</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = page</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_authorID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.Page</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#password()">password</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_login</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#permissionList()">permissionList</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#permissions()">permissions</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+				<li class="label label-default label-annotations">linktable = cb_authorPermissions</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = permission</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = permission</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_authorID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inversejoincolumn = FK_permissionID</li>
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.security.Permission</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#preferences()">preferences</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = text</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 8000</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#role()">role</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-one</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_roleID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.security.Role</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#username()">username</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+				<li class="label label-default label-annotations">unique = true</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_login</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="Author.html#init()">init</A></strong>()
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#addEntry()">addEntry</A></strong>(any entry)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#addPage()">addPage</A></strong>(any page)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#addPermission()">addPermission</A></strong>(any permission)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#checkPermission()">checkPermission</A></strong>(any slug)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check for permission.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a></code>
+		</td>
+		<td>
+			<strong><a href="Author.html#clearPermissions()">clearPermissions</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear all permissions.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>struct</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getAllPreferences()">getAllPreferences</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get all user preferences in inflated format.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getAuthorID()">getAuthorID</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getAuthorService()">getAuthorService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getBiography()">getBiography</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getCreatedDate()">getCreatedDate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getDisplayCreatedDate()">getDisplayCreatedDate</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get formatted createdDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getDisplayLastLogin()">getDisplayLastLogin</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get formatted lastLogin.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getEmail()">getEmail</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getEntries()">getEntries</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getFirstName()">getFirstName</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getIsActive()">getIsActive</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getLastLogin()">getLastLogin</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getLastName()">getLastName</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getLoggedIn()">getLoggedIn</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getMemento()">getMemento</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a flat representation of this entry.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getName()">getName</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieve full name.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getNumberOfEntries()">getNumberOfEntries</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getNumberOfPages()">getNumberOfPages</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getPages()">getPages</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getPassword()">getPassword</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getPermissionList()">getPermissionList</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getPermissions()">getPermissions</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getPreference()">getPreference</A></strong>(any name, [any defaultValue])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a preference, you can pass a default value if preference does not exist.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getPreferences()">getPreferences</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getRole()">getRole</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#getUsername()">getUsername</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#hasEntry()">hasEntry</A></strong>([any entry])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#hasPage()">hasPage</A></strong>([any page])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#hasPermission()">hasPermission</A></strong>([any permission])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#hasRole()">hasRole</A></strong>([any role])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#inPermissionList()">inPermissionList</A></strong>(any list)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verify that a passed in list of perms the user can use.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#isLoaded()">isLoaded</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is loaded?.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#isLoggedIn()">isLoggedIn</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logged in.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>void</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#preInsert()">preInsert</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#removeEntry()">removeEntry</A></strong>(any entry)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#removePage()">removePage</A></strong>(any page)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#removePermission()">removePermission</A></strong>(any permission)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setAuthorService()">setAuthorService</A></strong>(any authorService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setBiography()">setBiography</A></strong>(any biography)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setCreatedDate()">setCreatedDate</A></strong>(any createdDate)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setEmail()">setEmail</A></strong>(any email)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setEntries()">setEntries</A></strong>(array entries)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setFirstName()">setFirstName</A></strong>(any firstName)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setIsActive()">setIsActive</A></strong>(any isActive)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setLastLogin()">setLastLogin</A></strong>(any lastLogin)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setLastName()">setLastName</A></strong>(any lastName)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setLoggedIn()">setLoggedIn</A></strong>(boolean loggedIn)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setNumberOfEntries()">setNumberOfEntries</A></strong>(any numberOfEntries)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setNumberOfPages()">setNumberOfPages</A></strong>(any numberOfPages)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setPages()">setPages</A></strong>(array pages)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setPassword()">setPassword</A></strong>(any password)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setPermissionList()">setPermissionList</A></strong>(any permissionList)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a></code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setPermissions()">setPermissions</A></strong>(array permissions)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Override the setPermissions.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a></code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setPreference()">setPreference</A></strong>(any name, any value)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set a preference in the user preferences.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a></code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setPreferences()">setPreferences</A></strong>(any preferences)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Store a preferences structure or JSON data in the user prefernces.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setRole()">setRole</A></strong>(any role)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="Author.html#setUsername()">setUsername</A></strong>(any username)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>()</kbd>
+
+	<br><br>
+
+	
+	<p>Constructor</p>
+	
+
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="authorID()"><!-- --></a>
+		<h3>authorID</h3>
+
+		<kbd>
+			property any 
+			<strong>authorID</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - id</dd>
+			
+		
+			
+		
+			
+			<dd><code>generator</code> - native</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>setter</code> - no</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="authorService()"><!-- --></a>
+		<h3>authorService</h3>
+
+		<kbd>
+			property any 
+			<strong>authorService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - authorService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="biography()"><!-- --></a>
+		<h3>biography</h3>
+
+		<kbd>
+			property any 
+			<strong>biography</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - text</dd>
+			
+		
+			
+			<dd><code>length</code> - 8000</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="createdDate()"><!-- --></a>
+		<h3>createdDate</h3>
+
+		<kbd>
+			property any 
+			<strong>createdDate</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+			<dd><code>update</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="email()"><!-- --></a>
+		<h3>email</h3>
+
+		<kbd>
+			property any 
+			<strong>email</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_email</dd>
+			
+		
+			
+			<dd><code>length</code> - 255</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="entries()"><!-- --></a>
+		<h3>entries</h3>
+
+		<kbd>
+			property array 
+			<strong>entries</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - save-update</dd>
+			
+		
+			
+			<dd><code>orderby</code> - publishedDate DESC</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 10</dd>
+			
+		
+			
+			<dd><code>singularname</code> - entry</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_authorID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.Entry</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="firstName()"><!-- --></a>
+		<h3>firstName</h3>
+
+		<kbd>
+			property any 
+			<strong>firstName</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="isActive()"><!-- --></a>
+		<h3>isActive</h3>
+
+		<kbd>
+			property any 
+			<strong>isActive</strong>
+			
+			= [false]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_login,idx_active</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="lastLogin()"><!-- --></a>
+		<h3>lastLogin</h3>
+
+		<kbd>
+			property any 
+			<strong>lastLogin</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="lastName()"><!-- --></a>
+		<h3>lastName</h3>
+
+		<kbd>
+			property any 
+			<strong>lastName</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="loggedIn()"><!-- --></a>
+		<h3>loggedIn</h3>
+
+		<kbd>
+			property boolean 
+			<strong>loggedIn</strong>
+			
+			= [false]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfEntries()"><!-- --></a>
+		<h3>numberOfEntries</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfEntries</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select count(*) from cb_content as content where content.FK_authorID=authorID and content.contentType='entry'</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfPages()"><!-- --></a>
+		<h3>numberOfPages</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfPages</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select count(*) from cb_content as content where content.FK_authorID=authorID and content.contentType='page'</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="pages()"><!-- --></a>
+		<h3>pages</h3>
+
+		<kbd>
+			property array 
+			<strong>pages</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - save-update</dd>
+			
+		
+			
+			<dd><code>orderby</code> - publishedDate DESC</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 10</dd>
+			
+		
+			
+			<dd><code>singularname</code> - page</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_authorID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.Page</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="password()"><!-- --></a>
+		<h3>password</h3>
+
+		<kbd>
+			property any 
+			<strong>password</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_login</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="permissionList()"><!-- --></a>
+		<h3>permissionList</h3>
+
+		<kbd>
+			property any 
+			<strong>permissionList</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="permissions()"><!-- --></a>
+		<h3>permissions</h3>
+
+		<kbd>
+			property array 
+			<strong>permissions</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+			<dd><code>linktable</code> - cb_authorPermissions</dd>
+			
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all</dd>
+			
+		
+			
+			<dd><code>orderby</code> - permission</dd>
+			
+		
+			
+			<dd><code>singularname</code> - permission</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_authorID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>inversejoincolumn</code> - FK_permissionID</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.security.Permission</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="preferences()"><!-- --></a>
+		<h3>preferences</h3>
+
+		<kbd>
+			property any 
+			<strong>preferences</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - text</dd>
+			
+		
+			
+			<dd><code>length</code> - 8000</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="role()"><!-- --></a>
+		<h3>role</h3>
+
+		<kbd>
+			property any 
+			<strong>role</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-one</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_roleID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.security.Role</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="username()"><!-- --></a>
+		<h3>username</h3>
+
+		<kbd>
+			property any 
+			<strong>username</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>unique</code> - true</dd>
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_login</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="addEntry()"><!-- --></a>
+	<h3>addEntry</h3>
+	
+	<kbd>public any <strong>addEntry</strong>(any entry)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entry</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addPage()"><!-- --></a>
+	<h3>addPage</h3>
+	
+	<kbd>public any <strong>addPage</strong>(any page)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addPermission()"><!-- --></a>
+	<h3>addPermission</h3>
+	
+	<kbd>public any <strong>addPermission</strong>(any permission)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>permission</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="checkPermission()"><!-- --></a>
+	<h3>checkPermission</h3>
+	
+	<kbd>public boolean <strong>checkPermission</strong>(any slug)</kbd>
+	
+	<br><br>
+
+	
+		<p>Check for permission</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The permission slug or list of slugs to validate the user has. If it's a list then they are ORed together</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="clearPermissions()"><!-- --></a>
+	<h3>clearPermissions</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a> <strong>clearPermissions</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Clear all permissions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllPreferences()"><!-- --></a>
+	<h3>getAllPreferences</h3>
+	
+	<kbd>public struct <strong>getAllPreferences</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get all user preferences in inflated format</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorID()"><!-- --></a>
+	<h3>getAuthorID</h3>
+	
+	<kbd>public string <strong>getAuthorID</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorService()"><!-- --></a>
+	<h3>getAuthorService</h3>
+	
+	<kbd>public string <strong>getAuthorService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getBiography()"><!-- --></a>
+	<h3>getBiography</h3>
+	
+	<kbd>public string <strong>getBiography</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreatedDate()"><!-- --></a>
+	<h3>getCreatedDate</h3>
+	
+	<kbd>public string <strong>getCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayCreatedDate()"><!-- --></a>
+	<h3>getDisplayCreatedDate</h3>
+	
+	<kbd>public string <strong>getDisplayCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get formatted createdDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayLastLogin()"><!-- --></a>
+	<h3>getDisplayLastLogin</h3>
+	
+	<kbd>public string <strong>getDisplayLastLogin</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get formatted lastLogin</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getEmail()"><!-- --></a>
+	<h3>getEmail</h3>
+	
+	<kbd>public string <strong>getEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getEntries()"><!-- --></a>
+	<h3>getEntries</h3>
+	
+	<kbd>public string <strong>getEntries</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getFirstName()"><!-- --></a>
+	<h3>getFirstName</h3>
+	
+	<kbd>public string <strong>getFirstName</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getIsActive()"><!-- --></a>
+	<h3>getIsActive</h3>
+	
+	<kbd>public string <strong>getIsActive</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getLastLogin()"><!-- --></a>
+	<h3>getLastLogin</h3>
+	
+	<kbd>public string <strong>getLastLogin</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getLastName()"><!-- --></a>
+	<h3>getLastName</h3>
+	
+	<kbd>public string <strong>getLastName</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getLoggedIn()"><!-- --></a>
+	<h3>getLoggedIn</h3>
+	
+	<kbd>public string <strong>getLoggedIn</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMemento()"><!-- --></a>
+	<h3>getMemento</h3>
+	
+	<kbd>public any <strong>getMemento</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a flat representation of this entry</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getName()"><!-- --></a>
+	<h3>getName</h3>
+	
+	<kbd>public string <strong>getName</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Retrieve full name</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfEntries()"><!-- --></a>
+	<h3>getNumberOfEntries</h3>
+	
+	<kbd>public string <strong>getNumberOfEntries</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfPages()"><!-- --></a>
+	<h3>getNumberOfPages</h3>
+	
+	<kbd>public string <strong>getNumberOfPages</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPages()"><!-- --></a>
+	<h3>getPages</h3>
+	
+	<kbd>public string <strong>getPages</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPassword()"><!-- --></a>
+	<h3>getPassword</h3>
+	
+	<kbd>public string <strong>getPassword</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPermissionList()"><!-- --></a>
+	<h3>getPermissionList</h3>
+	
+	<kbd>public string <strong>getPermissionList</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPermissions()"><!-- --></a>
+	<h3>getPermissions</h3>
+	
+	<kbd>public string <strong>getPermissions</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPreference()"><!-- --></a>
+	<h3>getPreference</h3>
+	
+	<kbd>public any <strong>getPreference</strong>(any name, [any defaultValue])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a preference, you can pass a default value if preference does not exist</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code></dd>
+		
+		<dd><code>defaultValue</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPreferences()"><!-- --></a>
+	<h3>getPreferences</h3>
+	
+	<kbd>public string <strong>getPreferences</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRole()"><!-- --></a>
+	<h3>getRole</h3>
+	
+	<kbd>public string <strong>getRole</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getUsername()"><!-- --></a>
+	<h3>getUsername</h3>
+	
+	<kbd>public string <strong>getUsername</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasEntry()"><!-- --></a>
+	<h3>hasEntry</h3>
+	
+	<kbd>public boolean <strong>hasEntry</strong>([any entry])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entry</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasPage()"><!-- --></a>
+	<h3>hasPage</h3>
+	
+	<kbd>public boolean <strong>hasPage</strong>([any page])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasPermission()"><!-- --></a>
+	<h3>hasPermission</h3>
+	
+	<kbd>public boolean <strong>hasPermission</strong>([any permission])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>permission</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasRole()"><!-- --></a>
+	<h3>hasRole</h3>
+	
+	<kbd>public boolean <strong>hasRole</strong>([any role])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>role</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="inPermissionList()"><!-- --></a>
+	<h3>inPermissionList</h3>
+	
+	<kbd>public any <strong>inPermissionList</strong>(any list)</kbd>
+	
+	<br><br>
+
+	
+		<p>Verify that a passed in list of perms the user can use</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>list</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isLoaded()"><!-- --></a>
+	<h3>isLoaded</h3>
+	
+	<kbd>public boolean <strong>isLoaded</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>is loaded?</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isLoggedIn()"><!-- --></a>
+	<h3>isLoggedIn</h3>
+	
+	<kbd>public any <strong>isLoggedIn</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Logged in</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="preInsert()"><!-- --></a>
+	<h3>preInsert</h3>
+	
+	<kbd>public void <strong>preInsert</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeEntry()"><!-- --></a>
+	<h3>removeEntry</h3>
+	
+	<kbd>public boolean <strong>removeEntry</strong>(any entry)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entry</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removePage()"><!-- --></a>
+	<h3>removePage</h3>
+	
+	<kbd>public boolean <strong>removePage</strong>(any page)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removePermission()"><!-- --></a>
+	<h3>removePermission</h3>
+	
+	<kbd>public boolean <strong>removePermission</strong>(any permission)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>permission</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthorService()"><!-- --></a>
+	<h3>setAuthorService</h3>
+	
+	<kbd>public any <strong>setAuthorService</strong>(any authorService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>authorService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setBiography()"><!-- --></a>
+	<h3>setBiography</h3>
+	
+	<kbd>public any <strong>setBiography</strong>(any biography)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>biography</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCreatedDate()"><!-- --></a>
+	<h3>setCreatedDate</h3>
+	
+	<kbd>public any <strong>setCreatedDate</strong>(any createdDate)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>createdDate</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setEmail()"><!-- --></a>
+	<h3>setEmail</h3>
+	
+	<kbd>public any <strong>setEmail</strong>(any email)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>email</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setEntries()"><!-- --></a>
+	<h3>setEntries</h3>
+	
+	<kbd>public any <strong>setEntries</strong>(array entries)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entries</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setFirstName()"><!-- --></a>
+	<h3>setFirstName</h3>
+	
+	<kbd>public any <strong>setFirstName</strong>(any firstName)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>firstName</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setIsActive()"><!-- --></a>
+	<h3>setIsActive</h3>
+	
+	<kbd>public any <strong>setIsActive</strong>(any isActive)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>isActive</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setLastLogin()"><!-- --></a>
+	<h3>setLastLogin</h3>
+	
+	<kbd>public any <strong>setLastLogin</strong>(any lastLogin)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>lastLogin</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setLastName()"><!-- --></a>
+	<h3>setLastName</h3>
+	
+	<kbd>public any <strong>setLastName</strong>(any lastName)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>lastName</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setLoggedIn()"><!-- --></a>
+	<h3>setLoggedIn</h3>
+	
+	<kbd>public any <strong>setLoggedIn</strong>(boolean loggedIn)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>loggedIn</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfEntries()"><!-- --></a>
+	<h3>setNumberOfEntries</h3>
+	
+	<kbd>public any <strong>setNumberOfEntries</strong>(any numberOfEntries)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfEntries</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfPages()"><!-- --></a>
+	<h3>setNumberOfPages</h3>
+	
+	<kbd>public any <strong>setNumberOfPages</strong>(any numberOfPages)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfPages</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPages()"><!-- --></a>
+	<h3>setPages</h3>
+	
+	<kbd>public any <strong>setPages</strong>(array pages)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>pages</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPassword()"><!-- --></a>
+	<h3>setPassword</h3>
+	
+	<kbd>public any <strong>setPassword</strong>(any password)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>password</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPermissionList()"><!-- --></a>
+	<h3>setPermissionList</h3>
+	
+	<kbd>public any <strong>setPermissionList</strong>(any permissionList)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>permissionList</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPermissions()"><!-- --></a>
+	<h3>setPermissions</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a> <strong>setPermissions</strong>(array permissions)</kbd>
+	
+	<br><br>
+
+	
+		<p>Override the setPermissions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>permissions</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPreference()"><!-- --></a>
+	<h3>setPreference</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a> <strong>setPreference</strong>(any name, any value)</kbd>
+	
+	<br><br>
+
+	
+		<p>Set a preference in the user preferences</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code></dd>
+		
+		<dd><code>value</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPreferences()"><!-- --></a>
+	<h3>setPreferences</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/security/Author.html" title="class in contentbox.model.security">Author</a> <strong>setPreferences</strong>(any preferences)</kbd>
+	
+	<br><br>
+
+	
+		<p>Store a preferences structure or JSON data in the user prefernces</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>preferences</code> - A struct of data or a JSON packet to store</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRole()"><!-- --></a>
+	<h3>setRole</h3>
+	
+	<kbd>public any <strong>setRole</strong>(any role)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>role</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setUsername()"><!-- --></a>
+	<h3>setUsername</h3>
+	
+	<kbd>public any <strong>setUsername</strong>(any username)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>username</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

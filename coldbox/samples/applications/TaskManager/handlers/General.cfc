@@ -1,0 +1,1 @@
+ component {	function index() {				rc.welcomeMessage = "Welcome to ColdBox!";					event.setView( "home" );	}	}

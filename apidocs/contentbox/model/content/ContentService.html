@@ -1,0 +1,3579 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ContentService</title>
+	<meta name="keywords" content="contentbox.model.content.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/content/ContentService.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.content"><span class="label label-success">contentbox.model.content</span></a>
+</div>
+
+<h2>
+
+Class
+
+ ContentService</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">coldbox.system.orm.hibernate.BaseORMService
+            <img src="../../../resources/inherit.gif" alt="extended by ">coldbox.system.orm.hibernate.VirtualEntityService
+                <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.content.ContentService
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				singleton 
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Direct Known Subclasses:</strong></div>
+  	<div class="panel-body">
+	
+		
+		<a href="../../..//contentbox/model/content/ContentStoreService.html" title="class in contentbox.model.content">ContentStoreService</a>
+	
+		,
+		<a href="../../..//contentbox/model/content/EntryService.html" title="class in contentbox.model.content">EntryService</a>
+	
+		,
+		<a href="../../..//contentbox/model/content/PageService.html" title="class in contentbox.model.content">PageService</a>
+	
+	</div>
+</div>
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+A generic content service for content objects</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#authorService()">authorService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = authorService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#cacheBox()">cacheBox</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = cachebox</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#categoryService()">categoryService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = categoryService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#commentService()">commentService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = commentService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#contentStoreService()">contentStoreService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = contentStoreService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#contentVersionService()">contentVersionService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = contentVersionService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#customFieldService()">customFieldService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = customFieldService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#entryService()">entryService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = entryService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#log()">log</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = logbox:logger:{this}</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#pageService()">pageService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = pageService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#populator()">populator</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = wirebox:populator</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#settingService()">settingService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:settingService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#statsService()">statsService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = statsService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#systemUtil()">systemUtil</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = SystemUtil@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="ContentService.html#init()">init</A></strong>([any entityName='cbContent'])
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#bulkPublishStatus()">bulkPublishStatus</A></strong>(any contentID, any status)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bulk Publish Status Updates.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#clearAllCaches()">clearAllCaches</A></strong>([boolean async='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear all content caches.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#clearAllPageWrapperCaches()">clearAllPageWrapperCaches</A></strong>([boolean async='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear all page wrapper caches.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#clearPageWrapper()">clearPageWrapper</A></strong>(any slug, [boolean async='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear a page wrapper cache.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#clearPageWrapperCaches()">clearPageWrapperCaches</A></strong>(any slug, [boolean async='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clear all page wrapper caches.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/ContentService.html" title="class in contentbox.model.content">ContentService</a></code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#deleteContent()">deleteContent</A></strong>(any content)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Delete a content object safely via hierarchies.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#findBySlug()">findBySlug</A></strong>(any slug, boolean showUnpublished='false')
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find a published content object by slug and published unpublished flags, if not found it returns.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#findPublishedContent()">findPublishedContent</A></strong>([numeric max='0'], [numeric offset='0'], [any searchTerm=''], [any category=''], [boolean asQuery='false'], [any parent], [boolean showInMenu])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find published content objects.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getAllFlatContent()">getAllFlatContent</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns an array of [contentID, title, slug] structures of all the content in the system.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getAllFlatSlugs()">getAllFlatSlugs</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns an array of slugs of all the content objects in the system.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getAllForExport()">getAllForExport</A></strong>([any inData])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get all content for export as flat data.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getIDBySlug()">getIDBySlug</A></strong>(any slug)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get an id from a slug of a content object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getTopCommentedContent()">getTopCommentedContent</A></strong>([numeric max='5'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the top commented content entries.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getTopVisitedContent()">getTopVisitedContent</A></strong>([numeric max='5'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the top visited content entries.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>private&nbsp;any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#getUniqueSlugHash()">getUniqueSlugHash</A></strong>(string slug)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a unique slug hash.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#importFromData()">importFromData</A></strong>(any importData, [boolean override='false'], any importLog)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import data from an array of structures of content or just one structure of a content entry.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#importFromFile()">importFromFile</A></strong>(any importFile, [boolean override='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import data from a ContentBox JSON file.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#inflateFromStruct()">inflateFromStruct</A></strong>(any contentData, any importLog, [any parent], [struct newContent='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inflate a content object from a ContentBox JSON structure.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#isSlugUnique()">isSlugUnique</A></strong>(any slug, [any contentID=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verify an incoming slug is unique or not.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#searchContent()">searchContent</A></strong>([any searchTerm=''], [numeric max='0'], [numeric offset='0'], [boolean asQuery='false'], [any sortOrder='publishedDate DESC'], [any isPublished='true'], [boolean searchActiveContent='true'], [string contentTypes=''], [any excludeIDs=''], [boolean showInSearch='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Searches published content with cool paramters, remember published content only.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/ContentService.html" title="class in contentbox.model.content">ContentService</a></code>
+		</td>
+		<td>
+			<strong><a href="ContentService.html#updateHits()">updateHits</A></strong>(any contentID, [boolean async='true'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update a content's hits with some async flava.
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.orm.hibernate.VirtualEntityService"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.orm.hibernate.VirtualEntityService</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#clear()">clear</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#convertIDValueToJavaType()">convertIDValueToJavaType</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#convertValueToJavaType()">convertValueToJavaType</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#count()">count</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#countWhere()">countWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#criteriaCount()">criteriaCount</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#criteriaQuery()">criteriaQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteAll()">deleteAll</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteByID()">deleteByID</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteByQuery()">deleteByQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#deleteWhere()">deleteWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#evict()">evict</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#executeQuery()">executeQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#exists()">exists</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#findAllWhere()">findAllWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#findWhere()">findWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#get()">get</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getAll()">getAll</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getDatasource()">getDatasource</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getEntityName()">getEntityName</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getKey()">getKey</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getPropertyNames()">getPropertyNames</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getSessionStatistics()">getSessionStatistics</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#getTableName()">getTableName</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#isSessionDirty()">isSessionDirty</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#list()">list</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#new()">new</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#newCriteria()">newCriteria</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#onMissingMethod()">onMissingMethod</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#setDatasource()">setDatasource</a>, <a href="../../..//coldbox/system/orm/hibernate/VirtualEntityService.html#setEntityName()">setEntityName</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.orm.hibernate.BaseORMService"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.orm.hibernate.BaseORMService</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$delete()">$delete</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteAll()">$deleteAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteByID()">$deleteByID</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteByQuery()">$deleteByQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$deleteWhere()">$deleteWhere</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$save()">$save</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$saveAll()">$saveAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#$transactioned()">$transactioned</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#compileHQLFromDynamicMethod()">compileHQLFromDynamicMethod</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#createCriteriaQuery()">createCriteriaQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#createService()">createService</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#delete()">delete</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#evictEntity()">evictEntity</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#evictQueries()">evictQueries</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findAll()">findAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findByExample()">findByExample</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findDynamically()">findDynamically</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#findIt()">findIt</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getDefaultAsQuery()">getDefaultAsQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getEntityGivenName()">getEntityGivenName</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getEventHandling()">getEventHandling</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getHQLDynamicCache()">getHQLDynamicCache</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getORM()">getORM</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getORMEventHandler()">getORMEventHandler</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getQueryCacheRegion()">getQueryCacheRegion</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getRestrictions()">getRestrictions</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getUseQueryCaching()">getUseQueryCaching</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#getUseTransactions()">getUseTransactions</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#merge()">merge</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populate()">populate</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateFromJSON()">populateFromJSON</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateFromQuery()">populateFromQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateFromXML()">populateFromXML</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#populateWithPrefix()">populateWithPrefix</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#refresh()">refresh</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#save()">save</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#saveAll()">saveAll</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#sessionContains()">sessionContains</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setDefaultAsQuery()">setDefaultAsQuery</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setEventHandling()">setEventHandling</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setHQLDynamicCache()">setHQLDynamicCache</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setORM()">setORM</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setORMEventHandler()">setORMEventHandler</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setQueryCacheRegion()">setQueryCacheRegion</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setUseQueryCaching()">setUseQueryCaching</a>, <a href="../../..//coldbox/system/orm/hibernate/BaseORMService.html#setUseTransactions()">setUseTransactions</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>([any entityName='cbContent'])</kbd>
+
+	<br><br>
+
+	
+	<p>Constructor</p>
+	
+
+	
+	<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+			<dd><code>entityName</code> - The content entity name to bind this service to.</dd>
+		
+	</dl>
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="authorService()"><!-- --></a>
+		<h3>authorService</h3>
+
+		<kbd>
+			property any 
+			<strong>authorService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - authorService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="cacheBox()"><!-- --></a>
+		<h3>cacheBox</h3>
+
+		<kbd>
+			property any 
+			<strong>cacheBox</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - cachebox</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="categoryService()"><!-- --></a>
+		<h3>categoryService</h3>
+
+		<kbd>
+			property any 
+			<strong>categoryService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - categoryService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="commentService()"><!-- --></a>
+		<h3>commentService</h3>
+
+		<kbd>
+			property any 
+			<strong>commentService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - commentService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentStoreService()"><!-- --></a>
+		<h3>contentStoreService</h3>
+
+		<kbd>
+			property any 
+			<strong>contentStoreService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - contentStoreService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentVersionService()"><!-- --></a>
+		<h3>contentVersionService</h3>
+
+		<kbd>
+			property any 
+			<strong>contentVersionService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - contentVersionService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="customFieldService()"><!-- --></a>
+		<h3>customFieldService</h3>
+
+		<kbd>
+			property any 
+			<strong>customFieldService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - customFieldService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="entryService()"><!-- --></a>
+		<h3>entryService</h3>
+
+		<kbd>
+			property any 
+			<strong>entryService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - entryService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="log()"><!-- --></a>
+		<h3>log</h3>
+
+		<kbd>
+			property any 
+			<strong>log</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - logbox:logger:{this}</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="pageService()"><!-- --></a>
+		<h3>pageService</h3>
+
+		<kbd>
+			property any 
+			<strong>pageService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - pageService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="populator()"><!-- --></a>
+		<h3>populator</h3>
+
+		<kbd>
+			property any 
+			<strong>populator</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - wirebox:populator</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="settingService()"><!-- --></a>
+		<h3>settingService</h3>
+
+		<kbd>
+			property any 
+			<strong>settingService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:settingService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="statsService()"><!-- --></a>
+		<h3>statsService</h3>
+
+		<kbd>
+			property any 
+			<strong>statsService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - statsService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="systemUtil()"><!-- --></a>
+		<h3>systemUtil</h3>
+
+		<kbd>
+			property any 
+			<strong>systemUtil</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - SystemUtil@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="bulkPublishStatus()"><!-- --></a>
+	<h3>bulkPublishStatus</h3>
+	
+	<kbd>public any <strong>bulkPublishStatus</strong>(any contentID, any status)</kbd>
+	
+	<br><br>
+
+	
+		<p>Bulk Publish Status Updates</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentID</code> - The list or array of ID's to bulk update</dd>
+		
+		<dd><code>status</code> - The status either 'publish' or 'draft'</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="clearAllCaches()"><!-- --></a>
+	<h3>clearAllCaches</h3>
+	
+	<kbd>public any <strong>clearAllCaches</strong>([boolean async='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Clear all content caches</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>async</code> - Run it asynchronously or not, defaults to false</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="clearAllPageWrapperCaches()"><!-- --></a>
+	<h3>clearAllPageWrapperCaches</h3>
+	
+	<kbd>public any <strong>clearAllPageWrapperCaches</strong>([boolean async='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Clear all page wrapper caches</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>async</code> - Run it asynchronously or not, defaults to false</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="clearPageWrapper()"><!-- --></a>
+	<h3>clearPageWrapper</h3>
+	
+	<kbd>public any <strong>clearPageWrapper</strong>(any slug, [boolean async='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Clear a page wrapper cache</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The slug to clean</dd>
+		
+		<dd><code>async</code> - Run it asynchronously or not, defaults to false</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="clearPageWrapperCaches()"><!-- --></a>
+	<h3>clearPageWrapperCaches</h3>
+	
+	<kbd>public any <strong>clearPageWrapperCaches</strong>(any slug, [boolean async='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Clear all page wrapper caches</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The slug partial to clean on</dd>
+		
+		<dd><code>async</code> - Run it asynchronously or not, defaults to false</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="deleteContent()"><!-- --></a>
+	<h3>deleteContent</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/ContentService.html" title="class in contentbox.model.content">ContentService</a> <strong>deleteContent</strong>(any content)</kbd>
+	
+	<br><br>
+
+	
+		<p>Delete a content object safely via hierarchies</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - the Content object to delete</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="findBySlug()"><!-- --></a>
+	<h3>findBySlug</h3>
+	
+	<kbd>public any <strong>findBySlug</strong>(any slug, boolean showUnpublished='false')</kbd>
+	
+	<br><br>
+
+	
+		<p>Find a published content object by slug and published unpublished flags, if not found it returns
+a new content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The slug to search</dd>
+		
+		<dd><code>showUnpublished</code> - To also show unpublished content, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="findPublishedContent()"><!-- --></a>
+	<h3>findPublishedContent</h3>
+	
+	<kbd>public any <strong>findPublishedContent</strong>([numeric max='0'], [numeric offset='0'], [any searchTerm=''], [any category=''], [boolean asQuery='false'], [any parent], [boolean showInMenu])</kbd>
+	
+	<br><br>
+
+	
+		<p>Find published content objects</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>max</code> - The maximum number of records to paginate</dd>
+		
+		<dd><code>offset</code> - The offset in the pagination</dd>
+		
+		<dd><code>searchTerm</code> - The search term to search</dd>
+		
+		<dd><code>category</code> - The category to filter the content on</dd>
+		
+		<dd><code>asQuery</code> - Return as query or array of objects, defaults to array of objects</dd>
+		
+		<dd><code>parent</code> - The parent ID to filter on or not</dd>
+		
+		<dd><code>showInMenu</code> - Whether to filter with the show in menu bit or not</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllFlatContent()"><!-- --></a>
+	<h3>getAllFlatContent</h3>
+	
+	<kbd>public array <strong>getAllFlatContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Returns an array of [contentID, title, slug] structures of all the content in the system</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllFlatSlugs()"><!-- --></a>
+	<h3>getAllFlatSlugs</h3>
+	
+	<kbd>public array <strong>getAllFlatSlugs</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Returns an array of slugs of all the content objects in the system.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllForExport()"><!-- --></a>
+	<h3>getAllForExport</h3>
+	
+	<kbd>public array <strong>getAllForExport</strong>([any inData])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get all content for export as flat data</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>inData</code> - The data to use for exporting, usually concrete implementtions can override this.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getIDBySlug()"><!-- --></a>
+	<h3>getIDBySlug</h3>
+	
+	<kbd>public any <strong>getIDBySlug</strong>(any slug)</kbd>
+	
+	<br><br>
+
+	
+		<p>Get an id from a slug of a content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The slug to search an ID for.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getTopCommentedContent()"><!-- --></a>
+	<h3>getTopCommentedContent</h3>
+	
+	<kbd>public array <strong>getTopCommentedContent</strong>([numeric max='5'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get the top commented content entries</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>max</code> - The maximum to retrieve, defaults to 5 entries</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getTopVisitedContent()"><!-- --></a>
+	<h3>getTopVisitedContent</h3>
+	
+	<kbd>public array <strong>getTopVisitedContent</strong>([numeric max='5'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get the top visited content entries</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>max</code> - The maximum to retrieve, defaults to 5 entries</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getUniqueSlugHash()"><!-- --></a>
+	<h3>getUniqueSlugHash</h3>
+	
+	<kbd>private any <strong>getUniqueSlugHash</strong>(string slug)</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a unique slug hash</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The slug to unique it</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="importFromData()"><!-- --></a>
+	<h3>importFromData</h3>
+	
+	<kbd>public string <strong>importFromData</strong>(any importData, [boolean override='false'], any importLog)</kbd>
+	
+	<br><br>
+
+	
+		<p>Import data from an array of structures of content or just one structure of a content entry</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>importData</code> - The data to import</dd>
+		
+		<dd><code>override</code> - Override records or not</dd>
+		
+		<dd><code>importLog</code> - The import log buffer</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="importFromFile()"><!-- --></a>
+	<h3>importFromFile</h3>
+	
+	<kbd>public string <strong>importFromFile</strong>(any importFile, [boolean override='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Import data from a ContentBox JSON file. Returns the import log</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>importFile</code> - The absolute file path to use for importing</dd>
+		
+		<dd><code>override</code> - Override records or not</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="inflateFromStruct()"><!-- --></a>
+	<h3>inflateFromStruct</h3>
+	
+	<kbd>public any <strong>inflateFromStruct</strong>(any contentData, any importLog, [any parent], [struct newContent='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Inflate a content object from a ContentBox JSON structure</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentData</code> - The content structure inflated from JSON</dd>
+		
+		<dd><code>importLog</code> - The string builder import log</dd>
+		
+		<dd><code>parent</code> - If the inflated content object has a parent then it can be linked directly, no inflating necessary. Usually for recursions</dd>
+		
+		<dd><code>newContent</code> - Map of new content by slug; useful for avoiding new content collisions with recusive relationships</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isSlugUnique()"><!-- --></a>
+	<h3>isSlugUnique</h3>
+	
+	<kbd>public any <strong>isSlugUnique</strong>(any slug, [any contentID=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Verify an incoming slug is unique or not</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The slug to search for uniqueness</dd>
+		
+		<dd><code>contentID</code> - Limit the search to the passed contentID usually for updates</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="searchContent()"><!-- --></a>
+	<h3>searchContent</h3>
+	
+	<kbd>public any <strong>searchContent</strong>([any searchTerm=''], [numeric max='0'], [numeric offset='0'], [boolean asQuery='false'], [any sortOrder='publishedDate DESC'], [any isPublished='true'], [boolean searchActiveContent='true'], [string contentTypes=''], [any excludeIDs=''], [boolean showInSearch='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Searches published content with cool paramters, remember published content only</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>searchTerm</code> - The search term to search</dd>
+		
+		<dd><code>max</code> - The maximum number of records to paginate</dd>
+		
+		<dd><code>offset</code> - The offset in the pagination</dd>
+		
+		<dd><code>asQuery</code> - Return as query or array of objects, defaults to array of objects</dd>
+		
+		<dd><code>sortOrder</code> - The sorting of the search results, defaults to publishedDate DESC</dd>
+		
+		<dd><code>isPublished</code> - Search for published, non-published or both content objects [true, false, 'all']</dd>
+		
+		<dd><code>searchActiveContent</code> - Search only content titles or both title and active content. Defaults to both.</dd>
+		
+		<dd><code>contentTypes</code> - Limit search to list of content types (comma-delimited). Leave blank to search all content types</dd>
+		
+		<dd><code>excludeIDs</code> - List of IDs to exclude from search</dd>
+		
+		<dd><code>showInSearch</code> - If true, it makes sure content has been stored as searchable, defaults to false, which means it searches no matter what this bit says</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="updateHits()"><!-- --></a>
+	<h3>updateHits</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/ContentService.html" title="class in contentbox.model.content">ContentService</a> <strong>updateHits</strong>(any contentID, [boolean async='true'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Update a content's hits with some async flava</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentID</code> - The content id to update</dd>
+		
+		<dd><code>async</code> - Async or not</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+
