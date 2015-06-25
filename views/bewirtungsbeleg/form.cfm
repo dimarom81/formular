@@ -3,7 +3,7 @@
 <div class="well col-sm-6 col-md-2  sandbox-form">
 	<label for="tag">Tag:</label>
 		<div>
-			<input type="text" id="tag" placeholder="dd/mm/yyyy">
+			<input type="text" name="tag" id="tag" placeholder="dd/mm/yyyy">
 		</div>
 		
 	<label for="ort">Ort:</label>
@@ -22,7 +22,29 @@
 	<label for="betrag">Betrag:</label>
 		<div>
 			<input type="text" name="anlass" size="20" maxlength="10" placeholder="100">	
-		</div>		
+		</div>
+		
+	<label for="waehrung">Währung:</label>			
+		<select name="waehrung">
+			<cfoutput><option value="EUR">EUR</option></cfoutput>
+			<cfoutput><option value="USD">USD</option></cfoutput>
+			<cfoutput><option value="GBP">GBP</option></cfoutput>		
+		</select>
+	
+	<div class="radio">
+  		<label><input type="radio" name="optradio" checked = "checked">Restaurant</label>
+	</div>
+	<div class="radio">
+  		<label><input type="radio" name="optradio">Sonstiges</label>
+	</div>
+	
+	<label for="datum">Datum:</label>
+		<div>
+			<input type="text" name="datum" id="datum" placeholder="dd/mm/yyyy">
+		</div>
+	
+	
+	
 			
 </div> 
 
@@ -31,7 +53,10 @@
 <script>
 	$(document).ready(function () {
 		$('#tag').datepicker({
-			format: "dd/mm/yyyy"
+			format: "dd/mm/yyyy", autoclose:"true"
+			});
+		$('#datum').datepicker({
+			format: "dd/mm/yyyy", autoclose:"true"
 			});  
 		});
 </script>
