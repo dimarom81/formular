@@ -66,9 +66,22 @@ limitations under the License.
 			handlerCaching 	= true,
 			eventCaching			= true
 		};
+		
+	
 
 		// custom settings
 		settings = {
+			facebook = {
+			        oauth = {
+			            redirectURL     = "http://akidmitry.local/index.cfm/bewirtung/",
+			            loginSuccess    = "login.success",
+			            loginFailure    = "login.failure",
+			            appID           = "1662438727325970",
+			            appSecret       = "288798b052b63be11130a5ad0b62936a",
+			            scope           = "public_profile,email,user_friends",
+			            responseType    = "code"
+			        }
+			    }				
 
 		};
 
