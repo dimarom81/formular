@@ -9,6 +9,7 @@ component {
 	}
 
 	function index(event,rc,prc){
+
 		if( event.getValue('id','') == 'activateUser' ){
 			var results = duplicate(session['facebookOAuth']);
 			// convert expires into a useful date/time
