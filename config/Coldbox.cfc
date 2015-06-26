@@ -73,7 +73,7 @@ limitations under the License.
 		settings = {
 			facebook = {
 			        oauth = {
-			            redirectURL     = "http://akidmitry.local/index.cfm/bewirtung/",
+			            redirectURL     = "http://akidmitry.local/index.cfm/facebook/",
 			            loginSuccess    = "login.success",
 			            loginFailure    = "login.failure",
 			            appID           = "1662438727325970",
@@ -128,7 +128,8 @@ limitations under the License.
 		//Register interceptors as an array, we need order
 		interceptors = [
 			//SES
-			{class="coldbox.system.interceptors.SES"}
+			{class="coldbox.system.interceptors.SES"},
+			{class="interceptors.testinterceptor"}
 		];
 
 	}

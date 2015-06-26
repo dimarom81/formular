@@ -9,7 +9,6 @@ component {
 	}
 
 	function index(event,rc,prc){
-
 		if( event.getValue('id','') == 'activateUser' ){
 			var results = duplicate(session['facebookOAuth']);
 			// convert expires into a useful date/time
@@ -37,7 +36,7 @@ component {
 				httpService.setURL('#prc.facebookSettings['tokenRequestURL']#?client_id=#prc.facebookCredentials['appID']#&redirect_uri=#urlEncodedFormat(prc.facebookCredentials['redirectURL'])#&client_secret=#prc.facebookCredentials['appSecret']#&code=#session['facebookOAuth']['code']#');
 			var results = httpService.send().getPrefix();
 
-			if( results['status_code'] == 200 ){
+			if( results.Responseheader['status_code'] eq 200 ){
 				var myFields = listToArray(results['fileContent'],'&');
 
 				for(var i=1;i<=arrayLen(myFields);i++){
@@ -48,13 +47,13 @@ component {
 
 				setNextEvent('facebook/oauth/activateUser');
 			}else{
+				writeDump(results);abort;
 				announceInterception( state='facebookLoginFailure', interceptData=results );
 				announceInterception( state='loginFailure', interceptData=results );
 				throw('Unknown Facebook OAuth.v2 Error','facebook.oauth');
 			}
 
 		}else{
-
 			location(url="#prc.facebookSettings['authorizeRequestURL']#?client_id=#prc.facebookCredentials['appID']#&redirect_uri=#urlEncodedFormat(prc.facebookCredentials['redirectURL'])#&scope=#prc.facebookCredentials['scope']#&response_type=#prc.facebookCredentials['responseType']#",addtoken=false);
 		}
 	}
