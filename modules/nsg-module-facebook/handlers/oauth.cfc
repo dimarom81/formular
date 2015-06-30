@@ -48,7 +48,8 @@ component {
 
 				setNextEvent('facebook/oauth/activateUser');
 			}else{
-				writeDump(results);abort;
+				//writeDump(results);abort;
+				//writeDump('test');abort;
 				announceInterception( state='facebookLoginFailure', interceptData=results );
 				announceInterception( state='loginFailure', interceptData=results );
 				throw('Unknown Facebook OAuth.v2 Error','facebook.oauth');

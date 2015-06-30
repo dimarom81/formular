@@ -1,26 +1,48 @@
-﻿<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1662438727325970";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+﻿<script>
+	$(document).ready(function () {
+		$('#tag_bewirtung').datepicker({
+			format: "dd/mm/yyyy", autoclose:"true"
+			});
+		$('#tag_aktuell').datepicker({
+			format: "dd/mm/yyyy", autoclose:"true"
+			});
+			
+		$(document).ready(function() {
+			var max_fields      = 10; //maximum input boxes allowed
+			var wrapper         = $(".input_fields_wrap"); //Fields wrapper
+			var add_button      = $(".add_field_button"); //Add button ID
+   
+			var x = 1; //initlal text box count
+			$(add_button).click(function(e){ //on add input button click
+				e.preventDefault();
+				if(x < max_fields){ //max input box allowed
+					x++; //text box increment
+					$(wrapper).append('<div><input type="text" name="personen[]"/><a href="#" class="remove_field">Entfernen</a></div>'); //add input box
+				}
+			});
+   
+			$(wrapper).on("click",".remove_field", function(e){ //user click on remove text
+				e.preventDefault(); $(this).parent('div').remove(); x--;
+			})
+		});	  
+	});
+</script>
 
-
-
-
-
-<cfoutput>Hier kommt der Bewirtungsbeleg:</cfoutput><br><br><br>
+<cfoutput>
 
 <div class="well col-sm-6 col-md-2  sandbox-form">
-	
-	<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div>
+	      
+		
+	<a href="#event.buildLink('facebook')#" class="btn btn-primary" role="button">Login with Facebook</a>
+		
 		<br><br>
+		
+		<div id="name_and_vorname"></div>
+		
 	
 	<label for="tag">Tag der Bewirtung:</label>
 		<div>
-			<input type="text" name="tag" id="tag" placeholder="dd/mm/yyyy">
+			<input type="text" name="tag_bewirtung" id="tag_bewirtung" placeholder="dd/mm/yyyy">
 		</div>
 		
 	<label for="ort">Ort der Bewirtung:</label>
@@ -29,16 +51,24 @@
 		</div>
 		<div>
 			<input type="text" name="ort2" size="20" maxlength="40" placeholder="Adresse">	
-		</div>
+		</div></br>
+		
+	<label for="personen">Personen, die bewirtet wurden:</label>
+		
+	<div class="input_fields_wrap"> 
+	  	<button class="add_field_button btn btn-info">Weitere Personen hinzufügen</button>
+    	<div><input type="text" name="personen[]"></div>		
+	</div>	
+		
 		
 	<label for="anlass">Anlass der Bewirtung:</label>
 		<div>
-			<input type="text" name="anlass" size="20" maxlength="128" placeholder="Geschäftstreffen">	
+			<textarea type="text" name="anlass" rows="3" placeholder="Geschäftstreffen"></textarea>	
 		</div>	
 		
 	<label for="betrag">Höhe der Bewirtung:</label>
 		<div>
-			<input type="text" name="anlass" size="20" maxlength="10" placeholder="100">	
+			<input type="text" name="betrag" size="20" maxlength="10" placeholder="100">	
 		</div>
 		
 	<label for="waehrung">Währung:</label>			
@@ -55,27 +85,24 @@
   		<label><input type="radio" name="optradio">Sonstige Bewirtung</label>
 	</div>
 	
-	<label for="datum">Datum:</label>
+	<label for="ort">Aktueller Ort:</label>
 		<div>
-			<input type="text" name="datum" id="datum" placeholder="dd/mm/yyyy">
+			<input type="text" name="ort" id="ort" placeholder="Aktuelles Ort">
 		</div>
-	
-	
-	
-			
-</div> 
+		
+	<label for="datum">Aktuelles Datum:</label>
+		<div>
+			<input type="text" name="tag_aktuell" id="tag_aktuell" placeholder="dd/mm/yyyy">
+		</div></br>
+		
+		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Speichern</a>
+		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Drücken</a></br></br></br>
+		
+		<a href="#event.buildLink('bewirtung/test')#" class="btn btn-info" role="button">TEST</a>
+		
+		
+</div>
 
 
+</cfoutput>
 
-<script>
-	$(document).ready(function () {
-		$('#tag').datepicker({
-			format: "dd/mm/yyyy", autoclose:"true"
-			});
-		$('#datum').datepicker({
-			format: "dd/mm/yyyy", autoclose:"true"
-			});  
-		});
-</script>
-
-<!--test-->

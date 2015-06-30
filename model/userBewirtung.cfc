@@ -5,8 +5,9 @@
 	property name="referenceID"		notnull="true"  ormtype="integer"  length="16";
 		
 			
-	Countries function init() {
+	UserBewirtung function init() {
 		return this;
 	}	
 	
+	//this.constraints TODO
 }

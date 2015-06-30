@@ -11,9 +11,10 @@
 	
 	
 	 function facebookLoginSuccess(event,interceptData){
-        writeDump(interceptData);
-        	writeOutput('test12');
-        	abort;
+        //writeDump(interceptData);     
+        //writeOutput('test12');abort;       
+        //writeOutput(interceptData.first);abort;
+        
     }
-			
+		
 }
