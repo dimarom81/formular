@@ -9,7 +9,6 @@ component {
 	}
 
 	function index(event,rc,prc){
-
 		if( event.getValue('id','') == 'activateUser' ){
 			var results = duplicate(session['facebookOAuth']);
 			// convert expires into a useful date/time
@@ -28,7 +27,7 @@ component {
 
 			announceInterception( state='facebookLoginSuccess', interceptData=results );
 			announceInterception( state='loginSuccess', interceptData=results );
-			setNextEvent(view=prc.facebookCredentials['loginSuccess'],ssl=( cgi.server_port == 443 ? true : false ));
+			setNextEvent(event=prc.facebookCredentials['loginSuccess'],ssl=( cgi.server_port == 443 ? true : false ));
 
 		}else if( event.valueExists('code') ){
 			session['facebookOAuth']['code'] = event.getValue('code');
@@ -45,7 +44,6 @@ component {
 						session['facebookOAuth'][listFirst(myFields[i],'=')] = listLast(myFields[i],'=');
 					}
 				}
-
 				setNextEvent('facebook/oauth/activateUser');
 			}else{
 				//writeDump(results);abort;
@@ -65,5 +63,8 @@ component {
 		structDelete(arguments.mStruct,mTarget);
 
 		return arguments.mStruct;
+	}
+	function activateUser(event, rc , prc){
+		abort;
 	}
 }

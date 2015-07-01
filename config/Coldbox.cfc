@@ -74,8 +74,8 @@ limitations under the License.
 			facebook = {
 			        oauth = {
 			            redirectURL     = "http://akidmitry.local/index.cfm/facebook/",
-			            loginSuccess    = "login.success",
-			            loginFailure    = "login.failure",
+			            loginSuccess    = "bewirtung.form2",
+			            loginFailure    = "bewirtung.form",
 			            appID           = "1662438727325970",
 			            appSecret       = "288798b052b63be11130a5ad0b62936a",
 			            scope           = "public_profile,email,user_friends",
@@ -137,7 +137,7 @@ limitations under the License.
 	// ORTUS DEVELOPMENT ENVIRONMENT, REMOVE FOR YOUR APP IF NEEDED
 	function development(){
 
-		//coldbox.debugmode=true;
+		coldbox.debugmode=true;
 		coldbox.handlersIndexAutoReload = true;
 		coldbox.handlerCaching = false;
 		coldbox.reinitpassword = "";

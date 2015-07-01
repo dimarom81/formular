@@ -24,16 +24,23 @@
 			$(wrapper).on("click",".remove_field", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); x--;
 			})
-		});	  
+		});
+		
+			  
 	});
 </script>
 
 <cfoutput>
 
 <div class="well col-sm-6 col-md-2  sandbox-form">
-	      
+	<strong>		
+		<div id="anmeldung">#prc.nachricht#
+		</div>
+	</strong>
+	
+	</br>
 		
-	<a href="#event.buildLink('facebook')#" class="btn btn-primary" role="button">Login with Facebook</a>
+	<a href="#event.buildLink('facebook')#" class="btn btn-primary" role="button">Login mit Facebook</a>
 		
 		<br><br>
 		

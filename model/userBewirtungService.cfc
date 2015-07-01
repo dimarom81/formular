@@ -6,18 +6,33 @@
 		return this;
 	}
 	
-	public function saveUser() {
+	public function saveUser(referenceID,first,last,gender,locale,socialservice,email) {
 		
-		var user = entityNew("userBewirtung");
-		//var testUser = user.new(referenceID="TEST");
+		//writeOutput(referenceID);abort;
 		
-		user.setReferenceID("TEST");
+		var user = findAllWhere( entityName="userBewirtung", criteria = { referenceID = arguments.referenceID });
+		//writeDump(user);abort;
+				
+		if(ArrayisEmpty(user)){
+			var temp = entityNew("userBewirtung");
+			temp.setReferenceID(referenceID);
+			temp.setFirst(first);
+			temp.setLast(last);
+			temp.setGender(gender);
+			temp.setLocale(locale);
+			temp.setSocialservice(socialservice);
+			super.save(temp);
+		}
 		
-		user.init();
 		
-		writeDump(user);abort;
-		//super.save("user");
-		//writeOutput("hier");
+		
+		//var user = entityNew("userBewirtung");
+						
+		//user.setReferenceID("123");
+		
+		
+		//super.save(user);
+		
 	}
 	
 	public function getUserName() {
