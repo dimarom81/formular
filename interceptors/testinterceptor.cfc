@@ -1,4 +1,6 @@
-﻿component extends="coldbox.system.Interceptor"{
+﻿component extends="coldbox.system.Interceptor"{	
+	property name="userBewirtungService" inject="id:userBewirtungService";
+	
 	function configure(){
 		
 		
@@ -11,12 +13,19 @@
 	
 	
 	 function facebookLoginSuccess(event,interceptData){ 
-	 	//writeDump(interceptData);abort;
-	 	prc = event.getCollection(private=true);	
-        var service = getModel( "userBewirtungService" );
-        //writeDump(service);abort;      
+	
+		var temp = userBewirtungService.findAllWhere( criteria = { referenceID = arguments.interceptData.referenceID } );
+				
+		if( !ArrayLen(temp) or (ArrayLen(temp) AND  isNull(temp[1].getreferenceID()))){
+		 	prc.user = userBewirtungService.populate( target = userBewirtungService.new(),memento = interceptData ,include= "referenceID,first,last,gender,locale,socialservice,email");
+			userBewirtungService.saveUser(prc.user);
+		}
+		else{
+			userBewirtungService.populate( target = temp[1], memento = interceptData ,include= "referenceID,first,last,gender,locale,socialservice,email");
+			userBewirtungService.saveUser(temp[1]);
+		}
+
         flash.put(name="loginText",value ="You are logged in as "& interceptData.first &" "& interceptData.last);
-        service.saveUser(interceptData.referenceID,interceptData.first,interceptData.last,interceptData.gender,interceptData.locale,interceptData.socialservice);
-    }
+     }
 		
 }

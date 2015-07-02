@@ -34,7 +34,7 @@
 
 <div class="well col-sm-6 col-md-2  sandbox-form">
 	<strong>		
-		<div id="anmeldung">#prc.nachricht#
+		<div id="anmeldung">#prc.message#
 		</div>
 	</strong>
 	
