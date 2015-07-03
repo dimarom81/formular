@@ -74,7 +74,7 @@ limitations under the License.
 			facebook = {
 			        oauth = {
 			            redirectURL     = "http://akidmitry.local/index.cfm/facebook/",
-			            loginSuccess    = "bewirtung.form2",
+			            loginSuccess    = "bewirtung.loginsuccess",
 			            loginFailure    = "bewirtung.form",
 			            appID           = "1662438727325970",
 			            appSecret       = "288798b052b63be11130a5ad0b62936a",
