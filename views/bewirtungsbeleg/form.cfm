@@ -8,7 +8,7 @@
 			});
 			
 		$(document).ready(function() { //sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery
-			var max_fields      = 10; //maximum input boxes allowed
+			var max_fields      = 20; //maximum input boxes allowed
 			var wrapper         = $(".input_fields_wrap"); //Fields wrapper
 			var add_button      = $(".add_field_button"); //Add button ID
    
@@ -17,7 +17,7 @@
 				e.preventDefault();
 				if(x < max_fields){ //max input box allowed
 					x++; //text box increment
-					$(wrapper).append('<div><input type="text" name="persons[]"/><a href="#" class="remove_field">Entfernen</a></div>'); //add input box
+					$(wrapper).append('<div><input type="text" name="participants"/><a href="#" class="remove_field">Entfernen</a></div>'); //add input box
 				}
 			});
    
@@ -65,11 +65,11 @@
 			<input type="text" name="location2" size="20" maxlength="40" placeholder="Adress">	
 		</div></br>
 		
-	<label for="persons">Personen, die bewirtet wurden:</label>
+	<label for="participants">Personen, die bewirtet wurden:</label>
 		
 	<div class="input_fields_wrap"> 
 	  	<button class="add_field_button btn btn-info">Weitere Personen hinzufügen</button>
-    	<div><input type="text" name="persons[]"></div>		
+    	<div><input type="text" name="participants"></div>		
 	</div>	
 		
 		
