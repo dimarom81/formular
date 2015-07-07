@@ -48,8 +48,36 @@
 		<!---<div id="name_and_vorname"></div>--->
 	
 	
+	<!---<cfif isdefined("form.submit_upload")>
+	<cffile action="readBinary" file="bild.jpg" variable="binaryObject" filefield="documentScan" destination="C:\Temp" nameconflict="MAKEUNIQUE">
+	File Uploaded!
+	</cfif>--->
 	
-	<form action="#event.buildlink('bewirtung/saveDocumentation')#" method="post">
+	<!---<cfif isdefined("form.submit_upload")>
+		
+		<cfset ui = createUUID()>		
+		
+		<cffile 
+			action="upload" 
+			accept="image/jpeg, image/png, image/tiff, image/gif" 
+			filefield="documentScan" 
+			destination="C:\Temp" 
+			nameconflict="makeunique"
+		/>
+	
+		<cffile 
+  			action="rename" 
+  			source="C:\Temp\#cffile.serverFileName#.#cffile.serverFileExt#" 
+  			destination="C:\Temp\#ui#.#cffile.serverFileExt#"
+		/>
+				
+		
+	</cfif>--->
+
+	
+	
+	
+	<form action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
 		
 	
 	<label for="tag">Tag der Bewirtung:</label>
@@ -80,14 +108,16 @@
 		
 	<label for="betrag">Höhe der Bewirtung:</label>
 		<div>
-			<input type="text" name="price" size="20" maxlength="10" placeholder="100" value="100">	
+			<input type="number" step="0.01" min="0" name="price" size="20" maxlength="10" placeholder="100" value="100">	
 		</div>
 		
-	<label for="waehrung">Währung:</label>			
-		<select name="waehrung">
+	<label for="currency">Währung:</label>			
+		<select name="currency">
 			<cfoutput><option value="EUR">EUR</option></cfoutput>
 			<cfoutput><option value="USD">USD</option></cfoutput>
-			<cfoutput><option value="GBP">GBP</option></cfoutput>		
+			<cfoutput><option value="GBP">GBP</option></cfoutput> 
+			<cfoutput><option value="JPY">JPY</option></cfoutput>
+			<cfoutput><option value="RUB">RUB</option></cfoutput>
 		</select>
 	
 	<div class="radio">
@@ -105,10 +135,16 @@
 	<label for="datum">Aktuelles Datum:</label>
 		<div>
 			<input type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy">
-		</div></br>
+		</div>
+		
+		<label for="beleg">Beleg hochladen:</label>
+		<input id="input-1" type="file" class="file" name="documentScan">
+		</br>
+		
+		 
 		
 		<!---<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Speichern</a>--->
-		<input type="submit" class="btn btn-success" value="Speichern" />
+		<input type="submit" class="btn btn-success" value="Speichern" name="submit_upload"/>
 		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Drücken</a></br>
 		
 		<strong>		
