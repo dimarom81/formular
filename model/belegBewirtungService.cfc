@@ -1,17 +1,17 @@
 ﻿component extends="coldbox.system.orm.hibernate.VirtualEntityService" singleton{
 
 		
-	bewirtungsBelegService function init(){		
-		super.init(entityName="bewirtungsBeleg",useQueryCaching=true);
+	belegBewirtungService function init(){		
+		super.init(entityName="belegBewirtung",useQueryCaching=true);
 		return this;
 	}
 	
-	public function saveDocumentation(bewirtungsBeleg obj) {
+	public function saveDocumentation(belegBewirtung obj) {
 		super.save(obj);
 	}
 	
 	public function getAllDocumentations() {
-	
+		//TODO
 	}
 	
 		
