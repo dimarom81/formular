@@ -45,7 +45,7 @@
 		sessionStorage.setVar( "currentUserReferenceID", interceptData.referenceID );
 		sessionStorage.setVar( "currentUserName", interceptData.first &' '& interceptData.last );
 
-        flash.put(name="greetings",value ="You are logged in as "& interceptData.first &" "& interceptData.last);
+        flash.put(name="greetings",value ="Sie sind angemeldet als "& interceptData.first &" "& interceptData.last);
      }
 		
 }

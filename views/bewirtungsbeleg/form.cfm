@@ -17,7 +17,7 @@
 				e.preventDefault();
 				if(x < max_fields){ //max input box allowed
 					x++; //text box increment
-					$(wrapper).append('<div><input type="text" name="participants"/><a href="#" class="remove_field">Entfernen</a></div>'); //add input box
+					$(wrapper).append('<div><input class="form-control" type="text" name="participants"/><a href="#" class="remove_field">Entfernen</a></div>'); //add input box
 				}
 			});
    
@@ -31,148 +31,179 @@
 </script>
 
 
-
-
-
-
-
-
-
-
-
 <cfoutput>
-	
-
-	
 
 
-<div class="well col-sm-6 col-md-2  sandbox-form">
-	<strong>		
-		<div id="greetings">#prc.greetings#
-		</div>
-	</strong>
+<div class="container">
+	<div class="well well-sm col-sm-12 col-md-12">
+		<strong><div id="greetings">#prc.greetings# (Temp)</div></strong>
+	</div>
+</div>
+
+<div class="container">
+	<div class="well well-sm col-sm-12 col-md-12 text-center">
+		<div id="title"><h3>Angaben über Bewirtungsaufwendungen</h3></div>
+	</div>
+</div>
+
+
+<form action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
 	
-	</br>
-		
-	<a href="#event.buildLink('facebook')#" class="btn btn-primary" role="button">Login mit Facebook</a>
-	<a href="#event.buildLink('bewirtung/logout')#" class="btn btn-danger" role="button">Logout</a>
-		
-		<br><br>
-		
-		<!---<div id="name_and_vorname"></div>--->
-	
-	
-	<!---<cfif isdefined("form.submit_upload")>
-	<cffile action="readBinary" file="bild.jpg" variable="binaryObject" filefield="documentScan" destination="C:\Temp" nameconflict="MAKEUNIQUE">
-	File Uploaded!
-	</cfif>--->
-	
-	<!---<cfif isdefined("form.submit_upload")>
-		
-		<cfset ui = createUUID()>		
-		
-		<cffile 
-			action="upload" 
-			accept="image/jpeg, image/png, image/tiff, image/gif" 
-			filefield="documentScan" 
-			destination="C:\Temp" 
-			nameconflict="makeunique"
-		/>
-	
-		<cffile 
-  			action="rename" 
-  			source="C:\Temp\#cffile.serverFileName#.#cffile.serverFileExt#" 
-  			destination="C:\Temp\#ui#.#cffile.serverFileExt#"
-		/>
+<div class="container"><!---container_1--->
+	<div class="well col-sm-12 col-md-12"><!---well_1--->
 				
-		
-	</cfif>--->
-
-	
-	
-	
-	<form action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
-		
-	
-	<label for="tag">Tag der Bewirtung:</label>
-		<div>
-			<input type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy">
-		</div>
-		
-	<label for="ort">Ort der Bewirtung:</label>
-		<div>
-			<input type="text" name="location1" size="20" maxlength="40" placeholder="Name">	
-		</div>
-		<div>
-			<input type="text" name="location2" size="20" maxlength="40" placeholder="Adress">	
-		</div></br>
-		
-	<label for="participants">Personen, die bewirtet wurden:</label>
-		
-	<div class="input_fields_wrap"> 
-	  	<button class="add_field_button btn btn-info">Weitere Personen hinzufügen</button>
-    	<div><input type="text" name="participants"></div>		
-	</div>	
-		
-		
-	<label for="anlass">Anlass der Bewirtung:</label>
-		<div>
-			<textarea type="text" name="occasion" rows="3" placeholder="Business meeting"></textarea>	
+				
+		<div class="form-group col-md-6">
+			<label for="tag">Tag der Bewirtung</label>
+		  		<div>
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy">
+		 		</div>
 		</div>	
 		
-	<label for="betrag">Höhe der Bewirtung:</label>
-		<div>
-			<input type="number" step="0.01" min="0" name="price" size="20" maxlength="10" placeholder="100" value="100">	
-		</div>
 		
-	<label for="currency">Währung:</label>			
-		<select name="currency">
-			<cfoutput><option value="EUR">EUR</option></cfoutput>
-			<cfoutput><option value="USD">USD</option></cfoutput>
-			<cfoutput><option value="GBP">GBP</option></cfoutput> 
-			<cfoutput><option value="JPY">JPY</option></cfoutput>
-			<cfoutput><option value="RUB">RUB</option></cfoutput>
-		</select>
+		<div class="form-group col-md-6">
+		  	<label for="ort1">Ort der Bewirtung</label>
+		  		<div>
+		  			<input class="form-control" type="text" name="location1" maxlength="64" placeholder="Name">
+		 		</div>
+		</div>		
+			
+				
+		<div class="form-group col-md-6"><!---need this to make location2 on the right side--->
+		  	<div></div>
+		</div>		
+			
+				
+		<div class="form-group col-md-6">
+			<label for="ort2"></label>
+		  		<div>
+		  			<input class="form-control" type="text" name="location2" maxlength="64" placeholder="Adress">
+		 		</div>
+		</div>	
+			
+			
+		<div class="form-group col-md-6">
+			<label for="participants">Personen, die bewirtet wurden</label>	
+				<div class="input_fields_wrap"> 
+			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
+		    			<div><input class="form-control" type="text" name="participants"></div></br>		
+				</div>
+		</div>	
+			
+			
+		<div class="form-group col-md-12">
+			<label for="anlass">Anlass der Bewirtung</label>
+				<div>
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting"></textarea>	
+				</div>
+		</div>	
+				
+				
+		<div class="form-group col-md-3">
+			<label for="betrag">Höhe der Bewirtung</label>
+				<div>
+					<input class="form-control" type="number" step="0.01" min="0" name="price" size="20" maxlength="10" placeholder="100" value="100">	
+				</div>
+		</div>		
+			
+				
+		<div class="form-group col-md-2">
+			<label for="currency">Währung</label>			
+				<select class="form-control" name="currency">
+					<option value="EUR">EUR</option>
+					<option value="USD">USD</option>
+					<option value="GBP">GBP</option>
+					<option value="JPY">JPY</option>
+					<option value="RUB">RUB</option>
+				</select>
+		</div>			
+
+
+	</div><!---well_1--->
+</div><!---container_1--->	
+
+
+
+
+
+
+<div class="container"><!---container_2--->
+	<div class="well col-sm-12 col-md-12"><!---well_2--->			
+			
+		<div class="form-group col-md-3 radio-inline">
+			<label for="Restaurant">
+				<input type="radio" name="restaurant" checked = "checked" value="1">In Restaurationsbetrieben
+			</label>	
+		</div>		
+		
+		
+		<div class="form-group col-md-3 radio-inline">
+		  	<label for="Sonstige">
+		  		<input type="radio" name="restaurant" value="0">Sonstige Bewirtung
+			</label>	
+		</div>		
+		
+		
+	</div><!---well_2--->
+</div><!---container_2--->		
+
+
+
+
+<div class="container"><!---container_3--->
+	<div class="well col-sm-12 col-md-12"><!---well_3--->			
+		
+			
+		<div class="form-group col-md-6">
+			<label for="ort">Aktueller Ort:</label>
+				<div>
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt">
+				</div>
+		</div>	
+		
+		
+		<div class="form-group col-md-6">
+		  	<label for="datum">Aktuelles Datum:</label>
+				<div>
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy">
+				</div>
+		</div>				
+		
+		
+	</div><!---well_3--->
+</div><!---container_3--->
+
+
+
+<div class="container"><!---container_4--->
+	<div class="well col-sm-12 col-md-12"><!---well_4--->			
+		
+		<label for="beleg">Rechnung hochladen:</label>
+		<input id="input-1" type="file" class="file" name="documentScan">	
+						
+		
+	</div><!---well_4--->
+</div><!---container_4--->				
 	
-	<div class="radio">
-  		<label><input type="radio" name="restaurant" checked = "checked" value="1">In Restaurationsbetrieben</label>
-	</div>
-	<div class="radio">
-  		<label><input type="radio" name="restaurant" value="0">Sonstige Bewirtung</label>
-	</div>
+
 	
-	<label for="ort">Aktueller Ort:</label>
-		<div>
-			<input type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt">
-		</div>
-		
-	<label for="datum">Aktuelles Datum:</label>
-		<div>
-			<input type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy">
-		</div>
-		
-		<label for="beleg">Beleg hochladen:</label>
-		<input id="input-1" type="file" class="file" name="documentScan">
-		</br>
-		
-		 
-		
-		<!---<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Speichern</a>--->
+<div class="container"><!---container_5--->
+	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
 		<input type="submit" class="btn btn-success" value="Speichern" name="submit_upload"/>
-		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Drücken</a></br>
+		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning" role="button">Drucken</a>
+		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Als PDF herunterladen</a>
 		
+		
+	</div><!---well_5--->
+</div><!---container_5--->		
+
+
 		<strong>		
 			<div id="warning1">#prc.warning1#
 			</div>
 		</strong>
-		
-		
-			<!---<input type="text" name="current_location" id="current_location2" placeholder="testField">--->
-			<!---<input type="submit" value="TestButton" />--->
-		</form>
-		
-</div>
 
-
+	</form>
+		
 </cfoutput>
 

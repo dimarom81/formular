@@ -2,7 +2,7 @@
 <!---TODO kann nicht verändert werden--->
 
 <div class="container">
-  <h2>My Profile</h2>                     
+  <h3>Meine Daten (werden von facebook zur Verfügung gestellt)</h3>                     
   <table class="table table-striped">
     <thead>
     </thead>
