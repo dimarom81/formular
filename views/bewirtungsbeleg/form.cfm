@@ -28,9 +28,8 @@
 	});
 	
 
-	
-</script>
 
+</script>
 
 
 <cfoutput>
@@ -184,16 +183,12 @@
 
 <div class="container"><!---container_4--->
 	<div class="well col-md-12 col-md-12"><!---well_4--->			
-		<div class="form-group col-md-5">
+		<div class="form-group col-md-6">
 			<label for="beleg">Rechnung hochladen:</label>
-			<!---<input id="input-1" type="file" class="file" name="documentScan">--->
 			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan">
-			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan">
-		</div>						
+		</div>								
 	</div><!---well_4--->
 </div><!---container_4--->				
-	
-	
 	
 	
 	
