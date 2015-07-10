@@ -24,21 +24,28 @@
 			$(wrapper).on("click",".remove_field", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); x--;
 			})
-		});
-		
-			  
+		});			  
 	});
+	
+			
+
+	$("#input-1").fileinput();
+	
+	
 </script>
+
+
 
 
 <cfoutput>
 
 
-<div class="container">
+<!---<div class="container">
 	<div class="well well-sm col-sm-12 col-md-12">
 		<strong><div id="greetings">#prc.greetings# (Temp)</div></strong>
 	</div>
-</div>
+</div>--->
+
 
 <div class="container">
 	<div class="well well-sm col-sm-12 col-md-12 text-center">
@@ -47,7 +54,7 @@
 </div>
 
 
-<form action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
+<form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
 	
 <div class="container"><!---container_1--->
 	<div class="well col-sm-12 col-md-12"><!---well_1--->
@@ -59,27 +66,19 @@
 		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy">
 		 		</div>
 		</div>	
-		
-		
-		<div class="form-group col-md-6">
-		  	<label for="ort1">Ort der Bewirtung</label>
-		  		<div>
-		  			<input class="form-control" type="text" name="location1" maxlength="64" placeholder="Name">
-		 		</div>
-		</div>		
 			
-				
-		<div class="form-group col-md-6"><!---need this to make location2 on the right side--->
-		  	<div></div>
-		</div>		
 			
-				
 		<div class="form-group col-md-6">
-			<label for="ort2"></label>
+			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="location2" maxlength="64" placeholder="Adress">
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse"></textarea>
 		 		</div>
 		</div>	
+			
+			
+			
+		
+			
 			
 			
 		<div class="form-group col-md-6">
@@ -88,7 +87,17 @@
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
 		    			<div><input class="form-control" type="text" name="participants"></div></br>		
 				</div>
-		</div>	
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
 			
 			
 		<div class="form-group col-md-12">
@@ -102,9 +111,11 @@
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" type="number" step="0.01" min="0" name="price" size="20" maxlength="10" placeholder="100" value="100">	
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="100">	
 				</div>
-		</div>		
+		</div>
+		
+			
 			
 				
 		<div class="form-group col-md-2">
@@ -189,9 +200,8 @@
 	
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
-		<input type="submit" class="btn btn-success" value="Speichern" name="submit_upload"/>
-		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning" role="button">Drucken</a>
-		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-success" role="button">Als PDF herunterladen</a>
+		<input type="submit" class="btn btn-success btn-lg" value="Bewirtungsbeleg speichern" name="submit_upload"/>
+		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning btn-lg" role="button">Als PDF herunterladen</a>
 		
 		
 	</div><!---well_5--->

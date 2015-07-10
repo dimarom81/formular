@@ -3,8 +3,7 @@
 	property name="id" column="BELEGID" fieldtype="id"   generator="increment";
 	property name="referenceID"			notnull="false"	 ormtype="string"	length="64";
 	property name="mealDate"			notnull="false"  ormtype="date";
-	property name="location1"			notnull="false"  ormtype="string";
-	property name="location2"			notnull="false"  ormtype="string";
+	property name="location"			notnull="false"  ormtype="string";
 	property name="occasion"			notnull="false"  ormtype="string";
 	property name="participants"		notnull="false"  ormtype="string";
 	property name="price"				notnull="false"  ormtype="double";
