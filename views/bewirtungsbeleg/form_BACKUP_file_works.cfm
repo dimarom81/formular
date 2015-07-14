@@ -7,19 +7,16 @@
 			format: "dd/mm/yyyy", autoclose:"true"
 			});
 			
-		 //sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery
+		$(document).ready(function() { //sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery
 			var max_fields      = 20; //maximum input boxes allowed
 			var wrapper         = $(".input_fields_wrap"); //Fields wrapper
 			var add_button      = $(".add_field_button"); //Add button ID
    
-			var text_box_count = 1; //initlal text box count			
-			var file_count = 1;     //initial file count
-			var file_index = 1;     //initial file index count
-			
+			var x = 1; //initlal text box count
 			$(add_button).click(function(e){ //on add input button click
 				e.preventDefault();
-				if(text_box_count < max_fields){ //max input box allowed
-					text_box_count++; //text box increment
+				if(x < max_fields){ //max input box allowed
+					x++; //text box increment
 					$(wrapper).append('<div><input class="form-control" type="text" name="participants"/><a href="#" class="remove_field">Entfernen</a></div>'); //add input box
 				}
 			});
@@ -27,53 +24,10 @@
 			$(wrapper).on("click",".remove_field", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); x--;
 			})
-			
-			
-			
-			//FILES
-			
-			var max_files             = 5; //maximum input files allowed
-			var wrapper_files         = $(".input_files_wrap"); //Fields wrapper
-			var add_button_files      = $(".add_files_input"); //Add button ID
-			  
-			$(add_button_files).click(function(e){ //on add input button click
-				e.preventDefault();
-				if(file_count < max_files){ //max input box allowed
-					file_count++; //text box increment
-					//documentScan_1//documentScan_2//documentScan_3
-					file_index++;
-					console.log(file_count);
-					console.log(file_index);
-					var next_index = "documentScan_" + file_index;
-					var html_text = '<div><input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name=' + next_index + '><a href="" class="remove_file">Entfernen</a></div>';
-					$(wrapper_files).append(html_text);
-					console.log( $(wrapper_files).find( 'input'));
-						
-					var options = {
-						'input' : $(".filestyle").attr('data-input') === 'false' ? false : true,
-						'icon' : $(".filestyle").attr('data-icon') === 'false' ? false : true,
-						'buttonBefore' : $(".filestyle").attr('data-buttonBefore') === 'true' ? true : false,
-						'disabled' : $(".filestyle").attr('data-disabled') === 'true' ? true : false,
-						'size' : $(".filestyle").attr('data-size'),
-						'buttonText' : $(".filestyle").attr('data-buttonText'),
-						'buttonName' : $(".filestyle").attr('data-buttonName'),
-						'iconName' : $(".filestyle").attr('data-iconName'),
-						'badge' : $(".filestyle").attr('data-badge') === 'false' ? false : true
-					};
-
-					$(wrapper_files).find('input').filestyle(options);
-				}
-			});
-   
-			$(wrapper_files).on("click",".remove_file", function(e){ //user click on remove text
-				e.preventDefault(); $(this).parent('div').remove(); text_box_count--;file_count--;file_index--;
-			})
-			
-			  
+		});			  
 	});
 	
-	
-	
+
 
 </script>
 
@@ -225,25 +179,20 @@
 	</div><!---well_3--->
 </div><!---container_3--->
 
+
+
 <div class="container"><!---container_4--->
 	<div class="well col-md-12 col-md-12"><!---well_4--->			
-		<div class="form-group input_files_wrap col-md-6">
+		<div class="form-group col-md-6">
 			<label for="beleg">Rechnung hochladen:</label>
-				<button class="add_files_input btn-link">Weitere Dateien hochladen</button>
-			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan_1"></br>
-		</div>							
+			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan">
+		</div>								
 	</div><!---well_4--->
-</div><!---container_4--->
+</div><!---container_4--->				
 	
 	
-
-
-
-		
 	
 	
-
-
 
 	
 <div class="container"><!---container_5--->

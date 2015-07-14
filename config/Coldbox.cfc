@@ -81,7 +81,8 @@ limitations under the License.
 			            scope           = "public_profile,email,user_friends",
 			            responseType    = "code"
 			        }
-			    }				
+			    },
+		    CFGGRAPHICSMAGICK = 'C:\Program Files (x86)\GraphicsMagick-1.3.16-Q8\gm.exe'			
 
 		};
 
