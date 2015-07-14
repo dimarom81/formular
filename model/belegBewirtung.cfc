@@ -31,5 +31,9 @@
 		return this;
 	}	
 	
-	//this.constraints TODO
+	
+	this.constraints = {
+		mealDate    =  {required=true, type="string", requiredMessage="Please fill the meal date field"},
+		location    =  {required=true, type="string", requiredMessage="mealDate required"}
+	};
 }

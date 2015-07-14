@@ -3,6 +3,7 @@
 	property name="id" column="BILDID" fieldtype="id" generator="increment";
 	property name="bildName"		notnull="false"	 ormtype="string";
 	property name="UUID"			notnull="false"	 ormtype="string";
+	property name="UUIDpreview"		notnull="false"	 ormtype="string";
 	
 	property name="belegBewirtung" 
 			 fieldtype="many-to-one" 
