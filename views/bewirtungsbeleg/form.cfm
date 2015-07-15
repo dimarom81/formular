@@ -78,12 +78,18 @@
 </script>
 
 
+
 <cfoutput>
+	
+<!---<cfdump var = "#prc#">
+		<cfabort>--->
 
-
+<!---<cfdump var = "#prc.validationErrors#">
+		<cfabort>--->
+		
 <!---<div class="container">
 	<div class="well well-sm col-sm-12 col-md-12">
-		<strong><div id="greetings">#prc.greetings# (Temp)</div></strong>
+		<strong><div id="greetings">#prc.errors#</div></strong>
 	</div>
 </div>--->
 
@@ -91,6 +97,11 @@
 <div class="container">
 	<div class="well well-sm col-sm-12 col-md-12 text-center">
 		<div id="title"><h3>Angaben über Bewirtungsaufwendungen</h3></div>
+		
+		<cfloop index="i" array=#prc.validationErrors#>
+			<cfoutput><div align="left" style="color:red"><em>#i.getMessage()#</em></div></cfoutput>
+		</cfloop>		
+				
 	</div>
 </div>
 
@@ -104,15 +115,17 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy">
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#rc.mealDate#">
 		 		</div>
-		</div>	
-			
+		</div>		
+	
+	<!---<cfdump var = "#prc#">
+		<cfabort>--->
 			
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse"></textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adress" >#rc.location#</textarea>
 		 		</div>
 		</div>	
 			
@@ -126,7 +139,7 @@
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants"></div></br>		
+		    			<div><input class="form-control" type="text" name="participants" value="#rc.participants#"></div></br>		
 				</div>
 		</div>
 		
@@ -144,7 +157,7 @@
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
 				<div>
-					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting"></textarea>	
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting" value="#rc.occasion#"></textarea>	
 				</div>
 		</div>	
 				
@@ -152,7 +165,7 @@
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="100">	
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="#rc.price#">
 				</div>
 		</div>
 		
@@ -209,7 +222,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Aktueller Ort:</label>
 				<div>
-					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt">
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#rc.currentLocation#">
 				</div>
 		</div>	
 		
@@ -217,7 +230,7 @@
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy">
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#rc.currentDate#">
 				</div>
 		</div>				
 		

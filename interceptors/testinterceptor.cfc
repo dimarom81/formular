@@ -7,7 +7,7 @@
 		
 	}
 	
-	function preProcess( event, interceptData ) {
+	function preProcess( event, interceptData ) {		
 		var userid	= sessionStorage.getVar( "currentUserReferenceID" );
 		var prc		= event.getCollection( private = true );
 		prc.userid = "";
