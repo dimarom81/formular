@@ -106,7 +106,7 @@
 </div>
 
 
-<form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
+<form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation')#" method="post" enctype="multipart/form-data">
 	
 <div class="container"><!---container_1--->
 	<div class="well col-sm-12 col-md-12"><!---well_1--->
@@ -115,7 +115,7 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#rc.mealDate#">
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#prc.mealDate#">
 		 		</div>
 		</div>		
 	
@@ -125,7 +125,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adress" >#rc.location#</textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adress" >#prc.location#</textarea>
 		 		</div>
 		</div>	
 			
@@ -139,7 +139,7 @@
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants" value="#rc.participants#"></div></br>		
+		    			<div><input class="form-control" type="text" name="participants" value="#prc.participants#"></div></br>		
 				</div>
 		</div>
 		
@@ -157,7 +157,7 @@
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
 				<div>
-					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting">#rc.occasion#</textarea>	
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting">#prc.occasion#</textarea>	
 				</div>
 		</div>	
 				
@@ -165,7 +165,7 @@
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="#rc.price#">
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="#prc.price#">
 				</div>
 		</div>
 		
@@ -222,7 +222,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Aktueller Ort:</label>
 				<div>
-					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#rc.currentLocation#">
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.currentLocation#">
 				</div>
 		</div>	
 		
@@ -230,18 +230,47 @@
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#rc.currentDate#">
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#prc.currentDate#">
 				</div>
 		</div>				
+		
+		
 	</div><!---well_3--->
 </div><!---container_3--->
+
+
+
+
+
+<div class="container"><!---container_pictures--->
+	<div class="well col-md-12 col-md-12"><!---well_pictures--->			
+		<div class="form-group col-md-12" id="pictures">
+					
+			<cfloop index="i" array=#prc.pictures#>
+				<picture>
+		        	<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">
+					  	<img src="#i.picPreview#"    alt="#i.getbildName()#" style="margin-top:20px;">
+						<!---<img src="includes/img/E1629FF0-F5A0-C5F0-653D3B7A2A3C7AB4.jpg"     alt="#i.getbildName()#">--->							
+					</a> 
+				</picture>
+				<input type="checkbox" name="temp" class="temp" style="margin-left:7px; margin-right:25px;">
+			</cfloop>	
+			<a href="##" class="btn btn-danger" role="button" style="margin-left:30px;">Ausgewählte löschen</a>	
+		</div>									
+	</div><!---well_pictures--->
+</div><!---container_pictures--->
+
+
+
+
+
 
 
 
 <div class="container"><!---container_4--->
 	<div class="well col-md-12 col-md-12"><!---well_4--->			
 		<div class="form-group input_files_wrap col-md-6">
-			<label for="beleg">Rechnung hochladen:</label>
+			<label for="beleg"></label>
 				<button class="add_files_input btn-link">Weitere Dateien hochladen</button>
 			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan_1"></br>
 		</div>							
@@ -250,23 +279,17 @@
 	
 	
 
-
-
-		
-	
-	
-
-
-
 	
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
-		<input type="submit" class="btn btn-success btn-lg" value="Bewirtungsbeleg speichern" name="submit_upload"/>
+		<input type="submit" class="btn btn-success btn-lg" value="Bewirtungsbeleg bearbeiten" name="submit_upload"/>
 		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning btn-lg" role="button">Als PDF herunterladen</a>
-		
+		<a href="#event.buildLink('bewirtung/remove')#" class="btn btn-danger btn-lg" role="button">Bewirtungsbeleg löschen</a>
 		
 	</div><!---well_5--->
-</div><!---container_5--->		
+</div><!---container_5--->	
+
+
 
 
 		<strong>		
