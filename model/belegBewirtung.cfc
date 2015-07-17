@@ -23,7 +23,8 @@
 			 fieldtype="one-to-many" 
 			 cfc="bildBewirtung" 
 			 inverse="false" 
-			 fkcolumn="BELEGID";
+			 fkcolumn="BELEGID"
+			 cascade="all-delete-orphan";
 	
 	
 			

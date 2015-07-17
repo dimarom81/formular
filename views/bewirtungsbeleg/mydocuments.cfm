@@ -1,19 +1,33 @@
 ﻿<script>
-	function loadEditView(belegID){
-		
+	
+	$('#belegID').on('shown.bs.collapse', function () {
+ 		console.log("here1");
+	})
+	
+	$('#belegID').on('hidden.bs.collapse', function () {
+ 		console.log("here2");
+	})
+	
+	
+	function loadEditView(element,belegID){
+		console.log(element);
+		$elem = $(element);
 		var data = {'belegID': belegID};
+
 		
 		$.post('index.cfm/bewirtung/edit', data, function(returnData){
-		
+					
 			if (returnData.error) {
 				alert(returnData.message);
 			}
 			else { 
-				$("#edit").html(returnData);
+				$elem.parent().append(returnData);
 			}
-		}, "html")
-		
+		}, "html")	
 	}
+	
+	
+	
 </script>
 
 
@@ -23,34 +37,48 @@
 
 
 
-<div class="container">
-  <h3>Mein Belegarchiv</h3>
-  
- 
-                   
-  <table class="table table-striped">
-    <thead>
-    </thead>
-    <tbody>
-
-		<cfloop index="i" array=#prc.belege#>
-			<tr>
-		        <td>
-		        	<button type="button" class="btn btn-success" role="button" id ="#i.getID()#" onclick="loadEditView(#i.getID()#)"><cfoutput>#dateTimeFormat(i.getMealDate() , "dd.MM.yyyy")#</cfoutput></button>
-				</td>	
-		    </tr>
-		</cfloop>
+<div class="container well">
+ <h3>Mein Belegarchiv</h3>               
+  <div>
+		<!---<cfloop index="i" array=#prc.belege#>
+			<div class="row well  well-lg">
+		        <span>
+		        	<button style="margin-bottom:5px;" type="button" class="btn btn-success" role="button" id ="#i.getID()#" onclick="loadEditView(this,#i.getID()#)"><cfoutput>#dateTimeFormat(i.getMealDate() , "dd.MM.yyyy")#</cfoutput></button>
+				</span>	
+		    </div>			
+		</cfloop>--->
+		
+		
+		<!--- teste --->
+		
+<div class="panel-group" id="accordion">
 	
+	<cfloop index="i" array=#prc.belege#>
+		
+		  <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+		        <!---<a  data-toggle="collapse" data-parent="##accordion" data-target="###i.getID()#">
+		          #dateTimeFormat(i.getMealDate() , "dd.MM.yyyy")#
+		        </a>--->
+				<button data-toggle="collapse" data-parent="##accordion" data-target="###i.getID()#" type="button" class="btn btn-success" role="button" id ="#i.getID()#" onclick="loadEditView(this,#i.getID()#)"><cfoutput>#dateTimeFormat(i.getMealDate() , "dd.MM.yyyy")#</cfoutput></button>
+		      </h4>
+		    </div>
+		    <div id="#i.getID()#" class="panel-collapse collapse">
+		      <div class="panel-body">
+		      	<!--- hier kommt der beleg --->		        
+		      </div>
+		    </div>
+		  </div>
+	
+	</cfloop>	  
   
-    </tbody>
-  </table>
+</div>			
+
+		
+		<!--- teste ende  --->
+  </div>
 </div>
-
-
-				<div class="container">
-					<div id="edit"></div>
-  				</div>  
-
 
 
 </cfoutput>

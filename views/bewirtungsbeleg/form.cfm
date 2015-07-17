@@ -261,8 +261,8 @@
 	
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
-		<input type="submit" class="btn btn-success btn-lg" value="Bewirtungsbeleg speichern" name="submit_upload"/>
-		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning btn-lg" role="button">Als PDF herunterladen</a>
+		<button type="submit" class="btn btn-success btn-lg" name="submit_upload"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="margin-right:5px;"></span>Bewirtungsbeleg speichern</button>
+		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;"></span>Als PDF herunterladen</a>
 		
 		
 	</div><!---well_5--->

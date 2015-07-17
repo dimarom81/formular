@@ -79,6 +79,7 @@
 
 
 
+
 <cfoutput>
 	
 <!---<cfdump var = "#prc#">
@@ -106,7 +107,7 @@
 </div>
 
 
-<form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation')#" method="post" enctype="multipart/form-data">
+<form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data">
 	
 <div class="container"><!---container_1--->
 	<div class="well col-sm-12 col-md-12"><!---well_1--->
@@ -247,15 +248,15 @@
 		<div class="form-group col-md-12" id="pictures">
 					
 			<cfloop index="i" array=#prc.pictures#>
-				<picture>
+				<picture><!---style="margin-right:25px;margin-top:20px;"--->
 		        	<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">
-					  	<img src="#i.picPreview#"    alt="#i.getbildName()#" style="margin-top:20px;">
+					  	<img src="#i.picPreview#"    alt="#i.getbildName()#">
 						<!---<img src="includes/img/E1629FF0-F5A0-C5F0-653D3B7A2A3C7AB4.jpg"     alt="#i.getbildName()#">--->							
 					</a> 
 				</picture>
-				<input type="checkbox" name="temp" class="temp" style="margin-left:7px; margin-right:25px;">
+				<!---<input type="checkbox" name="temp" class="temp" style="margin-left:7px; margin-right:25px;">--->
 			</cfloop>	
-			<a href="##" class="btn btn-danger" role="button" style="margin-left:30px;">Ausgewählte löschen</a>	
+			<!---<a href="##" class="btn btn-danger" role="button" style="margin-left:30px;">Ausgewählte löschen</a>	--->
 		</div>									
 	</div><!---well_pictures--->
 </div><!---container_pictures--->
@@ -282,9 +283,17 @@
 	
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
-		<input type="submit" class="btn btn-success btn-lg" value="Bewirtungsbeleg bearbeiten" name="submit_upload"/>
-		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning btn-lg" role="button">Als PDF herunterladen</a>
-		<a href="#event.buildLink('bewirtung/remove')#" class="btn btn-danger btn-lg" role="button">Bewirtungsbeleg löschen</a>
+		<button type="submit" class="btn btn-success btn-lg" name="submit_upload">
+			<span class="glyphicon glyphicon-edit" aria-hidden="true" style="margin-right:5px;">
+			</span>Bewirtungsbeleg bearbeiten
+		</button>
+		<a href="#event.buildLink('bewirtung/generatePdf')#" class="btn btn-warning btn-lg" role="button">
+			<span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;">
+			</span>Als PDF herunterladen</a>
+		<a href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button">
+			<span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;">
+			</span>Bewirtungsbeleg löschen</a>
+			
 		
 	</div><!---well_5--->
 </div><!---container_5--->	

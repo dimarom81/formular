@@ -10,6 +10,10 @@
 		super.save(obj);
 	}
 	
+	public function deleteDocumentation(belegBewirtung obj) {
+		super.delete(obj);
+	}
+	
 	public function getAllDocumentations(any referenceID) {
 		var belege = this.findAllWhere( criteria = { referenceID = arguments.referenceID } );	
 		return belege[1].getUser().getBelege();
