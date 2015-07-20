@@ -1,12 +1,20 @@
 ﻿<script>
+
 	$(document).ready(function () {
+		$('#confirm-delete').on('show.bs.modal', function(e) {
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+            console.log("here");
+            $('.debug-url').html('Delete URL: <strong>' + $(this).find('.btn-ok').attr('href') + '</strong>');
+        });
+		
+		$.MenuOverlay({vertical: 'bottom', horizontal: 'bottom'});	
+		
 		$('#mealDate').datepicker({
 			format: "dd/mm/yyyy", autoclose:"true"
 			});
 		$('#currentDate').datepicker({
 			format: "dd/mm/yyyy", autoclose:"true"
-			});
-			
+			});			
 		 //sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery
 			var max_fields      = 20; //maximum input boxes allowed
 			var wrapper         = $(".input_fields_wrap"); //Fields wrapper
@@ -27,11 +35,8 @@
 			$(wrapper).on("click",".remove_field", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); x--;
 			})
-			
-			
-			
-			//FILES
-			
+									
+			//FILES			
 			var max_files             = 5; //maximum input files allowed
 			var wrapper_files         = $(".input_files_wrap"); //Fields wrapper
 			var add_button_files      = $(".add_files_input"); //Add button ID
@@ -68,32 +73,11 @@
 			$(wrapper_files).on("click",".remove_file", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); text_box_count--;file_count--;file_index--;
 			})
-			
-			  
 	});
-	
-	
-	
-
 </script>
 
 
-
-
 <cfoutput>
-	
-<!---<cfdump var = "#prc#">
-		<cfabort>--->
-
-<!---<cfdump var = "#prc.validationErrors#">
-		<cfabort>--->
-		
-<!---<div class="container">
-	<div class="well well-sm col-sm-12 col-md-12">
-		<strong><div id="greetings">#prc.errors#</div></strong>
-	</div>
-</div>--->
-
 
 <div class="container">
 	<div class="well well-sm col-sm-12 col-md-12 text-center">
@@ -105,7 +89,6 @@
 				
 	</div>
 </div>
-
 
 <form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data">
 	
@@ -242,21 +225,61 @@
 
 
 
+<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Remove picture</h4>
+                </div>
+            
+                <div class="modal-body">
+                    <p>Are you sure you want to delete this picture?</p>           
+                    <!---<p class="debug-url"></p>--->
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger btn-ok">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 <div class="container"><!---container_pictures--->
 	<div class="well col-md-12 col-md-12"><!---well_pictures--->			
 		<div class="form-group col-md-12" id="pictures">
-					
+							
+							
 			<cfloop index="i" array=#prc.pictures#>
-				<picture><!---style="margin-right:25px;margin-top:20px;"--->
-		        	<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">
-					  	<img src="#i.picPreview#"    alt="#i.getbildName()#">
-						<!---<img src="includes/img/E1629FF0-F5A0-C5F0-653D3B7A2A3C7AB4.jpg"     alt="#i.getbildName()#">--->							
-					</a> 
-				</picture>
-				<!---<input type="checkbox" name="temp" class="temp" style="margin-left:7px; margin-right:25px;">--->
-			</cfloop>	
-			<!---<a href="##" class="btn btn-danger" role="button" style="margin-left:30px;">Ausgewählte löschen</a>	--->
+				
+					<div class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
+						
+						<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">
+						<div class="menu-overlay"><span class="glyphicon glyphicon-search" aria-hidden="true" style="margin-right:5px;"></span></a>						
+							<a href="##" data-href="#event.buildlink('bewirtung/myDocuments')#" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;"></span></a>
+						</div>
+					
+					
+					<!---<picture style="margin-right:25px;margin-top:20px;">--->
+			        	<!---<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">--->
+						  	<img class="to-hover" src="#i.picPreview#">  <!---alt="#i.getbildName()#"--->						
+						<!---</a>---> 
+					<!---</picture>--->
+				
+				</div>				
+			</cfloop>
+			
+				
+			
+			
+			
+					
 		</div>									
 	</div><!---well_pictures--->
 </div><!---container_pictures--->
