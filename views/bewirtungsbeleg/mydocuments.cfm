@@ -1,29 +1,7 @@
-﻿<script>
-		
-	function loadEditView(element,belegID){
-		console.log(element);
-		$elem = $(element);
-		var data = {'belegID': belegID};
-		
-		$.post('index.cfm/bewirtung/edit', data, function(returnData){
-					
-			if (returnData.error) {
-				alert(returnData.message);
-			}
-			else {
-				$("#" + belegID).append(returnData);
-			}
-		}, "html")	
-	}
-	
-	
-</script>
-
-
-<cfoutput>
-<div class="container well">
- <h3>Mein Belegarchiv</h3>               
-  <div>		
+﻿<cfoutput>	
+	<div class="container well">
+	 <h3>Mein Belegarchiv</h3>               
+	  <div>		
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 			<cfloop index="i" array=#prc.belege#>
 			  <div class="panel panel-default">
@@ -41,6 +19,6 @@
 			  </div>
 			</cfloop>  
 		</div>						
-  </div>
-</div>
+	  </div>
+	</div>
 </cfoutput>

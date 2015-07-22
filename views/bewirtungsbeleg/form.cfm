@@ -68,32 +68,11 @@
 			$(wrapper_files).on("click",".remove_file", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); text_box_count--;file_count--;file_index--;
 			})
-			
-			  
 	});
-	
-	
-	
-
 </script>
-
-
 
 <cfoutput>
 	
-<!---<cfdump var = "#prc#">
-		<cfabort>--->
-
-<!---<cfdump var = "#prc.validationErrors#">
-		<cfabort>--->
-		
-<!---<div class="container">
-	<div class="well well-sm col-sm-12 col-md-12">
-		<strong><div id="greetings">#prc.errors#</div></strong>
-	</div>
-</div>--->
-
-
 <div class="container">
 	<div class="well well-sm col-sm-12 col-md-12 text-center">
 		<div id="title"><h3>Angaben über Bewirtungsaufwendungen</h3></div>
@@ -105,54 +84,31 @@
 	</div>
 </div>
 
-
 <form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data">
 	
 <div class="container"><!---container_1--->
-	<div class="well col-sm-12 col-md-12"><!---well_1--->
-				
-				
+	<div class="well col-sm-12 col-md-12"><!---well_1--->		
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#rc.mealDate#">
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#rc.mealDate#" >
 		 		</div>
 		</div>		
 	
-	<!---<cfdump var = "#prc#">
-		<cfabort>--->
-			
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
 		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adress" >#rc.location#</textarea>
 		 		</div>
 		</div>	
-			
-			
-			
-		
-			
-			
-			
+				
 		<div class="form-group col-md-6">
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants" value="#rc.participants#"></div></br>		
+		    			<div><input class="form-control" type="text" name="participants" value="#rc.participants#" ></div></br>		
 				</div>
 		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
-			
 			
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
@@ -169,9 +125,7 @@
 				</div>
 		</div>
 		
-			
-			
-				
+		
 		<div class="form-group col-md-2">
 			<label for="currency">Währung</label>			
 				<select class="form-control" name="currency">
@@ -183,13 +137,8 @@
 				</select>
 		</div>			
 
-
 	</div><!---well_1--->
 </div><!---container_1--->	
-
-
-
-
 
 
 <div class="container"><!---container_2--->
@@ -211,8 +160,6 @@
 		
 	</div><!---well_2--->
 </div><!---container_2--->		
-
-
 
 
 <div class="container"><!---container_3--->
@@ -237,7 +184,6 @@
 </div><!---container_3--->
 
 
-
 <div class="container"><!---container_4--->
 	<div class="well col-md-12 col-md-12"><!---well_4--->			
 		<div class="form-group input_files_wrap col-md-6">
@@ -248,17 +194,7 @@
 	</div><!---well_4--->
 </div><!---container_4--->
 	
-	
 
-
-
-		
-	
-	
-
-
-
-	
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
 		<button type="submit" class="btn btn-success btn-lg" name="submit_upload"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="margin-right:5px;"></span>Bewirtungsbeleg speichern</button>

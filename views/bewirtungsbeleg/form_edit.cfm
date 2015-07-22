@@ -1,10 +1,43 @@
 ﻿<script>
-
+		
+		
+		function removePicture(btn){
+					
+			var picID = $(btn).attr("data-id");
+			
+			$(".menu-overlay-container[data-pic="+picID+"]").remove();
+			
+			var data = {'picID': picID};
+			
+				$.post('index.cfm/bewirtung/removeImage', data, function(returnData){
+								
+				if (returnData.error) {
+					alert(returnData.message);
+				}
+				else {
+					if(returnData == true){
+						$(".menu-overlay-container[data-pic="+picID+"]").remove();
+					}
+					else{
+						alert("Error removing the image");
+					}
+					
+				}
+			}, "json")
+				
+		}
+		
+	
 	$(document).ready(function () {
+
 		$('#confirm-delete').on('show.bs.modal', function(e) {
-            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+            //$(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+			$(this).find('.btn-ok').attr('data-id', $(e.relatedTarget).data('picid'));
+        });
+		
+		$('#confirm-delete-documentation').on('show.bs.modal', function(e) {
+			$(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
             console.log("here");
-            $('.debug-url').html('Delete URL: <strong>' + $(this).find('.btn-ok').attr('href') + '</strong>');
         });
 		
 		$.MenuOverlay({vertical: 'bottom', horizontal: 'bottom'});	
@@ -74,6 +107,7 @@
 				e.preventDefault(); $(this).parent('div').remove(); text_box_count--;file_count--;file_index--;
 			})
 	});
+		
 </script>
 
 
@@ -224,7 +258,7 @@
 
 
 
-
+<!---modal delete picture--->
 <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -241,45 +275,55 @@
                 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-danger btn-ok">Delete</a>
+                    <a onclick="$('[data-dismiss=modal]').click();removePicture(this)" class="btn btn-danger btn-ok">Delete</a>
                 </div>
             </div>
         </div>
     </div>
+<!---modal delete picture end--->
 
 
+
+<!---modal delete documentation--->
+<div class="modal fade" id="confirm-delete-documentation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Remove documentation</h4>
+                </div>
+            
+                <div class="modal-body">
+                    <p>Are you sure you want to delete this documentation?</p>           
+                    <!---<p class="debug-url"></p>--->
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <a onclick="$('[data-dismiss-documentation=modal]').click()" class="btn btn-danger btn-ok">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---modal delete documentation end--->
 
 
 
 <div class="container"><!---container_pictures--->
 	<div class="well col-md-12 col-md-12"><!---well_pictures--->			
 		<div class="form-group col-md-12" id="pictures">
-							
-							
 			<cfloop index="i" array=#prc.pictures#>
-				
-					<div class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
-						
+					<div data-pic="#i.ID#" class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
 						<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">
-						<div class="menu-overlay"><span class="glyphicon glyphicon-search" aria-hidden="true" style="margin-right:5px;"></span></a>						
-							<a href="##" data-href="#event.buildlink('bewirtung/myDocuments')#" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;"></span></a>
+						<div class="menu-overlay"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+												
+							<a href="##" data-picid="#i.ID#" class="btn btn-default" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+						
 						</div>
-					
-					
-					<!---<picture style="margin-right:25px;margin-top:20px;">--->
-			        	<!---<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">--->
-						  	<img class="to-hover" src="#i.picPreview#">  <!---alt="#i.getbildName()#"--->						
-						<!---</a>---> 
-					<!---</picture>--->
-				
+					<img class="to-hover"  src="#i.picPreview#" alt="#i.getbildName()#">  					
 				</div>				
 			</cfloop>
-			
-				
-			
-			
-			
-					
 		</div>									
 	</div><!---well_pictures--->
 </div><!---container_pictures--->
@@ -313,7 +357,7 @@
 		<a href="#event.buildLink('bewirtung/generatePdf')#" class="btn btn-warning btn-lg" role="button">
 			<span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;">
 			</span>Als PDF herunterladen</a>
-		<a href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button">
+		<a href="##" data-href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="##confirm-delete-documentation">
 			<span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;">
 			</span>Bewirtungsbeleg löschen</a>
 			

@@ -7,7 +7,8 @@
 		
 	}
 	
-	function preProcess( event, interceptData ) {		
+	function preProcess( event, interceptData ) {	
+		//ORMReload(); //NEED TO REMOVE THIS LATER	
 		var userid	= sessionStorage.getVar( "currentUserReferenceID" );
 		var prc		= event.getCollection( private = true );
 		prc.userid = "";

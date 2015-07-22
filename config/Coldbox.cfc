@@ -32,7 +32,7 @@ limitations under the License.
 			appName 				= "ContentBox Modular CMS",
 
 			//Development Settings
-			debugMode				= false,
+			debugMode				= true,
 			debugPassword			= "90186E66232F5B6A3A60ABC2B5CA2914",
 			reinitPassword			= "90186E66232F5B6A3A60ABC2B5CA2914",
 			handlersIndexAutoReload = false,
@@ -138,7 +138,7 @@ limitations under the License.
 	// ORTUS DEVELOPMENT ENVIRONMENT, REMOVE FOR YOUR APP IF NEEDED
 	function development(){
 
-		coldbox.debugmode=true;
+		coldbox.debugmode=false;
 		coldbox.handlersIndexAutoReload = true;
 		coldbox.handlerCaching = false;
 		coldbox.reinitpassword = "";

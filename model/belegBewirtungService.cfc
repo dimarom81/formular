@@ -1,5 +1,4 @@
 ﻿component extends="coldbox.system.orm.hibernate.VirtualEntityService" singleton{
-
 		
 	belegBewirtungService function init(){		
 		super.init(entityName="belegBewirtung",useQueryCaching=true);
@@ -15,8 +14,11 @@
 	}
 	
 	public function getAllDocumentations(any referenceID) {
-		var belege = this.findAllWhere( criteria = { referenceID = arguments.referenceID } );	
-		return belege[1].getUser().getBelege();
+		var belege = this.findAllWhere( criteria = { referenceID = arguments.referenceID } );
+		if( not ArrayIsEmpty(belege) ){
+			return belege[1].getUser().getBelege();
+		}		
+		return ArrayNew(1);
 	}
 	
 	public function getMealDate(any belegID) {

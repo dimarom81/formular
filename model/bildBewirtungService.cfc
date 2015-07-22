@@ -10,7 +10,9 @@
 		super.save(obj);
 	}
 	
-	
+	public function deleteImage(bildBewirtung obj) {
+		super.delete(obj);
+	}
 	
 		
 }
