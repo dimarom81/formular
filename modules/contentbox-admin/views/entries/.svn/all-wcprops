@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries
+END
+pager.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/pager.cfm
+END
+pagerHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/pagerHelper.cfm
+END
+indexTable.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/indexTable.cfm
+END
+indexTableHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/indexTableHelper.cfm
+END
+editorSelectorEntries.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/editorSelectorEntries.cfm
+END
+quickLook.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/quickLook.cfm
+END
+quickPost.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/quickPost.cfm
+END
+quickPostHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/quickPostHelper.cfm
+END
+editor.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/editor.cfm
+END
+editorHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/editorHelper.cfm
+END
+editorSelector.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/editorSelector.cfm
+END
+editorSelectorHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/editorSelectorHelper.cfm
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/index.cfm
+END
+indexHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/entries/indexHelper.cfm
+END

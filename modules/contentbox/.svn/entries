@@ -1,0 +1,126 @@
+10
+
+dir
+14275
+http://10.12.191.21/repos/trunk/bewirtungsbeleg/modules/contentbox
+http://10.12.191.21/repos
+
+
+
+2015-07-23T09:53:51.917781Z
+14275
+Matze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6ca9bab6-0e04-4f2e-acef-97b4a823b011
+
+i18n
+dir
+
+layouts
+dir
+
+model
+dir
+
+tmp
+dir
+
+plugins
+dir
+
+email_templates
+dir
+
+updates
+dir
+
+ModuleConfig.cfc
+file
+
+
+
+
+2015-06-25T09:28:45.602816Z
+032924f2f454c3ddfa0c08f86e91fd59
+2015-07-23T09:53:51.917781Z
+14275
+Matze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11296
+
+widgets
+dir
+
+modules
+dir
+
+content
+dir
+
+Application.cfc
+file
+
+
+
+
+2015-06-25T09:28:45.597816Z
+4e36e7a8965cf399e3e5bf232f9bf96c
+2015-07-23T09:53:51.917781Z
+14275
+Matze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21
+

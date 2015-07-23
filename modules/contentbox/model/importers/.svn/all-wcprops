@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers
+END
+ContentBoxImporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers/ContentBoxImporter.cfc
+END
+WordpressImporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers/WordpressImporter.cfc
+END
+MachBlogImporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers/MachBlogImporter.cfc
+END
+ICBImporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers/ICBImporter.cfc
+END
+BlogCFCImporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers/BlogCFCImporter.cfc
+END
+MangoImporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/importers/MangoImporter.cfc
+END

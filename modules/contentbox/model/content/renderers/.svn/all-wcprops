@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/renderers
+END
+WidgetRenderer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/renderers/WidgetRenderer.cfc
+END
+LinkRenderer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/renderers/LinkRenderer.cfc
+END
+SettingRenderer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/renderers/SettingRenderer.cfc
+END

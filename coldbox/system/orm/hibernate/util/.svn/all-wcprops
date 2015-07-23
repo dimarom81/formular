@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/orm/hibernate/util
+END
+ORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/orm/hibernate/util/ORMUtil.cfc
+END
+ORMUtilFactory.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/orm/hibernate/util/ORMUtilFactory.cfc
+END
+CFORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/orm/hibernate/util/CFORMUtil.cfc
+END
+IORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/orm/hibernate/util/IORMUtil.cfc
+END

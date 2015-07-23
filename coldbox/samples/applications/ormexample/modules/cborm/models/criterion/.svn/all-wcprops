@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/models/criterion
+END
+Subqueries.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/models/criterion/Subqueries.cfc
+END
+Restrictions.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/models/criterion/Restrictions.cfc
+END

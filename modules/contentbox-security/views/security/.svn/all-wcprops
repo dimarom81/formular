@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-security/views/security
+END
+lostPassword.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-security/views/security/lostPassword.cfm
+END
+lostPasswordHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-security/views/security/lostPasswordHelper.cfm
+END
+login.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-security/views/security/login.cfm
+END
+loginHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-security/views/security/loginHelper.cfm
+END

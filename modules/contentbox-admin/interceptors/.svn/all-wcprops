@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/interceptors
+END
+CommentCleanup.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/interceptors/CommentCleanup.cfc
+END
+MenuCleanup.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/interceptors/MenuCleanup.cfc
+END
+CBRequest.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/interceptors/CBRequest.cfc
+END
+Subscription.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/interceptors/Subscription.cfc
+END

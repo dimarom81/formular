@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/config
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/config/Coldbox.cfc
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/config/Application.cfm
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/config/.htaccess
+END

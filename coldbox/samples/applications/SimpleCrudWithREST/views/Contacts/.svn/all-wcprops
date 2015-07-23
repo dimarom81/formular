@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/views/Contacts
+END
+list.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/views/Contacts/list.cfm
+END
+add.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/views/Contacts/add.cfm
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views
+END
+vwDumpLO.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwDumpLO.cfm
+END
+vwPostGenerate.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwPostGenerate.cfm
+END
+vwDumpCOM.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwDumpCOM.cfm
+END
+vwCacheFeed.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwCacheFeed.cfm
+END
+vwIndex.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwIndex.cfm
+END
+vwDisplayFeed.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwDisplayFeed.cfm
+END
+vwDumpFeed.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwDumpFeed.cfm
+END
+vwMissingFeed.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/views/vwMissingFeed.cfm
+END

@@ -1,0 +1,36 @@
+/*************************************************
+      Menu Overlay CSS 
+      @author Fabio Mangolini
+      http://www.responsivewebmobile.com
+**************************************************/
+.menu-overlay a {
+  display: block;
+  float: left;
+  background-color: #000;
+  opacity: .8;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  margin: 0px 1px;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px #666666;
+  -webkit-transition-property: background color;
+  -webkit-transition-duration: .5s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: background color;
+  -moz-transition-duration: .5s;
+  -moz-transition-timing-function: ease;
+  -o-transition-property: background color;
+  -o-transition-duration: .5s;
+  -o-transition-timing-function: ease;
+  -ms-transition-property: background color;
+  -ms-transition-duration: .5s;
+  -ms-transition-timing-function: ease;
+  transition-property: background color;
+  transition-duration: .5s;
+  transition-timing-function: ease;
+}
+
+.menu-overlay a:hover {
+  color: #CCCCCC;
+  background-color: #333333;
+}

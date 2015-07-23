@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates
+END
+author_new.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/author_new.cfm
+END
+comment_new.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/comment_new.cfm
+END
+entry_remove.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/entry_remove.cfm
+END
+author_remove.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/author_remove.cfm
+END
+contentstore_new.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/contentstore_new.cfm
+END
+comment_moderation.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/comment_moderation.cfm
+END
+contentstore_remove.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/contentstore_remove.cfm
+END
+password_verification.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/password_verification.cfm
+END
+page_new.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/page_new.cfm
+END
+password_reminder.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/password_reminder.cfm
+END
+comment_notification.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/comment_notification.cfm
+END
+Application.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/Application.cfc
+END
+page_remove.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/page_remove.cfm
+END
+entry_new.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/email_templates/entry_new.cfm
+END

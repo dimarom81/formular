@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models
+END
+Loader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/Loader.cfc
+END
+JavaLoaderDSL.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/JavaLoaderDSL.cfc
+END

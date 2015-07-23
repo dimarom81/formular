@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/Coldbox.cfc
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/Application.cfm
+END
+FrameworkSupertype.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/FrameworkSupertype.cfc
+END
+Interceptor.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/Interceptor.cfc
+END
+Plugin.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/Plugin.cfc
+END
+EventHandler.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/EventHandler.cfc
+END

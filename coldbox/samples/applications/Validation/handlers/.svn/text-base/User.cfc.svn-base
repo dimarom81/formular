@@ -1,0 +1,3 @@
+component {	property name="MessageBox" inject="MessageBox@cbMessageBox";	property name="validationService" inject="validationService";	public void function index(event,rc,prc){		event.setView("user/index");
+	}	public void function save(event,rc){		var constraints = {			username = {required=true, size="6..20"},			password = {required=true, size="6..20"}
+		};		// validation		var result = validateModel(target=rc, constraints=validationService.getUserForm());		if( !result.hasErrors() ){			MessageBox.setMessage("info","User Info Validated!");			setNextEvent('user');		} else {			MessageBox.setMessage(type="error",messageArray=result.getAllErrors());			index(event,rc,prc);			return;		}	}}

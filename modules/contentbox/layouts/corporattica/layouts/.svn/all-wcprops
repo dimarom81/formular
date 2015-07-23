@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/layouts
+END
+pages.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/layouts/pages.cfm
+END
+maintenance.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/layouts/maintenance.cfm
+END
+blog.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/layouts/blog.cfm
+END

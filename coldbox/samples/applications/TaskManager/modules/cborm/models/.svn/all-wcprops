@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models
+END
+ActiveEntity.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/ActiveEntity.cfc
+END
+BaseORMService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/BaseORMService.cfc
+END
+CriteriaBuilder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/CriteriaBuilder.cfc
+END
+DetachedCriteriaBuilder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/DetachedCriteriaBuilder.cfc
+END
+EventHandler.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/EventHandler.cfc
+END
+BaseBuilder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/BaseBuilder.cfc
+END
+VirtualEntityService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/models/VirtualEntityService.cfc
+END

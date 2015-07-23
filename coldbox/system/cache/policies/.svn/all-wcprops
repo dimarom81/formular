@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies
+END
+LFU.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies/LFU.cfc
+END
+IEvictionPolicy.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies/IEvictionPolicy.cfc
+END
+LIFO.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies/LIFO.cfc
+END
+LRU.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies/LRU.cfc
+END
+FIFO.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies/FIFO.cfc
+END
+AbstractEvictionPolicy.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/policies/AbstractEvictionPolicy.cfc
+END

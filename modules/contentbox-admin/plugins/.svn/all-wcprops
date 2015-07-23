@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/plugins
+END
+CFCViewer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/plugins/CFCViewer.cfc
+END
+CKHelper.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/plugins/CKHelper.cfc
+END
+PageBreadcrumbVisitor.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/plugins/PageBreadcrumbVisitor.cfc
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/feeds
+END
+FeedReader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/feeds/FeedReader.cfc
+END
+SharedGenerator.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/feeds/SharedGenerator.cfc
+END
+RSS2Generator.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/feeds/RSS2Generator.cfc
+END

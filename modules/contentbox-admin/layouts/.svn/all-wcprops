@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/layouts
+END
+ajax.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/layouts/ajax.cfm
+END
+email.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/layouts/email.cfm
+END
+admin.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/layouts/admin.cfm
+END

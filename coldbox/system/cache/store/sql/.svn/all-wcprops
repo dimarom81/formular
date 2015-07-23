@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/sql
+END
+JDBCStore-MySQL.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/sql/JDBCStore-MySQL.sql
+END
+JDBCStore-Postgres.sql
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/sql/JDBCStore-Postgres.sql
+END
+JDBCStore-MSSQL.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/sql/JDBCStore-MSSQL.sql
+END

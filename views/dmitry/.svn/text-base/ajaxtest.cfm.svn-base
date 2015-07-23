@@ -1,0 +1,1 @@
+﻿<cfoutput>ajax!</cfoutput>

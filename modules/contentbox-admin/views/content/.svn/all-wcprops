@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content
+END
+simplePreview.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/simplePreview.cfm
+END
+relatedContentSelector.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/relatedContentSelector.cfm
+END
+relatedContentSelectorHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/relatedContentSelectorHelper.cfm
+END
+relatedContentResults.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/relatedContentResults.cfm
+END
+relatedContentResultsHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/relatedContentResultsHelper.cfm
+END
+preview.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/preview.cfm
+END
+previewHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/previewHelper.cfm
+END
+search.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/content/search.cfm
+END

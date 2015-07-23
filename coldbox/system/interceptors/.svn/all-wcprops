@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/interceptors
+END
+Security.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/interceptors/Security.cfc
+END
+CriteriaBuilder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/interceptors/CriteriaBuilder.cfc
+END
+SES.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/interceptors/SES.cfc
+END
+Autowire.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/interceptors/Autowire.cfc
+END

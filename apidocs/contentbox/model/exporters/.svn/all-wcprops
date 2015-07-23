@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters
+END
+ContentBoxExporter.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters/ContentBoxExporter.html
+END
+DataExporter.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters/DataExporter.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters/package-frame.html
+END
+ICBExporter.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters/ICBExporter.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters/package-summary.html
+END
+FileExporter.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/exporters/FileExporter.html
+END

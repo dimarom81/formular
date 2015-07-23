@@ -1,0 +1,2189 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AdminMenuService</title>
+	<meta name="keywords" content="contentbox.model.ui.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/ui/AdminMenuService.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.ui"><span class="label label-success">contentbox.model.ui</span></a>
+</div>
+
+<h2>
+
+Class
+
+ AdminMenuService</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.ui.AdminMenuService
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				threadsafe 
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				singleton 
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+Manages the admin menu services for the header and top menu</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#avatar()">avatar</A></strong> 
+			<br>
+			
+			<!-- only grab the first sentence of the hint -->
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Injected Avatar.
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = coldbox:myplugin:Avatar@contentbox</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#headerMenu()">headerMenu</A></strong> 
+			<br>
+			
+			<!-- only grab the first sentence of the hint -->
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This holds the header menu structure.
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>struct</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#headerMenuMap()">headerMenuMap</A></strong> 
+			<br>
+			
+			<!-- only grab the first sentence of the hint -->
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is a reference map of the headerMenu array.
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#topMenu()">topMenu</A></strong> 
+			<br>
+			
+			<!-- only grab the first sentence of the hint -->
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This holds the top menu structure.
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>struct</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#topMenuMap()">topMenuMap</A></strong> 
+			<br>
+			
+			<!-- only grab the first sentence of the hint -->
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This is a reference map of the topMenu array.
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="AdminMenuService.html#init()">init</A></strong>(any requestService, any coldbox)
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#addHeaderMenu()">addHeaderMenu</A></strong>(any name, any label, [any title=''], [any href='javascript:null()'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add header top level menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#addHeaderSubMenu()">addHeaderSubMenu</A></strong>([any headerMenu], any name, any label, [any title=''], [any href='#'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add a sub level header menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#addSubMenu()">addSubMenu</A></strong>([any topMenu], any name, any label, [any title=''], [any href='#'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add a sub level menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#addTopMenu()">addTopMenu</A></strong>(any name, any label, [any title=''], [any href='javascript:null()'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add top level menus.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#buildModuleLink()">buildModuleLink</A></strong>(string module, string linkTo, [any queryString=''], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build out ContentBox module links.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#buildProfileLabel()">buildProfileLabel</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dynamic menu label.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#createDefaultMenu()">createDefaultMenu</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create the default ContentBox menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#createHeaderMenu()">createHeaderMenu</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create the default ContentBox header menu contributions.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#generateHeaderMenu()">generateHeaderMenu</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generate the header menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#generateMenu()">generateMenu</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generate menu from cache or newly generated menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#getAvatar()">getAvatar</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get: Injected Avatar.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#getHeaderMenu()">getHeaderMenu</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get: This holds the header menu structure.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#getHeaderMenuMap()">getHeaderMenuMap</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get: This is a reference map of the headerMenu array.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#getTopMenu()">getTopMenu</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get: This holds the top menu structure.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#getTopMenuMap()">getTopMenuMap</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get: This is a reference map of the topMenu array.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#parseADataAttributes()">parseADataAttributes</A></strong>(struct data)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generate a flat representation of data elements.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#removeHeaderMenu()">removeHeaderMenu</A></strong>(any headerMenu)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove a header top level menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#removeHeaderSubMenu()">removeHeaderSubMenu</A></strong>(any headerMenu, any name)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove a sub level menu from the header.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#removeSubMenu()">removeSubMenu</A></strong>(any topMenu, any name)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove a sub level menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#removeTopMenu()">removeTopMenu</A></strong>(any topMenu)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove a top level menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#setAvatar()">setAvatar</A></strong>(any avatar)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set: Injected Avatar.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#setHeaderMenu()">setHeaderMenu</A></strong>(array headerMenu)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set: This holds the header menu structure.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#setHeaderMenuMap()">setHeaderMenuMap</A></strong>(struct headerMenuMap)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set: This is a reference map of the headerMenu array.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#setTopMenu()">setTopMenu</A></strong>(array topMenu)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set: This holds the top menu structure.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#setTopMenuMap()">setTopMenuMap</A></strong>(struct topMenuMap)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set: This is a reference map of the topMenu array.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#withHeaderMenu()">withHeaderMenu</A></strong>(any name)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use a header menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a></code>
+		</td>
+		<td>
+			<strong><a href="AdminMenuService.html#withTopMenu()">withTopMenu</A></strong>(any name)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>(any requestService, any coldbox)</kbd>
+
+	<br><br>
+
+	
+	<p>Constructor</p>
+	
+
+	
+	<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+			<dd><code>requestService</code></dd>
+		
+			<dd><code>coldbox</code></dd>
+		
+	</dl>
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="avatar()"><!-- --></a>
+		<h3>avatar</h3>
+
+		<kbd>
+			property any 
+			<strong>avatar</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+			<p>Injected Avatar</p>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - coldbox:myplugin:Avatar@contentbox</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="headerMenu()"><!-- --></a>
+		<h3>headerMenu</h3>
+
+		<kbd>
+			property array 
+			<strong>headerMenu</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+			<p>This holds the header menu structure</p>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="headerMenuMap()"><!-- --></a>
+		<h3>headerMenuMap</h3>
+
+		<kbd>
+			property struct 
+			<strong>headerMenuMap</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+			<p>This is a reference map of the headerMenu array</p>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="topMenu()"><!-- --></a>
+		<h3>topMenu</h3>
+
+		<kbd>
+			property array 
+			<strong>topMenu</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+			<p>This holds the top menu structure</p>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="topMenuMap()"><!-- --></a>
+		<h3>topMenuMap</h3>
+
+		<kbd>
+			property struct 
+			<strong>topMenuMap</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+			<p>This is a reference map of the topMenu array</p>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="addHeaderMenu()"><!-- --></a>
+	<h3>addHeaderMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>addHeaderMenu</strong>(any name, any label, [any title=''], [any href='javascript:null()'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Add header top level menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code> - The unique name for this header level menu</dd>
+		
+		<dd><code>label</code> - The label for the menu item, this can be a closure/udf and it will be called at generation</dd>
+		
+		<dd><code>title</code> - The optional title element</dd>
+		
+		<dd><code>href</code> - The href, if any to locate when clicked, this can be a closure/udf and it will be called at generation</dd>
+		
+		<dd><code>target</code> - The target to execute the link in, default is same page.</dd>
+		
+		<dd><code>permissions</code> - The list of permissions needed to view this menu</dd>
+		
+		<dd><code>data</code> - A structure of data attributes to add to the link</dd>
+		
+		<dd><code>class</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addHeaderSubMenu()"><!-- --></a>
+	<h3>addHeaderSubMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>addHeaderSubMenu</strong>([any headerMenu], any name, any label, [any title=''], [any href='#'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Add a sub level header menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>headerMenu</code> - The optional header menu name to add this sub level menu to or if concatenated then it uses that one.</dd>
+		
+		<dd><code>name</code> - The unique name for this sub level menu</dd>
+		
+		<dd><code>label</code> - The label for the menu item</dd>
+		
+		<dd><code>title</code> - The optional title element</dd>
+		
+		<dd><code>href</code> - The href, if any to locate when clicked</dd>
+		
+		<dd><code>target</code> - The target to execute the link in, default is same page.</dd>
+		
+		<dd><code>permissions</code> - The list of permissions needed to view this menu</dd>
+		
+		<dd><code>data</code> - A structure of data attributes to add to the link</dd>
+		
+		<dd><code>class</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addSubMenu()"><!-- --></a>
+	<h3>addSubMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>addSubMenu</strong>([any topMenu], any name, any label, [any title=''], [any href='#'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Add a sub level menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>topMenu</code> - The optional top menu name to add this sub level menu to or if concatenated then it uses that one.</dd>
+		
+		<dd><code>name</code> - The unique name for this sub level menu</dd>
+		
+		<dd><code>label</code> - The label for the menu item, this can be a closure/udf and it will be called at generation</dd>
+		
+		<dd><code>title</code> - The optional title element</dd>
+		
+		<dd><code>href</code> - The href, if any to locate when clicked, this can be a closure/udf and it will be called at generation</dd>
+		
+		<dd><code>target</code> - The target to execute the link in, default is same page.</dd>
+		
+		<dd><code>permissions</code> - The list of permissions needed to view this menu</dd>
+		
+		<dd><code>data</code> - A structure of data attributes to add to the link</dd>
+		
+		<dd><code>class</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addTopMenu()"><!-- --></a>
+	<h3>addTopMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>addTopMenu</strong>(any name, any label, [any title=''], [any href='javascript:null()'], [any target=''], [any permissions=''], [any data='[runtime expression]'], [any class=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Add top level menus</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code> - The unique name for this top level menu</dd>
+		
+		<dd><code>label</code> - The label for the menu item, this can be a closure/udf and it will be called at generation</dd>
+		
+		<dd><code>title</code> - The optional title element</dd>
+		
+		<dd><code>href</code> - The href, if any to locate when clicked, this can be a closure/udf and it will be called at generation</dd>
+		
+		<dd><code>target</code> - The target to execute the link in, default is same page.</dd>
+		
+		<dd><code>permissions</code> - The list of permissions needed to view this menu</dd>
+		
+		<dd><code>data</code> - A structure of data attributes to add to the link</dd>
+		
+		<dd><code>class</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildModuleLink()"><!-- --></a>
+	<h3>buildModuleLink</h3>
+	
+	<kbd>public any <strong>buildModuleLink</strong>(string module, string linkTo, [any queryString=''], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Build out ContentBox module links</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>module</code></dd>
+		
+		<dd><code>linkTo</code></dd>
+		
+		<dd><code>queryString</code></dd>
+		
+		<dd><code>ssl</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildProfileLabel()"><!-- --></a>
+	<h3>buildProfileLabel</h3>
+	
+	<kbd>public any <strong>buildProfileLabel</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Dynamic menu label</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="createDefaultMenu()"><!-- --></a>
+	<h3>createDefaultMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>createDefaultMenu</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Create the default ContentBox menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="createHeaderMenu()"><!-- --></a>
+	<h3>createHeaderMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>createHeaderMenu</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Create the default ContentBox header menu contributions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="generateHeaderMenu()"><!-- --></a>
+	<h3>generateHeaderMenu</h3>
+	
+	<kbd>public any <strong>generateHeaderMenu</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Generate the header menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="generateMenu()"><!-- --></a>
+	<h3>generateMenu</h3>
+	
+	<kbd>public any <strong>generateMenu</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Generate menu from cache or newly generated menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAvatar()"><!-- --></a>
+	<h3>getAvatar</h3>
+	
+	<kbd>public string <strong>getAvatar</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>get: Injected Avatar</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getHeaderMenu()"><!-- --></a>
+	<h3>getHeaderMenu</h3>
+	
+	<kbd>public string <strong>getHeaderMenu</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>get: This holds the header menu structure</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getHeaderMenuMap()"><!-- --></a>
+	<h3>getHeaderMenuMap</h3>
+	
+	<kbd>public string <strong>getHeaderMenuMap</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>get: This is a reference map of the headerMenu array</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getTopMenu()"><!-- --></a>
+	<h3>getTopMenu</h3>
+	
+	<kbd>public string <strong>getTopMenu</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>get: This holds the top menu structure</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getTopMenuMap()"><!-- --></a>
+	<h3>getTopMenuMap</h3>
+	
+	<kbd>public string <strong>getTopMenuMap</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>get: This is a reference map of the topMenu array</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="parseADataAttributes()"><!-- --></a>
+	<h3>parseADataAttributes</h3>
+	
+	<kbd>public string <strong>parseADataAttributes</strong>(struct data)</kbd>
+	
+	<br><br>
+
+	
+		<p>Generate a flat representation of data elements</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>data</code> - The data struct</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeHeaderMenu()"><!-- --></a>
+	<h3>removeHeaderMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>removeHeaderMenu</strong>(any headerMenu)</kbd>
+	
+	<br><br>
+
+	
+		<p>Remove a header top level menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>headerMenu</code> - The header menu unique name to remove</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeHeaderSubMenu()"><!-- --></a>
+	<h3>removeHeaderSubMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>removeHeaderSubMenu</strong>(any headerMenu, any name)</kbd>
+	
+	<br><br>
+
+	
+		<p>Remove a sub level menu from the header</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>headerMenu</code> - The optional header menu name to remove from</dd>
+		
+		<dd><code>name</code> - The sub menu to remove</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeSubMenu()"><!-- --></a>
+	<h3>removeSubMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>removeSubMenu</strong>(any topMenu, any name)</kbd>
+	
+	<br><br>
+
+	
+		<p>Remove a sub level menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>topMenu</code> - The optional top menu name to add this sub level menu to or if concatenated then it uses that one.</dd>
+		
+		<dd><code>name</code> - The unique name for this sub level menu</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeTopMenu()"><!-- --></a>
+	<h3>removeTopMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>removeTopMenu</strong>(any topMenu)</kbd>
+	
+	<br><br>
+
+	
+		<p>Remove a top level menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>topMenu</code> - The optional top menu name to add this sub level menu to or if concatenated then it uses that one.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAvatar()"><!-- --></a>
+	<h3>setAvatar</h3>
+	
+	<kbd>public any <strong>setAvatar</strong>(any avatar)</kbd>
+	
+	<br><br>
+
+	
+		<p>set: Injected Avatar</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>avatar</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setHeaderMenu()"><!-- --></a>
+	<h3>setHeaderMenu</h3>
+	
+	<kbd>public any <strong>setHeaderMenu</strong>(array headerMenu)</kbd>
+	
+	<br><br>
+
+	
+		<p>set: This holds the header menu structure</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>headerMenu</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setHeaderMenuMap()"><!-- --></a>
+	<h3>setHeaderMenuMap</h3>
+	
+	<kbd>public any <strong>setHeaderMenuMap</strong>(struct headerMenuMap)</kbd>
+	
+	<br><br>
+
+	
+		<p>set: This is a reference map of the headerMenu array</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>headerMenuMap</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setTopMenu()"><!-- --></a>
+	<h3>setTopMenu</h3>
+	
+	<kbd>public any <strong>setTopMenu</strong>(array topMenu)</kbd>
+	
+	<br><br>
+
+	
+		<p>set: This holds the top menu structure</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>topMenu</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setTopMenuMap()"><!-- --></a>
+	<h3>setTopMenuMap</h3>
+	
+	<kbd>public any <strong>setTopMenuMap</strong>(struct topMenuMap)</kbd>
+	
+	<br><br>
+
+	
+		<p>set: This is a reference map of the topMenu array</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>topMenuMap</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="withHeaderMenu()"><!-- --></a>
+	<h3>withHeaderMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>withHeaderMenu</strong>(any name)</kbd>
+	
+	<br><br>
+
+	
+		<p>Use a header menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code> - The name of the header menu</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="withTopMenu()"><!-- --></a>
+	<h3>withTopMenu</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/ui/AdminMenuService.html" title="class in contentbox.model.ui">AdminMenuService</a> <strong>withTopMenu</strong>(any name)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code> - The name of the top menu</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

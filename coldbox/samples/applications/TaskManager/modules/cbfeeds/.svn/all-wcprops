@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds
+END
+box.json
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds/box.json
+END
+instructions.md
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds/instructions.md
+END
+cbfeeds-1.0.1.00040-201501060925
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds/cbfeeds-1.0.1.00040-201501060925
+END
+ModuleConfig.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds/ModuleConfig.cfc
+END
+changelog.md
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds/changelog.md
+END
+readme.md
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cbfeeds/readme.md
+END

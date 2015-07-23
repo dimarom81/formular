@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/models/users
+END
+User.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/models/users/User.cfc
+END
+UserService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/models/users/UserService.cfc
+END

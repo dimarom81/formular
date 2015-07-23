@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/search
+END
+SearchService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/search/SearchService.cfc
+END
+SearchResults.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/search/SearchResults.cfc
+END
+DBSearch.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/search/DBSearch.cfc
+END
+ISearchAdapter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/search/ISearchAdapter.cfc
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers
+END
+rss.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers/rss.cfc
+END
+content.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers/content.cfc
+END
+page.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers/page.cfc
+END
+media.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers/media.cfc
+END
+blog.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers/blog.cfc
+END
+subscription.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/handlers/subscription.cfc
+END

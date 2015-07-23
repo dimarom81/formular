@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content
+END
+ContentStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/ContentStore.cfc
+END
+ContentService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/ContentService.cfc
+END
+PageService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/PageService.cfc
+END
+Stats.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/Stats.cfc
+END
+CategoryService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/CategoryService.cfc
+END
+Entry.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/Entry.cfc
+END
+ContentVersionService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/ContentVersionService.cfc
+END
+BaseContent.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/BaseContent.cfc
+END
+ContentStoreService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/ContentStoreService.cfc
+END
+Page.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/Page.cfc
+END
+Category.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/Category.cfc
+END
+CustomField.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/CustomField.cfc
+END
+StatsService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/StatsService.cfc
+END
+ContentVersion.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/ContentVersion.cfc
+END
+EntryService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/content/EntryService.cfc
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/panels
+END
+collectionPanel.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/panels/collectionPanel.cfm
+END
+profilerPanel.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/panels/profilerPanel.cfm
+END
+tracersPanel.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/panels/tracersPanel.cfm
+END
+modulesPanel.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/panels/modulesPanel.cfm
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store
+END
+DiskStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/DiskStore.cfc
+END
+ConcurrentSoftReferenceStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/ConcurrentSoftReferenceStore.cfc
+END
+IObjectStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/IObjectStore.cfc
+END
+ConcurrentStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/ConcurrentStore.cfc
+END
+JDBCStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/JDBCStore.cfc
+END
+BlackholeStore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/store/BlackholeStore.cfc
+END

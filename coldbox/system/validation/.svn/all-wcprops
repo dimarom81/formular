@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation
+END
+ValidationManager.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/ValidationManager.cfc
+END
+IValidationManager.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/IValidationManager.cfc
+END
+GenericObject.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/GenericObject.cfc
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/handlers
+END
+Tasks.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/handlers/Tasks.cfc
+END
+General.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/handlers/General.cfc
+END
+TasksAPI.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/handlers/TasksAPI.cfc
+END

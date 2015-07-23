@@ -1,0 +1,70 @@
+component {
+
+	function preHandler(event,rc,prc){
+		prc.facebookCredentials = getSetting('facebook')['oauth'];
+		prc.facebookSettings = getModuleSettings('nsg-module-facebook')['settings']['oauth'];
+		if(!structKeyExists(session,'facebookOAuth')){
+			session['facebookOAuth'] = structNew();
+		}
+	}
+
+	function index(event,rc,prc){
+		if( event.getValue('id','') == 'activateUser' ){
+			var results = duplicate(session['facebookOAuth']);
+			// convert expires into a useful date/time
+			results['expiresAt'] = createODBCDateTime(now()+results['expires']/60/60/24);
+
+			var httpService = new http();
+				httpService.setURL('https://graph.facebook.com/me?client_id=#prc.facebookCredentials['appID']#&client_secret=#prc.facebookCredentials['appSecret']#&access_token=#session['facebookOAuth']['access_token']#');
+			var data = deserializeJSON(httpService.send().getPrefix()['fileContent']);
+			structAppend(results,data);
+
+			structKeyRename(results,'id','referenceID');
+			structKeyRename(results,'first_name','first');
+			structKeyRename(results,'last_name','last');
+
+			results['socialservice'] = 'facebook';
+
+			announceInterception( state='facebookLoginSuccess', interceptData=results );
+			announceInterception( state='loginSuccess', interceptData=results );
+			setNextEvent(event=prc.facebookCredentials['loginSuccess'],ssl=( cgi.server_port == 443 ? true : false ));
+
+		}else if( event.valueExists('code') ){
+			session['facebookOAuth']['code'] = event.getValue('code');
+
+			var httpService = new http();
+				httpService.setURL('#prc.facebookSettings['tokenRequestURL']#?client_id=#prc.facebookCredentials['appID']#&redirect_uri=#urlEncodedFormat(prc.facebookCredentials['redirectURL'])#&client_secret=#prc.facebookCredentials['appSecret']#&code=#session['facebookOAuth']['code']#');
+			var results = httpService.send().getPrefix();
+
+			if( results.Responseheader['status_code'] eq 200 ){
+				var myFields = listToArray(results['fileContent'],'&');
+
+				for(var i=1;i<=arrayLen(myFields);i++){
+					if(listLen(myFields[i],'=') eq 2){
+						session['facebookOAuth'][listFirst(myFields[i],'=')] = listLast(myFields[i],'=');
+					}
+				}
+				setNextEvent('facebook/oauth/activateUser');
+			}else{
+				//writeDump(results);abort;
+				//writeDump('test');abort;
+				announceInterception( state='facebookLoginFailure', interceptData=results );
+				announceInterception( state='loginFailure', interceptData=results );
+				throw('Unknown Facebook OAuth.v2 Error','facebook.oauth');
+			}
+
+		}else{
+			location(url="#prc.facebookSettings['authorizeRequestURL']#?client_id=#prc.facebookCredentials['appID']#&redirect_uri=#urlEncodedFormat(prc.facebookCredentials['redirectURL'])#&scope=#prc.facebookCredentials['scope']#&response_type=#prc.facebookCredentials['responseType']#",addtoken=false);
+		}
+	}
+
+	function structKeyRename(mStruct,mTarget,mKey){
+		arguments.mStruct[mKey] = arguments.mStruct[mTarget];
+		structDelete(arguments.mStruct,mTarget);
+
+		return arguments.mStruct;
+	}
+	function activateUser(event, rc , prc){
+		abort;
+	}
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/Validation/config
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/Validation/config/Coldbox.cfc
+END
+Routes.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/Validation/config/Routes.cfm
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/Validation/config/Application.cfm
+END
+WireBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/Validation/config/WireBox.cfc
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/Validation/config/.htaccess
+END

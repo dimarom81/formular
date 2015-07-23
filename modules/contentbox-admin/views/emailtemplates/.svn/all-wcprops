@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/emailtemplates
+END
+edit.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/emailtemplates/edit.cfm
+END
+editHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/emailtemplates/editHelper.cfm
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/emailtemplates/index.cfm
+END
+indexHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/emailtemplates/indexHelper.cfm
+END

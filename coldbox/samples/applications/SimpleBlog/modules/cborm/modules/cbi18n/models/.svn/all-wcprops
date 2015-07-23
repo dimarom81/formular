@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/modules/cbi18n/models
+END
+ResourceService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/modules/cbi18n/models/ResourceService.cfc
+END
+i18n.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/modules/cbi18n/models/i18n.cfc
+END
+Mixins.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/modules/cbi18n/models/Mixins.cfm
+END

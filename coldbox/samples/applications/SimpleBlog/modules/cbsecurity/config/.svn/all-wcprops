@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbsecurity/config
+END
+securityrules.sql
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbsecurity/config/securityrules.sql
+END
+security.json.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbsecurity/config/security.json.cfm
+END
+security.xml.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbsecurity/config/security.xml.cfm
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/sampleloginapp/models
+END
+datastore.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/sampleloginapp/models/datastore.cfc
+END
+securityInterceptor.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/sampleloginapp/models/securityInterceptor.cfc
+END
+users.xml.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/sampleloginapp/models/users.xml.cfm
+END

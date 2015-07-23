@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/system
+END
+NotificationService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/system/NotificationService.cfc
+END
+Setting.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/system/Setting.cfc
+END
+SettingService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/system/SettingService.cfc
+END
+EventHandler.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/system/EventHandler.cfc
+END
+EmailTemplateService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/system/EmailTemplateService.cfc
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services
+END
+DebuggerService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/DebuggerService.cfc
+END
+ModuleService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/ModuleService.cfc
+END
+LoaderService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/LoaderService.cfc
+END
+RequestService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/RequestService.cfc
+END
+BaseService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/BaseService.cfc
+END
+HandlerService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/HandlerService.cfc
+END
+ExceptionService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/ExceptionService.cfc
+END
+InterceptorService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/InterceptorService.cfc
+END
+PluginService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/services/PluginService.cfc
+END

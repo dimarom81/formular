@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/javaloader
+END
+licence.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/javaloader/licence.txt
+END
+JavaLoader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/javaloader/JavaLoader.cfc
+END
+JavaCompiler.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/javaloader/JavaCompiler.cfc
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/javaloader/readme.txt
+END
+JavaProxy.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/javaloader/modules/cbjavaloader/models/javaloader/JavaProxy.cfc
+END

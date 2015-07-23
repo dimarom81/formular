@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views
+END
+notfound.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/notfound.cfm
+END
+page.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/page.cfm
+END
+_footer.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/_footer.cfm
+END
+entry.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/entry.cfm
+END
+maintenance.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/maintenance.cfm
+END
+_menu.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/_menu.cfm
+END
+_search.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/_search.cfm
+END
+archives.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/archives.cfm
+END
+_pagesidebar.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/_pagesidebar.cfm
+END
+search.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/search.cfm
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/index.cfm
+END
+_sidebar.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/_sidebar.cfm
+END
+error.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/corporattica/views/error.cfm
+END

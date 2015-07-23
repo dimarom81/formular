@@ -1,0 +1,87 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 16
+/repos/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg
+END
+settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/settings.xml
+END
+box.json
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/box.json
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/license.txt
+END
+APACHE_LICENSE.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/APACHE_LICENSE.TXT
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/.project
+END
+nsg-module-facebook-instructions.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/nsg-module-facebook-instructions.html
+END
+robots.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/robots.txt
+END
+contentbox-2.1.0.00246-201505041755
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/contentbox-2.1.0.00246-201505041755
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/.htaccess
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/index.cfm
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/readme.txt
+END
+Application.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/Application.cfc
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/favicon.ico
+END

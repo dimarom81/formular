@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/TrulySimple/templates
+END
+category.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/TrulySimple/templates/category.cfm
+END
+entry.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/TrulySimple/templates/entry.cfm
+END
+comment.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/TrulySimple/templates/comment.cfm
+END

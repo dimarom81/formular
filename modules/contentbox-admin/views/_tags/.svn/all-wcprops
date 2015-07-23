@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags
+END
+contentSelector.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/contentSelector.cfm
+END
+relatedContent.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/relatedContent.cfm
+END
+messagebox.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/messagebox.cfm
+END
+footer.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/footer.cfm
+END
+customFields.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/customFields.cfm
+END
+linkedContent.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/linkedContent.cfm
+END
+needhelp.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/needhelp.cfm
+END
+contentListViewer.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/contentListViewer.cfm
+END
+editors.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/_tags/editors.cfm
+END

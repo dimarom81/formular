@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bewirtungsbeleg</title>
+	<meta name="description" content="ContentBox Application Template">
+    <meta name="author" content="Ortus Solutions, Corp">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<base href="http://akidmitry.local/" />
+	
+<!---	<link rel="stylesheet" type="text/css" href="http://akidmitry.local/includes/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="http://akidmitry.local/includes/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://akidmitry.local/includes/css/datepicker.css">
+	<link rel="stylesheet" media="all" type="text/css" href="http://akidmitry.local/includes/css/overlay.css">
+	--->
+
+	<script src="http://akidmitry.local/includes/js/jquery-1.11.3.min.js"></script>
+	<script src="http://akidmitry.local/includes/js/jquery.validate.js"></script>
+	<script src="http://akidmitry.local/includes/js/bootstrap.min.js"></script>
+	<script src="http://akidmitry.local/includes/js/bootstrap-confirmation.js"></script>
+	<script src="http://akidmitry.local/includes/js/bootstrap-datepicker.js"></script>
+	<script src="http://akidmitry.local/includes/js/bootstrap-filestyle.js"></script>
+	<script src="http://akidmitry.local/includes/js/jquery.menu.overlay.js"></script>
+	<script src="http://akidmitry.local/includes/js/functions.js"></script>
+	<style type="text/css">
+	
+		@import url("http://akidmitry.local/includes/css/bootstrap-theme.css");
+		@import url("http://akidmitry.local/includes/css/bootstrap.min.css");
+		@import url("http://akidmitry.local/includes/css/datepicker.css");
+		@import url("http://akidmitry.local/includes/css/overlay.css");
+		 
+	
+	</style>
+
+</head>
+<body data-spy="scroll">
+	
+<nav class="navbar navbar-default">	
+	<div class="container-fluid">
+		<ul class="nav navbar-nav navbar-left">
+			<li><a href="http://akidmitry.local/index.cfm/bewirtung/loginSuccess"><span class="glyphicon glyphicon-home" style="margin-right:5px;"></span>Startseite</a></li>
+			<li><a href="http://akidmitry.local/index.cfm/bewirtung/mydocuments"><span class="glyphicon glyphicon-th" style="margin-right:5px;"></span>Belege verwalten</a></li>
+			
+			<li><a href="http://akidmitry.local/index.cfm/bewirtung/myprofile"><span class="glyphicon glyphicon-user" style="margin-right:5px;"></span>Meine Daten</a></li>	
+		</ul>
+			<ul class="nav navbar-nav navbar-right">				
+			
+			<li><a href="http://akidmitry.local/index.cfm/bewirtung/loginSuccess">Sie sind angemeldet als Dima Roma</a></li>	
+			
+			<li><a href="http://akidmitry.local/index.cfm/bewirtung/logout"><span class="glyphicon glyphicon-off" style="margin-right:5px;"></span>Abmelden</a></li>	
+	      </ul>
+	 </div>	  
+</nav>	
+	
+
+
+	
+<div class="container">
+	<div class="well well-sm col-sm-12 col-md-12 text-center">
+		<div id="title"><h3>Angaben über Bewirtungsaufwendungen</h3></div>
+		
+				
+				
+	</div>
+</div>
+
+<form id="integerForm" action="http://akidmitry.local/index.cfm/bewirtung/saveDocumentation" method="post" enctype="multipart/form-data">
+	
+<div class="container">
+	<div class="well col-sm-12 col-md-12">		
+		<div class="form-group col-md-6">
+			<label for="tag">Tag der Bewirtung</label>
+		  		<div>
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="" >
+		 		</div>
+		</div>		
+	
+		<div class="form-group col-md-6">
+			<label for="ort">Ort der Bewirtung</label>
+		  		<div>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adress" ></textarea>
+		 		</div>
+		</div>	
+				
+		<div class="form-group col-md-6">
+			<label for="participants">Personen, die bewirtet wurden</label>	
+				<div class="input_fields_wrap"> 
+			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
+		    			<div><input class="form-control" type="text" name="participants" value="" ></div></br>		
+				</div>
+		</div>
+			
+		<div class="form-group col-md-12">
+			<label for="anlass">Anlass der Bewirtung</label>
+				<div>
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting"></textarea>	
+				</div>
+		</div>	
+				
+				
+		<div class="form-group col-md-3">
+			<label for="betrag">Höhe der Bewirtung</label>
+				<div>
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="100">
+				</div>
+		</div>
+		
+		
+		<div class="form-group col-md-2">
+			<label for="currency">Währung</label>			
+				<select class="form-control" name="currency">
+					<option value="EUR">EUR</option>
+					<option value="USD">USD</option>
+					<option value="GBP">GBP</option>
+					<option value="JPY">JPY</option>
+					<option value="RUB">RUB</option>
+				</select>
+		</div>			
+
+	</div>
+</div>	
+
+
+<div class="container">
+	<div class="well col-sm-12 col-md-12">			
+			
+		<div class="form-group col-md-3 radio-inline">
+			<label for="Restaurant">
+				<input type="radio" name="restaurant" checked = "checked" value="1">In Restaurationsbetrieben
+			</label>	
+		</div>		
+		
+		
+		<div class="form-group col-md-3 radio-inline">
+		  	<label for="Sonstige">
+		  		<input type="radio" name="restaurant" value="0">Sonstige Bewirtung
+			</label>	
+		</div>		
+		
+		
+	</div>
+</div>		
+
+
+<div class="container">
+	<div class="well col-sm-12 col-md-12">			
+		
+			
+		<div class="form-group col-md-6">
+			<label for="ort">Aktueller Ort:</label>
+				<div>
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="">
+				</div>
+		</div>	
+		
+		
+		<div class="form-group col-md-6">
+		  	<label for="datum">Aktuelles Datum:</label>
+				<div>
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="">
+				</div>
+		</div>				
+	</div>
+</div>
+
+
+<div class="container">
+	<div class="well col-md-12 col-md-12">			
+		<div class="form-group input_files_wrap col-md-6">
+			<label for="beleg">Rechnung hochladen:</label>
+				<button class="add_files_input btn-link">Weitere Dateien hochladen</button>
+		</div>							
+	</div>
+</div>
+	
+
+<div class="container">
+	<div class="col-sm-12 col-md-12 text-center">			
+		<button type="submit" class="btn btn-success btn-lg" name="submit_upload"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="margin-right:5px;"></span>Bewirtungsbeleg speichern</button>
+		<a href="http://akidmitry.local/index.cfm/bewirtung/generatePDF" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;"></span>Als PDF herunterladen</a>
+		
+		
+	</div>
+</div>		
+
+
+		<strong>		
+			<div id="warning1">
+			</div>
+		</strong>
+
+	</form>
+		
+	
+</body>
+</html>

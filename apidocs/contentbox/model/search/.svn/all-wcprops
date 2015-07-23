@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search
+END
+ISearchAdapter.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search/ISearchAdapter.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search/package-frame.html
+END
+SearchService.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search/SearchService.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search/package-summary.html
+END
+SearchResults.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search/SearchResults.html
+END
+DBSearch.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/search/DBSearch.html
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions
+END
+SubscriptionService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions/SubscriptionService.cfc
+END
+CommentSubscription.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions/CommentSubscription.cfc
+END
+CommentSubscriptionService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions/CommentSubscriptionService.cfc
+END
+BaseSubscription.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions/BaseSubscription.cfc
+END
+Subscriber.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions/Subscriber.cfc
+END
+SubscriberService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/subscriptions/SubscriberService.cfc
+END

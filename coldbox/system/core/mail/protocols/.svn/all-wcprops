@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/mail/protocols
+END
+CFMailProtocol.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/mail/protocols/CFMailProtocol.cfc
+END
+FileProtocol.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/mail/protocols/FileProtocol.cfc
+END
+PostmarkProtocol.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/mail/protocols/PostmarkProtocol.cfc
+END

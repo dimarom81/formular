@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/models
+END
+feeditems.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/models/feeditems.cfc
+END
+feedmeta.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/feedGenerator/models/feedmeta.cfc
+END

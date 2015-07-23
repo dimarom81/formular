@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts
+END
+bewirtungLayoutLoggedIn.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts/bewirtungLayoutLoggedIn.cfm
+END
+bewirtungLayoutNotLoggedIn.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts/bewirtungLayoutNotLoggedIn.cfm
+END
+ajax.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts/ajax.cfm
+END
+bewirtungLayout.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts/bewirtungLayout.cfm
+END
+main.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts/main.cfm
+END
+bewirtungLayout_BACKUP_not_used.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/layouts/bewirtungLayout_BACKUP_not_used.cfm
+END

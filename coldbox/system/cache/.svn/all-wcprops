@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/license.txt
+END
+ICacheProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/ICacheProvider.cfc
+END
+AbstractCacheBoxProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/AbstractCacheBoxProvider.cfc
+END
+CacheFactory.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/CacheFactory.cfc
+END
+IColdboxApplicationCache.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/IColdboxApplicationCache.cfc
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/readme.txt
+END

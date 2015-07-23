@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbstorages/models
+END
+ClusterStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbstorages/models/ClusterStorage.cfc
+END
+ApplicationStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbstorages/models/ApplicationStorage.cfc
+END
+SessionStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbstorages/models/SessionStorage.cfc
+END
+CookieStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbstorages/models/CookieStorage.cfc
+END
+ClientStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbstorages/models/ClientStorage.cfc
+END

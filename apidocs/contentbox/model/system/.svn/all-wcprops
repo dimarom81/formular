@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system
+END
+Setting.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/Setting.html
+END
+SettingService.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/SettingService.html
+END
+EventHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/EventHandler.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/package-frame.html
+END
+EmailTemplateService.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/EmailTemplateService.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/package-summary.html
+END
+NotificationService.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/system/NotificationService.html
+END

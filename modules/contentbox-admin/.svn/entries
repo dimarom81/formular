@@ -1,0 +1,80 @@
+10
+
+dir
+14275
+http://10.12.191.21/repos/trunk/bewirtungsbeleg/modules/contentbox-admin
+http://10.12.191.21/repos
+
+
+
+2015-07-23T09:53:51.917781Z
+14275
+Matze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6ca9bab6-0e04-4f2e-acef-97b4a823b011
+
+handlers
+dir
+
+layouts
+dir
+
+interceptors
+dir
+
+plugins
+dir
+
+ModuleConfig.cfc
+file
+
+
+
+
+2015-06-25T09:28:42.595644Z
+50ec8d83ac47521f2c4f4a3f528d73d1
+2015-07-23T09:53:51.917781Z
+14275
+Matze
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7473
+
+includes
+dir
+
+views
+dir
+

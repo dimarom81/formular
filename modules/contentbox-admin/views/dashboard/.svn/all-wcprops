@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard
+END
+latestPages.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestPages.cfm
+END
+latestSnapshot.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestSnapshot.cfm
+END
+latestSnapshotHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestSnapshotHelper.cfm
+END
+latestComments.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestComments.cfm
+END
+latestContentStore.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestContentStore.cfm
+END
+latestEntries.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestEntries.cfm
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/index.cfm
+END
+indexHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/indexHelper.cfm
+END
+latestLogins.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestLogins.cfm
+END
+latestNews.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/latestNews.cfm
+END
+about.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/dashboard/about.cfm
+END

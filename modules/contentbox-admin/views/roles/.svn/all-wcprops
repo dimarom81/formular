@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/roles
+END
+permissions.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/roles/permissions.cfm
+END
+permissionsHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/roles/permissionsHelper.cfm
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/roles/index.cfm
+END
+indexHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-admin/views/roles/indexHelper.cfm
+END

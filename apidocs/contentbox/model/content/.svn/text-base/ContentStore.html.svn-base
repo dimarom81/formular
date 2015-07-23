@@ -1,0 +1,2223 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ContentStore</title>
+	<meta name="keywords" content="contentbox.model.content.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/content/ContentStore.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.content"><span class="label label-success">contentbox.model.content</span></a>
+</div>
+
+<h2>
+
+Class
+
+ ContentStore</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by "><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">contentbox.model.content.BaseContent</a>
+            <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.content.ContentStore
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				discriminatorvalue 
+				
+				: ContentStore		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				entityname 
+				
+				: cbContentStore		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cacheuse 
+				
+				: read-write		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				joincolumn 
+				
+				: contentID		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				table 
+				
+				: cb_contentStore		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cachename 
+				
+				: cbContentStore		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				batchsize 
+				
+				: 25		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+I represent a content value store</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentStore.html#description()">description</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 500</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="ContentStore.html#init()">init</A></strong>()
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="ContentStore.html#getDescription()">getDescription</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentStore.html#getMemento()">getMemento</A></strong>([array slugCache='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a flat representation of this contentStore.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="ContentStore.html#prepareForClone()">prepareForClone</A></strong>(any author, any original, any originalService, boolean publish, any originalSlugRoot, any newSlugRoot)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wipe primary key, and descendant keys, and prepare for cloning of entire hierarchies.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="ContentStore.html#setDescription()">setDescription</A></strong>(any description)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="ContentStore.html#validate()">validate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_contentbox.model.content.BaseContent"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">contentbox.model.content.BaseContent</a></kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../../..//contentbox/model/content/BaseContent.html#addActiveContent()">addActiveContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addCategories()">addCategories</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addChild()">addChild</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addComment()">addComment</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addCommentSubscription()">addCommentSubscription</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addContentVersion()">addContentVersion</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addCustomField()">addCustomField</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addExpiredTime()">addExpiredTime</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addLinkedContent()">addLinkedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addNewContentVersion()">addNewContentVersion</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addPublishedTime()">addPublishedTime</a>, <a href="../../..//contentbox/model/content/BaseContent.html#addRelatedContent()">addRelatedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#buildContentCacheKey()">buildContentCacheKey</a>, <a href="../../..//contentbox/model/content/BaseContent.html#canCacheContent()">canCacheContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getActiveContent()">getActiveContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getAllowComments()">getAllowComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getAuthor()">getAuthor</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getAuthorEmail()">getAuthorEmail</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getAuthorName()">getAuthorName</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCache()">getCache</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCachebox()">getCachebox</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCacheLastAccessTimeout()">getCacheLastAccessTimeout</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCacheLayout()">getCacheLayout</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCacheTimeout()">getCacheTimeout</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCategories()">getCategories</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCategoriesList()">getCategoriesList</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCategoryService()">getCategoryService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getChildren()">getChildren</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getComments()">getComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCommentSubscriptions()">getCommentSubscriptions</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getContent()">getContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getContentID()">getContentID</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getContentService()">getContentService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getContentType()">getContentType</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getContentVersions()">getContentVersions</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getContentVersionService()">getContentVersionService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCreatedDate()">getCreatedDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCreator()">getCreator</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCreatorEmail()">getCreatorEmail</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCreatorName()">getCreatorName</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCustomField()">getCustomField</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCustomFields()">getCustomFields</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCustomFieldsAsStruct()">getCustomFieldsAsStruct</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getCustomFieldService()">getCustomFieldService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getDisplayCreatedDate()">getDisplayCreatedDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getDisplayExpireDate()">getDisplayExpireDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getDisplayPublishedDate()">getDisplayPublishedDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getExpireDate()">getExpireDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getExpireDateForEditor()">getExpireDateForEditor</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getHTMLDescription()">getHTMLDescription</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getHTMLKeywords()">getHTMLKeywords</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getInterceptorService()">getInterceptorService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getIsPublished()">getIsPublished</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getLinkedContent()">getLinkedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getMarkup()">getMarkup</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getNumberOfApprovedComments()">getNumberOfApprovedComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getNumberOfChildren()">getNumberOfChildren</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getNumberOfComments()">getNumberOfComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getNumberOfHits()">getNumberOfHits</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getNumberOfVersions()">getNumberOfVersions</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getParent()">getParent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getParentID()">getParentID</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getParentName()">getParentName</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getPasswordProtection()">getPasswordProtection</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getPublishedDate()">getPublishedDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getPublishedDateForEditor()">getPublishedDateForEditor</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getRecursiveSlug()">getRecursiveSlug</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getRelatedContent()">getRelatedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getRelatedContentIDs()">getRelatedContentIDs</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getRenderedContent()">getRenderedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getSettingService()">getSettingService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getShowInSearch()">getShowInSearch</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getSlug()">getSlug</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getStats()">getStats</a>, <a href="../../..//contentbox/model/content/BaseContent.html#getTitle()">getTitle</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasActiveContent()">hasActiveContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasCategories()">hasCategories</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasChild()">hasChild</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasComment()">hasComment</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasCommentSubscription()">hasCommentSubscription</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasContentVersion()">hasContentVersion</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasCreator()">hasCreator</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasCustomField()">hasCustomField</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasLinkedContent()">hasLinkedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasParent()">hasParent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasRelatedContent()">hasRelatedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#hasStats()">hasStats</a>, <a href="../../..//contentbox/model/content/BaseContent.html#inflateCustomFields()">inflateCustomFields</a>, <a href="../../..//contentbox/model/content/BaseContent.html#inflateRelatedContent()">inflateRelatedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#isContentPublished()">isContentPublished</a>, <a href="../../..//contentbox/model/content/BaseContent.html#isExpired()">isExpired</a>, <a href="../../..//contentbox/model/content/BaseContent.html#isLoaded()">isLoaded</a>, <a href="../../..//contentbox/model/content/BaseContent.html#isPasswordProtected()">isPasswordProtected</a>, <a href="../../..//contentbox/model/content/BaseContent.html#isPublishedInFuture()">isPublishedInFuture</a>, <a href="../../..//contentbox/model/content/BaseContent.html#maxContentVersionChecks()">maxContentVersionChecks</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeActiveContent()">removeActiveContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeAllCategories()">removeAllCategories</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeAllLinkedContent()">removeAllLinkedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeCategories()">removeCategories</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeChild()">removeChild</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeComment()">removeComment</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeCommentSubscription()">removeCommentSubscription</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeContentVersion()">removeContentVersion</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeCustomField()">removeCustomField</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeLinkedContent()">removeLinkedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#removeRelatedContent()">removeRelatedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#renderContent()">renderContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#renderContentSilent()">renderContentSilent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setActiveContent()">setActiveContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setAllowComments()">setAllowComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCache()">setCache</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCachebox()">setCachebox</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCacheLastAccessTimeout()">setCacheLastAccessTimeout</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCacheLayout()">setCacheLayout</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCacheTimeout()">setCacheTimeout</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCategories()">setCategories</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCategoryService()">setCategoryService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setChildren()">setChildren</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setComments()">setComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCommentSubscriptions()">setCommentSubscriptions</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setContentService()">setContentService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setContentVersions()">setContentVersions</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setContentVersionService()">setContentVersionService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCreatedDate()">setCreatedDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCreator()">setCreator</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCustomFields()">setCustomFields</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setCustomFieldService()">setCustomFieldService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setExpireDate()">setExpireDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setHTMLDescription()">setHTMLDescription</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setHTMLKeywords()">setHTMLKeywords</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setInterceptorService()">setInterceptorService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setIsPublished()">setIsPublished</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setLinkedContent()">setLinkedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setMarkup()">setMarkup</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setNumberOfApprovedComments()">setNumberOfApprovedComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setNumberOfChildren()">setNumberOfChildren</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setNumberOfComments()">setNumberOfComments</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setNumberOfHits()">setNumberOfHits</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setNumberOfVersions()">setNumberOfVersions</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setParent()">setParent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setPasswordProtection()">setPasswordProtection</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setPublishedDate()">setPublishedDate</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setRelatedContent()">setRelatedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setRenderedContent()">setRenderedContent</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setSettingService()">setSettingService</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setShowInSearch()">setShowInSearch</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setSlug()">setSlug</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setStats()">setStats</a>, <a href="../../..//contentbox/model/content/BaseContent.html#setTitle()">setTitle</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>()</kbd>
+
+	<br><br>
+
+	
+	<p>constructor</p>
+	
+
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="description()"><!-- --></a>
+		<h3>description</h3>
+
+		<kbd>
+			property any 
+			<strong>description</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>length</code> - 500</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="getDescription()"><!-- --></a>
+	<h3>getDescription</h3>
+	
+	<kbd>public string <strong>getDescription</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMemento()"><!-- --></a>
+	<h3>getMemento</h3>
+	
+	<kbd>public any <strong>getMemento</strong>([array slugCache='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a flat representation of this contentStore
+slugCache.hint Cache of slugs to prevent infinite recursions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+		<dl>
+			<dt><strong>Overrides:</strong></dt>
+			<dd>
+			<code>
+			<a href="../../..//contentbox/model/content/BaseContent.html#getMemento()">getMemento</a></code>
+			in class
+			<code>
+				<a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a>
+			</code>
+			</dd>
+		</dl>
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slugCache</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="prepareForClone()"><!-- --></a>
+	<h3>prepareForClone</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>prepareForClone</strong>(any author, any original, any originalService, boolean publish, any originalSlugRoot, any newSlugRoot)</kbd>
+	
+	<br><br>
+
+	
+		<p>Wipe primary key, and descendant keys, and prepare for cloning of entire hierarchies</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+		<dl>
+			<dt><strong>Overrides:</strong></dt>
+			<dd>
+			<code>
+			<a href="../../..//contentbox/model/content/BaseContent.html#prepareForClone()">prepareForClone</a></code>
+			in class
+			<code>
+				<a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a>
+			</code>
+			</dd>
+		</dl>
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>author</code> - The author doing the cloning</dd>
+		
+		<dd><code>original</code> - The original content object that will be cloned into this content object</dd>
+		
+		<dd><code>originalService</code> - The ContentBox content service object</dd>
+		
+		<dd><code>publish</code> - Publish pages or leave as drafts</dd>
+		
+		<dd><code>originalSlugRoot</code> - The original slug that will be replaced in all cloned content</dd>
+		
+		<dd><code>newSlugRoot</code> - The new slug root that will be replaced in all cloned content</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setDescription()"><!-- --></a>
+	<h3>setDescription</h3>
+	
+	<kbd>public any <strong>setDescription</strong>(any description)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>description</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="validate()"><!-- --></a>
+	<h3>validate</h3>
+	
+	<kbd>public array <strong>validate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

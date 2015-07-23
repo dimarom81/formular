@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes
+END
+CFScopes.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes/CFScopes.cfc
+END
+NoScope.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes/NoScope.cfc
+END
+CacheBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes/CacheBox.cfc
+END
+IScope.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes/IScope.cfc
+END
+RequestScope.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes/RequestScope.cfc
+END
+Singleton.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/scopes/Singleton.cfc
+END

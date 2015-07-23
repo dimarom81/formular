@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions
+END
+BaseSubscription.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/BaseSubscription.html
+END
+Subscriber.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/Subscriber.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/package-frame.html
+END
+SubscriberService.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/SubscriberService.html
+END
+SubscriptionService.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/SubscriptionService.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/package-summary.html
+END
+CommentSubscription.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/CommentSubscription.html
+END
+CommentSubscriptionService.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/subscriptions/CommentSubscriptionService.html
+END

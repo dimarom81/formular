@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security
+END
+SecurityRuleService.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/SecurityRuleService.html
+END
+RateLimiter.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/RateLimiter.html
+END
+RoleService.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/RoleService.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/package-frame.html
+END
+AuthorService.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/AuthorService.html
+END
+LoginTracker.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/LoginTracker.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/package-summary.html
+END
+SecurityService.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/SecurityService.html
+END
+Permission.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/Permission.html
+END
+SecurityRule.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/SecurityRule.html
+END
+Role.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/Role.html
+END
+ISecurityService.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/ISecurityService.html
+END
+Author.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/Author.html
+END
+LoginTrackerService.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/LoginTrackerService.html
+END
+LoginAttempt.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/LoginAttempt.html
+END
+PermissionService.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/security/PermissionService.html
+END

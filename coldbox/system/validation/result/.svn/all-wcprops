@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/result
+END
+ValidationResult.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/result/ValidationResult.cfc
+END
+IValidationError.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/result/IValidationError.cfc
+END
+IValidationResult.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/result/IValidationResult.cfc
+END
+ValidationError.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/validation/result/ValidationError.cfc
+END

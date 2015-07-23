@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/config
+END
+DefaultBinder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/config/DefaultBinder.cfc
+END
+LogBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/config/LogBox.cfc
+END
+Mapping.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/config/Mapping.cfc
+END
+Binder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/config/Binder.cfc
+END
+Mixin.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/config/Mixin.cfc
+END

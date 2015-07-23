@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/config
+END
+DebuggerConfig.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/config/DebuggerConfig.cfc
+END
+LogBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/config/LogBox.cfc
+END
+CacheBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/config/CacheBox.cfc
+END
+Settings.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/web/config/Settings.cfc
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/config
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/config/Coldbox.cfc
+END
+Routes.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/config/Routes.cfm
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/config/Application.cfm
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/config/.htaccess
+END

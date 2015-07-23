@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts
+END
+pages_print.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/pages_print.cfm
+END
+blog_pdf.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/blog_pdf.cfm
+END
+blog_print.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/blog_print.cfm
+END
+pages.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/pages.cfm
+END
+maintenance.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/maintenance.cfm
+END
+blog.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/blog.cfm
+END
+pageNoSidebar.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/pageNoSidebar.cfm
+END
+search.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/search.cfm
+END
+blog_doc.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/blog_doc.cfm
+END
+pages_pdf.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/layouts/pages_pdf.cfm
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/compat/framework
+END
+TestSuite.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/compat/framework/TestSuite.cfc
+END
+TestCase.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/compat/framework/TestCase.cfc
+END
+Results.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/compat/framework/Results.cfc
+END

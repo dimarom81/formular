@@ -1,0 +1,8389 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CBHelper</title>
+	<meta name="keywords" content="contentbox.plugins.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../highlighter/styles/shCoreDefault.css">
+	<script src="../../highlighter/scripts/shCore.js"></script>
+	<script src="../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../index.html?contentbox/plugins/CBHelper.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.plugins"><span class="label label-success">contentbox.plugins</span></a>
+</div>
+
+<h2>
+
+Class
+
+ CBHelper</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../resources/inherit.gif" alt="extended by ">coldbox.system.FrameworkSupertype
+            <img src="../../resources/inherit.gif" alt="extended by ">coldbox.system.Plugin
+                <img src="../../resources/inherit.gif" alt="extended by ">contentbox.plugins.CBHelper
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				threadsafe 
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				singleton 
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+
+
+
+
+<div id="class-hint">
+	<p>ContentBox - A Modular Content Platform
+Copyright 2012 by Luis Majano and Ortus Solutions, Corp
+www.ortussolutions.com
+Apache License, Version 2.0
+Copyright Since [2012] [Luis Majano and Ortus Solutions,Corp]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+This is the ContentBox UI helper class that is injected by the CBRequest interceptor</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#authorService()">authorService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:authorService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#categoryService()">categoryService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:categoryService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#commentService()">commentService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:commentService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#contentStoreService()">contentStoreService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:contentStoreService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#entryService()">entryService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:entryService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#menuItemService()">menuItemService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:menuItemService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#menuService()">menuService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:menuService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#minifier()">minifier</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = coldbox:myplugin:JSMin@contentbox</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#mobileDetector()">mobileDetector</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:mobileDetector@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#moduleService()">moduleService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:moduleService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#pageService()">pageService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:pageService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#settingService()">settingService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:settingService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#widgetService()">widgetService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:widgetService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="CBHelper.html#init()">init</A></strong>(any controller)
+				<br>
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#adminRoot()">adminRoot</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#breadCrumbs()">breadCrumbs</A></strong>([any page], [any separator='>'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create breadcrumbs for a page.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>private&nbsp;any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#buildMenu()">buildMenu</A></strong>([any pageRecords], [any excludes=''], [any type='ul'], [any typeClass='submenu'], [any separator=''], [boolean showNone='true'], [any levels='1'], [numeric currentLevel='1'], [any elementClass=''], [any parentClass='parent'], [any activeClass='active'], [any activeShowChildren='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRIVATE ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#buildModuleLink()">buildModuleLink</A></strong>(string module, string linkTo, [any queryString=''], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build out ContentBox module links.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#buildProviderMenu()">buildProviderMenu</A></strong>(<a href="../../contentbox/model/menu/Menu.html" title="class in contentbox.model.menu">Menu</a> menu, array slugCache='[runtime expression]')
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Builds out a custom menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>private&nbsp;string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#buildProviderMenuLevel()">buildProviderMenuLevel</A></strong>(array items, string listType='ul', array slugCache='[runtime expression]', [string listClass=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Builds out a level of a custom menu.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#categoryFilterExists()">categoryFilterExists</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#contentStore()">contentStore</A></strong>(any slug, [any defaultValue=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a published content store and return its latest active content.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#contentStoreObject()">contentStoreObject</A></strong>(any slug)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a content store object by slug, if not found it returns null.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#customHTML()">customHTML</A></strong>(any slug, [any defaultValue=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a published custom HTML content pieces by slug: DEPRECATED, use contentStore() instead.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#event()">event</A></strong>(any state, [struct data='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;events ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getAuthorService()">getAuthorService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getBlogEntryPoint()">getBlogEntryPoint</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCategoryFilter()">getCategoryFilter</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCategoryService()">getCategoryService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCommentErrors()">getCommentErrors</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCommentService()">getCommentService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getContentBoxCodeName()">getContentBoxCodeName</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getContentBoxCodeNameURL()">getContentBoxCodeNameURL</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getContentBoxVersion()">getContentBoxVersion</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getContentStoreService()">getContentStoreService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentCategories()">getCurrentCategories</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentComments()">getCurrentComments</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentCommentsCount()">getCurrentCommentsCount</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>struct</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentCustomFields()">getCurrentCustomFields</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentEntries()">getCurrentEntries</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentEntriesCount()">getCurrentEntriesCount</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentEntry()">getCurrentEntry</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentPage()">getCurrentPage</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCurrentRelatedContent()">getCurrentRelatedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getCustomField()">getCustomField</A></strong>(any key, [any defaultValue])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getDayFilter()">getDayFilter</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getEntryService()">getEntryService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getFlash()">getFlash</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the current system flash scope.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getHomePage()">getHomePage</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMaintenanceMessage()">getMaintenanceMessage</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMenuItemService()">getMenuItemService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMenuService()">getMenuService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMinifier()">getMinifier</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minify methods ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMissingPage()">getMissingPage</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMobileDetector()">getMobileDetector</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getModuleService()">getModuleService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getMonthFilter()">getMonthFilter</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getPageService()">getPageService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../contentbox/model/search/SearchResults.html" title="class in contentbox.model.search">SearchResults</a></code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getSearchResults()">getSearchResults</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getSearchResultsContent()">getSearchResultsContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getSearchTerm()">getSearchTerm</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getSettingService()">getSettingService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getWidget()">getWidget</A></strong>(any name)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a widget object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getWidgetService()">getWidgetService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#getYearFilter()">getYearFilter</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isArchivesView()">isArchivesView</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isBlogView()">isBlogView</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isCommentFormError()">isCommentFormError</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isCommentsEnabled()">isCommentsEnabled</A></strong>([any content])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Determines if site comments are enabled and if the entry accepts comments.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isEntryView()">isEntryView</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isIndexView()">isIndexView</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isMobile()">isMobile</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detects if the incoming request is from a mobile device or NOT.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isPageView()">isPageView</A></strong>([any page=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Determine if you are in the page view.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isPreview()">isPreview</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Determine if you're in a "preview" mode or not.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isPrintFormat()">isPrintFormat</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#isSearchView()">isSearchView</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#layoutName()">layoutName</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#layoutRoot()">layoutRoot</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;root methods ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#layoutSetting()">layoutSetting</A></strong>(any key, [any value])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a layout setting.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkAdmin()">linkAdmin</A></strong>([any event=''], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the admin.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkAdminLogin()">linkAdminLogin</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the admin login.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkAdminLogout()">linkAdminLogout</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the admin logout.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkArchive()">linkArchive</A></strong>([any year], [any month], [any day], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific filtered archive of entries.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkBlog()">linkBlog</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a link to your site blog.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkCategory()">linkCategory</A></strong>(any category, [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific filtered category view of blog entries.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkCategoryWithSlug()">linkCategoryWithSlug</A></strong>(string categorySlug, [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific filtered category view of blog entries.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkComment()">linkComment</A></strong>(any comment, [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a link to a specific comment in a page or in an entry.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkCommentPost()">linkCommentPost</A></strong>(any content, [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the commenting post action, this is where comments are submitted to.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkComments()">linkComments</A></strong>(any content, [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a link to an entry's or page's comments section.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkContent()">linkContent</A></strong>(any content, [boolean ssl='false'], [any format='html'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific content object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkContentSearch()">linkContentSearch</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the content search route.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkContentSubscription()">linkContentSubscription</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the content subscription route.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkContentUnsubscribe()">linkContentUnsubscribe</A></strong>(string token, [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the ContentBox Content Subscription unsubscribe URL.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkEntry()">linkEntry</A></strong>(any entry, [boolean ssl='false'], [any format='html'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific blog entry's page.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkEntryWithSlug()">linkEntryWithSlug</A></strong>(any slug, [boolean ssl='false'], [any format='html'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific entry's page using a slug only.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkHome()">linkHome</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a link to your site root or home page entry point for your blog.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkPage()">linkPage</A></strong>(any page, [boolean ssl='false'], [any format='html'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific page.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkPageRSS()">linkPageRSS</A></strong>([any category], [boolean comments='false'], [any page], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the ContentBox Page RSS Feeds.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkPageWithSlug()">linkPageWithSlug</A></strong>(any slug, [boolean ssl='false'], [any format='html'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to a specific page using a slug only.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkRSS()">linkRSS</A></strong>([any category], [any comments='false'], [any entry], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to RSS feeds that ContentBox generates, by default it is the recent updates feed.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkSearch()">linkSearch</A></strong>([boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the search route for this blog.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkSelf()">linkSelf</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a link to the current page/entry you are on.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkSiteRSS()">linkSiteRSS</A></strong>([any category], [boolean comments='false'], [string slug], [boolean ssl='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Link to the ContentBox Site RSS Feeds.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#linkToParentPage()">linkToParentPage</A></strong>([any page], [any text=''])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create an href to a page's parent.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#mainView()">mainView</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render the incoming event's main view, basically a proxy to ColdBox's renderView().
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#menu()">menu</A></strong>(string slug, any type='html', array slugCache='[runtime expression]')
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MENUS ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#minify()">minify</A></strong>(any assets)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prepare source(s) statements using our fabulous jsmin compressor.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../contentbox/plugins/CBHelper.html" title="class in contentbox.plugins">CBHelper</a></code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#minifyClearCache()">minifyClearCache</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../contentbox/plugins/CBHelper.html" title="class in contentbox.plugins">CBHelper</a></code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#minifyToHead()">minifyToHead</A></strong>(any assets)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prepare source(s) statements using our fabulous jsmin compressor and send them to the head section.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../contentbox/plugins/CBHelper.html" title="class in contentbox.plugins">CBHelper</a></code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#prepareUIRequest()">prepareUIRequest</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prepare a ContentBox UI request.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickAvatar()">quickAvatar</A></strong>(any author, [numeric size='25'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Renders out an author's avatar.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickCategories()">quickCategories</A></strong>([any template='category'], [any collectionAs='category'], [any args='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out categories anywhere using ColdBox collection rendering.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickCategoryLinks()">quickCategoryLinks</A></strong>(any entry)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quick HTML ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickCommentForm()">quickCommentForm</A></strong>(any content)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quickCommentForm will build a standard ContentBox Comment Form according to the CommentForm widget.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickComments()">quickComments</A></strong>([any template='comment'], [any collectionAs='comment'], [any args='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out comments anywhere using ColdBox collection rendering.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickCustomFields()">quickCustomFields</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out custom fields for the current content.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickEntries()">quickEntries</A></strong>([any template='entry'], [any collectionAs='entry'], [any args='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out entries in the home page by using our ColdBox collection rendering.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickEntry()">quickEntry</A></strong>([any template='entry'], [any collectionAs='entry'], [any args='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out an entry using your pre-defined 'entry' template.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickLayout()">quickLayout</A></strong>(any layout, [any view=''], [any module='contentbox'], [any args='[runtime expression]'], [any viewModule=''], [any prePostExempt='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QuickLayout is a proxy to ColdBox's renderLayout method with the addition of prefixing the location of the layout according to the.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickPaging()">quickPaging</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out paging for blog entries only.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickRelatedContent()">quickRelatedContent</A></strong>([any template='relatedContent'], [any collectionAs='relatedContent'], [any args='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out related content anywhere using ColdBox collection rendering.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickSearchForm()">quickSearchForm</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;quickSearchForm will build a standard ContentBox Content Search Form according to the SearchForm widget.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickSearchPaging()">quickSearchPaging</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out paging for search content.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#quickView()">quickView</A></strong>(any view, [any cache='false'], [any cacheTimeout], [any cacheLastAccessTimeout], [any cacheSuffix], [any module='contentbox'], [any args], [any collection], [any collectionAs], [any prepostExempt])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QuickView is a proxy to ColdBox's renderview method with the addition of prefixing the location of the view according to the.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#r()">r</A></strong>(string resource, [string defaultValue], [string locale], [any values], [string bundle])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieve i18n resources.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#rootMenu()">rootMenu</A></strong>([any excludes=''], [any type='ul'], [any typeClass=''], [any separator=''], [any levels='1'], [any elementClass=''], [any parentClass='parent'], [any activeClass='active'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render out a quick menu for root level pages.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#searchTermExists()">searchTermExists</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>private&nbsp;any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#sep()">sep</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the site URL separator.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setAuthorService()">setAuthorService</A></strong>(any authorService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setCategoryService()">setCategoryService</A></strong>(any categoryService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setCommentService()">setCommentService</A></strong>(any commentService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setContentStoreService()">setContentStoreService</A></strong>(any contentStoreService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setEntryService()">setEntryService</A></strong>(any entryService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setMenuItemService()">setMenuItemService</A></strong>(any menuItemService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setMenuService()">setMenuService</A></strong>(any menuService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setMinifier()">setMinifier</A></strong>(any minifier)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setMobileDetector()">setMobileDetector</A></strong>(any mobileDetector)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setModuleService()">setModuleService</A></strong>(any moduleService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setNextModuleEvent()">setNextModuleEvent</A></strong>(string module, [string event], [any queryString=''], [boolean addToken='false'], [any persist], [struct persistStruct], [boolean ssl='false'], [boolean postProcessExempt='false'], [numeric statusCode])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SetNextEvent For ContentBox Modules.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setPageService()">setPageService</A></strong>(any pageService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setSettingService()">setSettingService</A></strong>(any settingService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setting()">setting</A></strong>(any key, [any value])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;settings ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#setWidgetService()">setWidgetService</A></strong>(any widgetService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteBaseURL()">siteBaseURL</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteDescription()">siteDescription</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteEmail()">siteEmail</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteKeywords()">siteKeywords</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteName()">siteName</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;site properties ********************************************.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteOutgoingEmail()">siteOutgoingEmail</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteRoot()">siteRoot</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#siteTagLine()">siteTagLine</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#stripHTML()">stripHTML</A></strong>(any stringTarget)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;utility to strip HTML.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#subPageMenu()">subPageMenu</A></strong>([any page], [any excludes=''], [any type='ul'], [any typeClass=''], [any separator=''], [boolean showNone='true'], [any levels='1'], [any elementClass=''], [any parentClass='parent'], [any activeClass='active'], [any activeShowChildren='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a sub page menu for a given page or current page.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#widget()">widget</A></strong>(any name, [struct args='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Execute a widget's renderit method.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="CBHelper.html#widgetRoot()">widgetRoot</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.Plugin"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.Plugin</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../..//coldbox/system/Plugin.html#getpluginAuthor()">getpluginAuthor</a>, <a href="../..//coldbox/system/Plugin.html#getpluginAuthorURL()">getpluginAuthorURL</a>, <a href="../..//coldbox/system/Plugin.html#getPluginDescription()">getPluginDescription</a>, <a href="../..//coldbox/system/Plugin.html#getPluginName()">getPluginName</a>, <a href="../..//coldbox/system/Plugin.html#getpluginPath()">getpluginPath</a>, <a href="../..//coldbox/system/Plugin.html#getPluginVersion()">getPluginVersion</a>, <a href="../..//coldbox/system/Plugin.html#getRequestCollection()">getRequestCollection</a>, <a href="../..//coldbox/system/Plugin.html#getRequestContext()">getRequestContext</a>, <a href="../..//coldbox/system/Plugin.html#setpluginAuthor()">setpluginAuthor</a>, <a href="../..//coldbox/system/Plugin.html#setpluginAuthorURL()">setpluginAuthorURL</a>, <a href="../..//coldbox/system/Plugin.html#setPluginDescription()">setPluginDescription</a>, <a href="../..//coldbox/system/Plugin.html#setPluginName()">setPluginName</a>, <a href="../..//coldbox/system/Plugin.html#setPluginVersion()">setPluginVersion</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_coldbox.system.FrameworkSupertype"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>coldbox.system.FrameworkSupertype</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+					
+					
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+				
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+					
+					
+					
+						
+					
+					
+					
+					
+				
+				
+				
+					<a href="../..//coldbox/system/FrameworkSupertype.html#addAsset()">addAsset</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#announceInterception()">announceInterception</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getCache()">getCache</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getController()">getController</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getDatasource()">getDatasource</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getInstance()">getInstance</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getInterceptor()">getInterceptor</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getModel()">getModel</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getModuleConfig()">getModuleConfig</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getModuleSettings()">getModuleSettings</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getMyPlugin()">getMyPlugin</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getPlugin()">getPlugin</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getRenderer()">getRenderer</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getSetting()">getSetting</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#getSettingStructure()">getSettingStructure</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#includeUDF()">includeUDF</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#loadApplicationHelpers()">loadApplicationHelpers</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#locateDirectoryPath()">locateDirectoryPath</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#locateFilePath()">locateFilePath</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#persistVariables()">persistVariables</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#populateModel()">populateModel</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#renderExternalView()">renderExternalView</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#renderLayout()">renderLayout</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#renderView()">renderView</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#runEvent()">runEvent</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#setController()">setController</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#setNextEvent()">setNextEvent</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#setSetting()">setSetting</a>, <a href="../..//coldbox/system/FrameworkSupertype.html#settingExists()">settingExists</a>
+				
+			</td>
+		</tr>
+	</table>
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>(any controller)</kbd>
+
+	<br><br>
+
+	
+
+	
+	<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+			<dd><code>controller</code></dd>
+		
+	</dl>
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="authorService()"><!-- --></a>
+		<h3>authorService</h3>
+
+		<kbd>
+			property any 
+			<strong>authorService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:authorService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="categoryService()"><!-- --></a>
+		<h3>categoryService</h3>
+
+		<kbd>
+			property any 
+			<strong>categoryService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:categoryService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="commentService()"><!-- --></a>
+		<h3>commentService</h3>
+
+		<kbd>
+			property any 
+			<strong>commentService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:commentService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentStoreService()"><!-- --></a>
+		<h3>contentStoreService</h3>
+
+		<kbd>
+			property any 
+			<strong>contentStoreService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:contentStoreService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="entryService()"><!-- --></a>
+		<h3>entryService</h3>
+
+		<kbd>
+			property any 
+			<strong>entryService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:entryService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="menuItemService()"><!-- --></a>
+		<h3>menuItemService</h3>
+
+		<kbd>
+			property any 
+			<strong>menuItemService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:menuItemService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="menuService()"><!-- --></a>
+		<h3>menuService</h3>
+
+		<kbd>
+			property any 
+			<strong>menuService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:menuService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="minifier()"><!-- --></a>
+		<h3>minifier</h3>
+
+		<kbd>
+			property any 
+			<strong>minifier</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - coldbox:myplugin:JSMin@contentbox</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="mobileDetector()"><!-- --></a>
+		<h3>mobileDetector</h3>
+
+		<kbd>
+			property any 
+			<strong>mobileDetector</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:mobileDetector@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="moduleService()"><!-- --></a>
+		<h3>moduleService</h3>
+
+		<kbd>
+			property any 
+			<strong>moduleService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:moduleService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="pageService()"><!-- --></a>
+		<h3>pageService</h3>
+
+		<kbd>
+			property any 
+			<strong>pageService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:pageService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="settingService()"><!-- --></a>
+		<h3>settingService</h3>
+
+		<kbd>
+			property any 
+			<strong>settingService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:settingService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="widgetService()"><!-- --></a>
+		<h3>widgetService</h3>
+
+		<kbd>
+			property any 
+			<strong>widgetService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:widgetService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="adminRoot()"><!-- --></a>
+	<h3>adminRoot</h3>
+	
+	<kbd>public any <strong>adminRoot</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="breadCrumbs()"><!-- --></a>
+	<h3>breadCrumbs</h3>
+	
+	<kbd>public any <strong>breadCrumbs</strong>([any page], [any separator='>'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create breadcrumbs for a page</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code> - Optional page to create link for, else look for current page</dd>
+		
+		<dd><code>separator</code> - Breadcrumb separator</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildMenu()"><!-- --></a>
+	<h3>buildMenu</h3>
+	
+	<kbd>private any <strong>buildMenu</strong>([any pageRecords], [any excludes=''], [any type='ul'], [any typeClass='submenu'], [any separator=''], [boolean showNone='true'], [any levels='1'], [numeric currentLevel='1'], [any elementClass=''], [any parentClass='parent'], [any activeClass='active'], [any activeShowChildren='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>PRIVATE ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>pageRecords</code></dd>
+		
+		<dd><code>excludes</code></dd>
+		
+		<dd><code>type</code></dd>
+		
+		<dd><code>typeClass</code></dd>
+		
+		<dd><code>separator</code></dd>
+		
+		<dd><code>showNone</code></dd>
+		
+		<dd><code>levels</code></dd>
+		
+		<dd><code>currentLevel</code></dd>
+		
+		<dd><code>elementClass</code></dd>
+		
+		<dd><code>parentClass</code></dd>
+		
+		<dd><code>activeClass</code></dd>
+		
+		<dd><code>activeShowChildren</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildModuleLink()"><!-- --></a>
+	<h3>buildModuleLink</h3>
+	
+	<kbd>public any <strong>buildModuleLink</strong>(string module, string linkTo, [any queryString=''], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Build out ContentBox module links</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>module</code> - The module to link this URL to</dd>
+		
+		<dd><code>linkTo</code> - The handler action combination to link to</dd>
+		
+		<dd><code>queryString</code> - The query string to append in SES format</dd>
+		
+		<dd><code>ssl</code> - Create the link in SSL or not</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildProviderMenu()"><!-- --></a>
+	<h3>buildProviderMenu</h3>
+	
+	<kbd>public string <strong>buildProviderMenu</strong>(<a href="../../contentbox/model/menu/Menu.html" title="class in contentbox.model.menu">Menu</a> menu, array slugCache='[runtime expression]')</kbd>
+	
+	<br><br>
+
+	
+		<p>Builds out a custom menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>menu</code> - The root menu that should be rendered</dd>
+		
+		<dd><code>slugCache</code> - The cache of menu slugs already used in this request</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildProviderMenuLevel()"><!-- --></a>
+	<h3>buildProviderMenuLevel</h3>
+	
+	<kbd>private string <strong>buildProviderMenuLevel</strong>(array items, string listType='ul', array slugCache='[runtime expression]', [string listClass=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Builds out a level of a custom menu</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>items</code> - An array of menu items for this level</dd>
+		
+		<dd><code>listType</code> - The type of list to create (derived from owning menu)</dd>
+		
+		<dd><code>slugCache</code> - The cache of menu slugs already used in this request</dd>
+		
+		<dd><code>listClass</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="categoryFilterExists()"><!-- --></a>
+	<h3>categoryFilterExists</h3>
+	
+	<kbd>public boolean <strong>categoryFilterExists</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="contentStore()"><!-- --></a>
+	<h3>contentStore</h3>
+	
+	<kbd>public any <strong>contentStore</strong>(any slug, [any defaultValue=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a published content store and return its latest active content</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The content slug to retrieve</dd>
+		
+		<dd><code>defaultValue</code> - The default value to use if the content element not found.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="contentStoreObject()"><!-- --></a>
+	<h3>contentStoreObject</h3>
+	
+	<kbd>public any <strong>contentStoreObject</strong>(any slug)</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a content store object by slug, if not found it returns null.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The content slug to retrieve</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="customHTML()"><!-- --></a>
+	<h3>customHTML</h3>
+	
+	<kbd>public any <strong>customHTML</strong>(any slug, [any defaultValue=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a published custom HTML content pieces by slug: DEPRECATED, use contentStore() instead</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The content slug to retrieve</dd>
+		
+		<dd><code>defaultValue</code> - The default value to use if custom html element not found.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="event()"><!-- --></a>
+	<h3>event</h3>
+	
+	<kbd>public any <strong>event</strong>(any state, [struct data='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>events ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>state</code></dd>
+		
+		<dd><code>data</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorService()"><!-- --></a>
+	<h3>getAuthorService</h3>
+	
+	<kbd>public string <strong>getAuthorService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getBlogEntryPoint()"><!-- --></a>
+	<h3>getBlogEntryPoint</h3>
+	
+	<kbd>public any <strong>getBlogEntryPoint</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCategoryFilter()"><!-- --></a>
+	<h3>getCategoryFilter</h3>
+	
+	<kbd>public any <strong>getCategoryFilter</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCategoryService()"><!-- --></a>
+	<h3>getCategoryService</h3>
+	
+	<kbd>public string <strong>getCategoryService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCommentErrors()"><!-- --></a>
+	<h3>getCommentErrors</h3>
+	
+	<kbd>public array <strong>getCommentErrors</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCommentService()"><!-- --></a>
+	<h3>getCommentService</h3>
+	
+	<kbd>public string <strong>getCommentService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentBoxCodeName()"><!-- --></a>
+	<h3>getContentBoxCodeName</h3>
+	
+	<kbd>public any <strong>getContentBoxCodeName</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentBoxCodeNameURL()"><!-- --></a>
+	<h3>getContentBoxCodeNameURL</h3>
+	
+	<kbd>public any <strong>getContentBoxCodeNameURL</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentBoxVersion()"><!-- --></a>
+	<h3>getContentBoxVersion</h3>
+	
+	<kbd>public any <strong>getContentBoxVersion</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentStoreService()"><!-- --></a>
+	<h3>getContentStoreService</h3>
+	
+	<kbd>public string <strong>getContentStoreService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentCategories()"><!-- --></a>
+	<h3>getCurrentCategories</h3>
+	
+	<kbd>public any <strong>getCurrentCategories</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentComments()"><!-- --></a>
+	<h3>getCurrentComments</h3>
+	
+	<kbd>public any <strong>getCurrentComments</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentCommentsCount()"><!-- --></a>
+	<h3>getCurrentCommentsCount</h3>
+	
+	<kbd>public any <strong>getCurrentCommentsCount</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentCustomFields()"><!-- --></a>
+	<h3>getCurrentCustomFields</h3>
+	
+	<kbd>public struct <strong>getCurrentCustomFields</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentEntries()"><!-- --></a>
+	<h3>getCurrentEntries</h3>
+	
+	<kbd>public any <strong>getCurrentEntries</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentEntriesCount()"><!-- --></a>
+	<h3>getCurrentEntriesCount</h3>
+	
+	<kbd>public any <strong>getCurrentEntriesCount</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentEntry()"><!-- --></a>
+	<h3>getCurrentEntry</h3>
+	
+	<kbd>public any <strong>getCurrentEntry</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentPage()"><!-- --></a>
+	<h3>getCurrentPage</h3>
+	
+	<kbd>public any <strong>getCurrentPage</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCurrentRelatedContent()"><!-- --></a>
+	<h3>getCurrentRelatedContent</h3>
+	
+	<kbd>public any <strong>getCurrentRelatedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCustomField()"><!-- --></a>
+	<h3>getCustomField</h3>
+	
+	<kbd>public any <strong>getCustomField</strong>(any key, [any defaultValue])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>key</code></dd>
+		
+		<dd><code>defaultValue</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDayFilter()"><!-- --></a>
+	<h3>getDayFilter</h3>
+	
+	<kbd>public any <strong>getDayFilter</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getEntryService()"><!-- --></a>
+	<h3>getEntryService</h3>
+	
+	<kbd>public string <strong>getEntryService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getFlash()"><!-- --></a>
+	<h3>getFlash</h3>
+	
+	<kbd>public any <strong>getFlash</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Return the current system flash scope</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getHomePage()"><!-- --></a>
+	<h3>getHomePage</h3>
+	
+	<kbd>public any <strong>getHomePage</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMaintenanceMessage()"><!-- --></a>
+	<h3>getMaintenanceMessage</h3>
+	
+	<kbd>public any <strong>getMaintenanceMessage</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMenuItemService()"><!-- --></a>
+	<h3>getMenuItemService</h3>
+	
+	<kbd>public string <strong>getMenuItemService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMenuService()"><!-- --></a>
+	<h3>getMenuService</h3>
+	
+	<kbd>public string <strong>getMenuService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMinifier()"><!-- --></a>
+	<h3>getMinifier</h3>
+	
+	<kbd>public any <strong>getMinifier</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Minify methods ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMissingPage()"><!-- --></a>
+	<h3>getMissingPage</h3>
+	
+	<kbd>public any <strong>getMissingPage</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMobileDetector()"><!-- --></a>
+	<h3>getMobileDetector</h3>
+	
+	<kbd>public string <strong>getMobileDetector</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getModuleService()"><!-- --></a>
+	<h3>getModuleService</h3>
+	
+	<kbd>public string <strong>getModuleService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMonthFilter()"><!-- --></a>
+	<h3>getMonthFilter</h3>
+	
+	<kbd>public any <strong>getMonthFilter</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPageService()"><!-- --></a>
+	<h3>getPageService</h3>
+	
+	<kbd>public string <strong>getPageService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSearchResults()"><!-- --></a>
+	<h3>getSearchResults</h3>
+	
+	<kbd>public <a href="../../contentbox/model/search/SearchResults.html" title="class in contentbox.model.search">SearchResults</a> <strong>getSearchResults</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSearchResultsContent()"><!-- --></a>
+	<h3>getSearchResultsContent</h3>
+	
+	<kbd>public any <strong>getSearchResultsContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSearchTerm()"><!-- --></a>
+	<h3>getSearchTerm</h3>
+	
+	<kbd>public any <strong>getSearchTerm</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSettingService()"><!-- --></a>
+	<h3>getSettingService</h3>
+	
+	<kbd>public string <strong>getSettingService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getWidget()"><!-- --></a>
+	<h3>getWidget</h3>
+	
+	<kbd>public any <strong>getWidget</strong>(any name)</kbd>
+	
+	<br><br>
+
+	
+		<p>Return a widget object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code> - The name of the installed widget to return</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getWidgetService()"><!-- --></a>
+	<h3>getWidgetService</h3>
+	
+	<kbd>public string <strong>getWidgetService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getYearFilter()"><!-- --></a>
+	<h3>getYearFilter</h3>
+	
+	<kbd>public any <strong>getYearFilter</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isArchivesView()"><!-- --></a>
+	<h3>isArchivesView</h3>
+	
+	<kbd>public boolean <strong>isArchivesView</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isBlogView()"><!-- --></a>
+	<h3>isBlogView</h3>
+	
+	<kbd>public boolean <strong>isBlogView</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isCommentFormError()"><!-- --></a>
+	<h3>isCommentFormError</h3>
+	
+	<kbd>public boolean <strong>isCommentFormError</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isCommentsEnabled()"><!-- --></a>
+	<h3>isCommentsEnabled</h3>
+	
+	<kbd>public any <strong>isCommentsEnabled</strong>([any content])</kbd>
+	
+	<br><br>
+
+	
+		<p>Determines if site comments are enabled and if the entry accepts comments</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - The entry or page content to validate comments also with</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isEntryView()"><!-- --></a>
+	<h3>isEntryView</h3>
+	
+	<kbd>public boolean <strong>isEntryView</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isIndexView()"><!-- --></a>
+	<h3>isIndexView</h3>
+	
+	<kbd>public boolean <strong>isIndexView</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isMobile()"><!-- --></a>
+	<h3>isMobile</h3>
+	
+	<kbd>public boolean <strong>isMobile</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Detects if the incoming request is from a mobile device or NOT.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isPageView()"><!-- --></a>
+	<h3>isPageView</h3>
+	
+	<kbd>public boolean <strong>isPageView</strong>([any page=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Determine if you are in the page view</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code> - Optional page slug to determine if you are in that page or not.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isPreview()"><!-- --></a>
+	<h3>isPreview</h3>
+	
+	<kbd>public boolean <strong>isPreview</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Determine if you're in a "preview" mode or not</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isPrintFormat()"><!-- --></a>
+	<h3>isPrintFormat</h3>
+	
+	<kbd>public boolean <strong>isPrintFormat</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isSearchView()"><!-- --></a>
+	<h3>isSearchView</h3>
+	
+	<kbd>public boolean <strong>isSearchView</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>search ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="layoutName()"><!-- --></a>
+	<h3>layoutName</h3>
+	
+	<kbd>public any <strong>layoutName</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="layoutRoot()"><!-- --></a>
+	<h3>layoutRoot</h3>
+	
+	<kbd>public any <strong>layoutRoot</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>root methods ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="layoutSetting()"><!-- --></a>
+	<h3>layoutSetting</h3>
+	
+	<kbd>public any <strong>layoutSetting</strong>(any key, [any value])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a layout setting</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>key</code> - The name of the layout setting</dd>
+		
+		<dd><code>value</code> - The default value if the layout setting does not exist</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkAdmin()"><!-- --></a>
+	<h3>linkAdmin</h3>
+	
+	<kbd>public any <strong>linkAdmin</strong>([any event=''], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the admin</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>event</code> - An optional event to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkAdminLogin()"><!-- --></a>
+	<h3>linkAdminLogin</h3>
+	
+	<kbd>public any <strong>linkAdminLogin</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the admin login</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkAdminLogout()"><!-- --></a>
+	<h3>linkAdminLogout</h3>
+	
+	<kbd>public any <strong>linkAdminLogout</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the admin logout</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkArchive()"><!-- --></a>
+	<h3>linkArchive</h3>
+	
+	<kbd>public any <strong>linkArchive</strong>([any year], [any month], [any day], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific filtered archive of entries</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>year</code> - The year of the archive</dd>
+		
+		<dd><code>month</code> - The month of the archive</dd>
+		
+		<dd><code>day</code> - The day of the archive</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkBlog()"><!-- --></a>
+	<h3>linkBlog</h3>
+	
+	<kbd>public any <strong>linkBlog</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create a link to your site blog</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkCategory()"><!-- --></a>
+	<h3>linkCategory</h3>
+	
+	<kbd>public any <strong>linkCategory</strong>(any category, [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific filtered category view of blog entries</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code> - The category object or slug to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkCategoryWithSlug()"><!-- --></a>
+	<h3>linkCategoryWithSlug</h3>
+	
+	<kbd>public any <strong>linkCategoryWithSlug</strong>(string categorySlug, [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific filtered category view of blog entries</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>categorySlug</code> - The category slug as a string to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkComment()"><!-- --></a>
+	<h3>linkComment</h3>
+	
+	<kbd>public any <strong>linkComment</strong>(any comment, [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create a link to a specific comment in a page or in an entry</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>comment</code> - The comment to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkCommentPost()"><!-- --></a>
+	<h3>linkCommentPost</h3>
+	
+	<kbd>public any <strong>linkCommentPost</strong>(any content, [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the commenting post action, this is where comments are submitted to</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - The entry or page to link to its comments</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkComments()"><!-- --></a>
+	<h3>linkComments</h3>
+	
+	<kbd>public any <strong>linkComments</strong>(any content, [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create a link to an entry's or page's comments section</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - The entry or page to link to its comments</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkContent()"><!-- --></a>
+	<h3>linkContent</h3>
+	
+	<kbd>public any <strong>linkContent</strong>(any content, [boolean ssl='false'], [any format='html'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - The content object to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		<dd><code>format</code> - The format output of the content default is HTML but you can pass pdf,print or doc.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkContentSearch()"><!-- --></a>
+	<h3>linkContentSearch</h3>
+	
+	<kbd>public any <strong>linkContentSearch</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the content search route</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkContentSubscription()"><!-- --></a>
+	<h3>linkContentSubscription</h3>
+	
+	<kbd>public any <strong>linkContentSubscription</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the content subscription route</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkContentUnsubscribe()"><!-- --></a>
+	<h3>linkContentUnsubscribe</h3>
+	
+	<kbd>public any <strong>linkContentUnsubscribe</strong>(string token, [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the ContentBox Content Subscription unsubscribe URL</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>token</code> - The token to use for unsubscribing</dd>
+		
+		<dd><code>ssl</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkEntry()"><!-- --></a>
+	<h3>linkEntry</h3>
+	
+	<kbd>public any <strong>linkEntry</strong>(any entry, [boolean ssl='false'], [any format='html'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific blog entry's page</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entry</code> - The entry to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		<dd><code>format</code> - The format output of the content default is HTML bu you can pass pdf,print or doc.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkEntryWithSlug()"><!-- --></a>
+	<h3>linkEntryWithSlug</h3>
+	
+	<kbd>public any <strong>linkEntryWithSlug</strong>(any slug, [boolean ssl='false'], [any format='html'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific entry's page using a slug only</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The entry slug to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		<dd><code>format</code> - The format output of the content default is HTML bu you can pass pdf,print or doc.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkHome()"><!-- --></a>
+	<h3>linkHome</h3>
+	
+	<kbd>public any <strong>linkHome</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create a link to your site root or home page entry point for your blog.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkPage()"><!-- --></a>
+	<h3>linkPage</h3>
+	
+	<kbd>public any <strong>linkPage</strong>(any page, [boolean ssl='false'], [any format='html'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific page</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code> - The page to link to. This can be a simple value or a page object</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		<dd><code>format</code> - The format output of the content default is HTML but you can pass pdf,print or doc.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkPageRSS()"><!-- --></a>
+	<h3>linkPageRSS</h3>
+	
+	<kbd>public any <strong>linkPageRSS</strong>([any category], [boolean comments='false'], [any page], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the ContentBox Page RSS Feeds</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code> - The category to filter on</dd>
+		
+		<dd><code>comments</code> - Page comments or not, defaults to false</dd>
+		
+		<dd><code>page</code> - The page you want to filter on</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkPageWithSlug()"><!-- --></a>
+	<h3>linkPageWithSlug</h3>
+	
+	<kbd>public any <strong>linkPageWithSlug</strong>(any slug, [boolean ssl='false'], [any format='html'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to a specific page using a slug only</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code> - The page slug to link to</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		<dd><code>format</code> - The format output of the content default is HTML bu you can pass pdf,print or doc.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkRSS()"><!-- --></a>
+	<h3>linkRSS</h3>
+	
+	<kbd>public any <strong>linkRSS</strong>([any category], [any comments='false'], [any entry], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to RSS feeds that ContentBox generates, by default it is the recent updates feed</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code> - You can optionally pass the category to filter on</dd>
+		
+		<dd><code>comments</code> - A boolean flag that determines if you want the comments RSS feed</dd>
+		
+		<dd><code>entry</code> - You can optionally pass the entry to filter the comment's RSS feed</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkSearch()"><!-- --></a>
+	<h3>linkSearch</h3>
+	
+	<kbd>public any <strong>linkSearch</strong>([boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the search route for this blog</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkSelf()"><!-- --></a>
+	<h3>linkSelf</h3>
+	
+	<kbd>public any <strong>linkSelf</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Create a link to the current page/entry you are on</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkSiteRSS()"><!-- --></a>
+	<h3>linkSiteRSS</h3>
+	
+	<kbd>public any <strong>linkSiteRSS</strong>([any category], [boolean comments='false'], [string slug], [boolean ssl='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Link to the ContentBox Site RSS Feeds</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code> - The category to filter on</dd>
+		
+		<dd><code>comments</code> - Do comments RSS feeds</dd>
+		
+		<dd><code>slug</code> - The content slug to filter on when using comments</dd>
+		
+		<dd><code>ssl</code> - Use SSL or not, defaults to false.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="linkToParentPage()"><!-- --></a>
+	<h3>linkToParentPage</h3>
+	
+	<kbd>public any <strong>linkToParentPage</strong>([any page], [any text=''])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create an href to a page's parent</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code> - Optional page to create link for, else look for current page</dd>
+		
+		<dd><code>text</code> - The optional text to use for the link, else it uses the page's title</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="mainView()"><!-- --></a>
+	<h3>mainView</h3>
+	
+	<kbd>public any <strong>mainView</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Render the incoming event's main view, basically a proxy to ColdBox's renderView().</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="menu()"><!-- --></a>
+	<h3>menu</h3>
+	
+	<kbd>public any <strong>menu</strong>(string slug, any type='html', array slugCache='[runtime expression]')</kbd>
+	
+	<br><br>
+
+	
+		<p>MENUS ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code></dd>
+		
+		<dd><code>type</code></dd>
+		
+		<dd><code>slugCache</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="minify()"><!-- --></a>
+	<h3>minify</h3>
+	
+	<kbd>public any <strong>minify</strong>(any assets)</kbd>
+	
+	<br><br>
+
+	
+		<p>Prepare source(s) statements using our fabulous jsmin compressor</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>assets</code> - A list of js or css files to compress and add to the page. They will be concatenated in order</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="minifyClearCache()"><!-- --></a>
+	<h3>minifyClearCache</h3>
+	
+	<kbd>public <a href="../../contentbox/plugins/CBHelper.html" title="class in contentbox.plugins">CBHelper</a> <strong>minifyClearCache</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="minifyToHead()"><!-- --></a>
+	<h3>minifyToHead</h3>
+	
+	<kbd>public <a href="../../contentbox/plugins/CBHelper.html" title="class in contentbox.plugins">CBHelper</a> <strong>minifyToHead</strong>(any assets)</kbd>
+	
+	<br><br>
+
+	
+		<p>Prepare source(s) statements using our fabulous jsmin compressor and send them to the head section</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>assets</code> - A list of js or css files to compress and add to the page. They will be concatenated in order</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="prepareUIRequest()"><!-- --></a>
+	<h3>prepareUIRequest</h3>
+	
+	<kbd>public <a href="../../contentbox/plugins/CBHelper.html" title="class in contentbox.plugins">CBHelper</a> <strong>prepareUIRequest</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Prepare a ContentBox UI request. This sets ups settings, layout, etc. This method is usualy called
+automatically for you on the UI module. However, you can use it a-la-carte if you are building
+ajax or module extensions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickAvatar()"><!-- --></a>
+	<h3>quickAvatar</h3>
+	
+	<kbd>public any <strong>quickAvatar</strong>(any author, [numeric size='25'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Renders out an author's avatar</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>author</code> - The author object to render an avatar from</dd>
+		
+		<dd><code>size</code> - The size of the gravatar, by default we use 25 pixels</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickCategories()"><!-- --></a>
+	<h3>quickCategories</h3>
+	
+	<kbd>public any <strong>quickCategories</strong>([any template='category'], [any collectionAs='category'], [any args='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out categories anywhere using ColdBox collection rendering</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>template</code> - The name of the template to use, by default it looks in the 'templates/category.cfm' convention, no '.cfm' please</dd>
+		
+		<dd><code>collectionAs</code> - The name of the iterating object in the template, by default it is called 'category'</dd>
+		
+		<dd><code>args</code> - A structure of name-value pairs to pass to the template</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickCategoryLinks()"><!-- --></a>
+	<h3>quickCategoryLinks</h3>
+	
+	<kbd>public any <strong>quickCategoryLinks</strong>(any entry)</kbd>
+	
+	<br><br>
+
+	
+		<p>quick HTML ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entry</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickCommentForm()"><!-- --></a>
+	<h3>quickCommentForm</h3>
+	
+	<kbd>public any <strong>quickCommentForm</strong>(any content)</kbd>
+	
+	<br><br>
+
+	
+		<p>quickCommentForm will build a standard ContentBox Comment Form according to the CommentForm widget</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - The content this comment form will be linked to, page or entry</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickComments()"><!-- --></a>
+	<h3>quickComments</h3>
+	
+	<kbd>public any <strong>quickComments</strong>([any template='comment'], [any collectionAs='comment'], [any args='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out comments anywhere using ColdBox collection rendering</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>template</code> - The name of the template to use, by default it looks in the 'templates/comment.cfm' convention, no '.cfm' please</dd>
+		
+		<dd><code>collectionAs</code> - The name of the iterating object in the template, by default it is called 'comment'</dd>
+		
+		<dd><code>args</code> - A structure of name-value pairs to pass to the template</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickCustomFields()"><!-- --></a>
+	<h3>quickCustomFields</h3>
+	
+	<kbd>public any <strong>quickCustomFields</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out custom fields for the current content</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickEntries()"><!-- --></a>
+	<h3>quickEntries</h3>
+	
+	<kbd>public any <strong>quickEntries</strong>([any template='entry'], [any collectionAs='entry'], [any args='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out entries in the home page by using our ColdBox collection rendering</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>template</code> - The name of the template to use, by default it looks in the 'templates/entry.cfm' convention, no '.cfm' please</dd>
+		
+		<dd><code>collectionAs</code> - The name of the iterating object in the template, by default it is called 'entry'</dd>
+		
+		<dd><code>args</code> - A structure of name-value pairs to pass to the template</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickEntry()"><!-- --></a>
+	<h3>quickEntry</h3>
+	
+	<kbd>public any <strong>quickEntry</strong>([any template='entry'], [any collectionAs='entry'], [any args='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out an entry using your pre-defined 'entry' template</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>template</code> - The name of the template to use, by default it looks in the 'templates/entry.cfm' convention, no '.cfm' please</dd>
+		
+		<dd><code>collectionAs</code> - The name of the iterating object in the template, by default it is called 'entry'</dd>
+		
+		<dd><code>args</code> - A structure of name-value pairs to pass to the template</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickLayout()"><!-- --></a>
+	<h3>quickLayout</h3>
+	
+	<kbd>public any <strong>quickLayout</strong>(any layout, [any view=''], [any module='contentbox'], [any args='[runtime expression]'], [any viewModule=''], [any prePostExempt='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>QuickLayout is a proxy to ColdBox's renderLayout method with the addition of prefixing the location of the layout according to the
+layout theme you are using. All the arguments are the same as renderLayout()'s methods</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>layout</code></dd>
+		
+		<dd><code>view</code></dd>
+		
+		<dd><code>module</code></dd>
+		
+		<dd><code>args</code></dd>
+		
+		<dd><code>viewModule</code></dd>
+		
+		<dd><code>prePostExempt</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickPaging()"><!-- --></a>
+	<h3>quickPaging</h3>
+	
+	<kbd>public any <strong>quickPaging</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out paging for blog entries only</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickRelatedContent()"><!-- --></a>
+	<h3>quickRelatedContent</h3>
+	
+	<kbd>public any <strong>quickRelatedContent</strong>([any template='relatedContent'], [any collectionAs='relatedContent'], [any args='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out related content anywhere using ColdBox collection rendering</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>template</code> - The name of the template to use, by default it looks in the 'templates/relatedContent.cfm' convention, no '.cfm' please</dd>
+		
+		<dd><code>collectionAs</code> - The name of the iterating object in the template, by default it is called 'relatedContent'</dd>
+		
+		<dd><code>args</code> - A structure of name-value pairs to pass to the template</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickSearchForm()"><!-- --></a>
+	<h3>quickSearchForm</h3>
+	
+	<kbd>public any <strong>quickSearchForm</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>quickSearchForm will build a standard ContentBox Content Search Form according to the SearchForm widget</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickSearchPaging()"><!-- --></a>
+	<h3>quickSearchPaging</h3>
+	
+	<kbd>public any <strong>quickSearchPaging</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out paging for search content</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="quickView()"><!-- --></a>
+	<h3>quickView</h3>
+	
+	<kbd>public any <strong>quickView</strong>(any view, [any cache='false'], [any cacheTimeout], [any cacheLastAccessTimeout], [any cacheSuffix], [any module='contentbox'], [any args], [any collection], [any collectionAs], [any prepostExempt])</kbd>
+	
+	<br><br>
+
+	
+		<p>QuickView is a proxy to ColdBox's renderview method with the addition of prefixing the location of the view according to the
+layout theme you are using. All the arguments are the same as renderView()'s methods</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>view</code></dd>
+		
+		<dd><code>cache</code></dd>
+		
+		<dd><code>cacheTimeout</code></dd>
+		
+		<dd><code>cacheLastAccessTimeout</code></dd>
+		
+		<dd><code>cacheSuffix</code></dd>
+		
+		<dd><code>module</code></dd>
+		
+		<dd><code>args</code></dd>
+		
+		<dd><code>collection</code></dd>
+		
+		<dd><code>collectionAs</code></dd>
+		
+		<dd><code>prepostExempt</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="r()"><!-- --></a>
+	<h3>r</h3>
+	
+	<kbd>public any <strong>r</strong>(string resource, [string defaultValue], [string locale], [any values], [string bundle])</kbd>
+	
+	<br><br>
+
+	
+		<p>Retrieve i18n resources</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>resource</code> - The resource (key) to retrieve from a loaded bundle or pass a @bundle</dd>
+		
+		<dd><code>defaultValue</code> - A default value to send back if the resource (key) not found</dd>
+		
+		<dd><code>locale</code> - Pass in which locale to take the resource from. By default it uses the user's current set locale</dd>
+		
+		<dd><code>values</code> - An array, struct or simple string of value replacements to use on the resource string</dd>
+		
+		<dd><code>bundle</code> - The bundle alias to use to get the resource from when using multiple resource bundles. By default the bundle name used is 'default'</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="rootMenu()"><!-- --></a>
+	<h3>rootMenu</h3>
+	
+	<kbd>public any <strong>rootMenu</strong>([any excludes=''], [any type='ul'], [any typeClass=''], [any separator=''], [any levels='1'], [any elementClass=''], [any parentClass='parent'], [any activeClass='active'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Render out a quick menu for root level pages</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>excludes</code> - The list of pages to exclude from the menu</dd>
+		
+		<dd><code>type</code> - The type of menu, valid choices are: ul,ol,li,data,none</dd>
+		
+		<dd><code>typeClass</code> - The CSS class(es) to add to the type tag, defaults to 'submenu'</dd>
+		
+		<dd><code>separator</code> - Used if type eq none, to separate the list of href's</dd>
+		
+		<dd><code>levels</code> - The number of levels to nest hierarchical pages, by default it does only 1 level, * does all levels</dd>
+		
+		<dd><code>elementClass</code> - The name of the CSS class to attach to the menu <li> element</dd>
+		
+		<dd><code>parentClass</code> - The name of the CSS class to attach to the menu <li> element when it has nested elements, by default it is 'parent'</dd>
+		
+		<dd><code>activeClass</code> - The name of the CSS class to attach to the menu <li> element when that element is the current page you are on, by default it is 'active'</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="searchTermExists()"><!-- --></a>
+	<h3>searchTermExists</h3>
+	
+	<kbd>public boolean <strong>searchTermExists</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="sep()"><!-- --></a>
+	<h3>sep</h3>
+	
+	<kbd>private any <strong>sep</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get the site URL separator</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAuthorService()"><!-- --></a>
+	<h3>setAuthorService</h3>
+	
+	<kbd>public any <strong>setAuthorService</strong>(any authorService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>authorService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCategoryService()"><!-- --></a>
+	<h3>setCategoryService</h3>
+	
+	<kbd>public any <strong>setCategoryService</strong>(any categoryService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>categoryService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCommentService()"><!-- --></a>
+	<h3>setCommentService</h3>
+	
+	<kbd>public any <strong>setCommentService</strong>(any commentService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>commentService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setContentStoreService()"><!-- --></a>
+	<h3>setContentStoreService</h3>
+	
+	<kbd>public any <strong>setContentStoreService</strong>(any contentStoreService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentStoreService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setEntryService()"><!-- --></a>
+	<h3>setEntryService</h3>
+	
+	<kbd>public any <strong>setEntryService</strong>(any entryService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>entryService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setMenuItemService()"><!-- --></a>
+	<h3>setMenuItemService</h3>
+	
+	<kbd>public any <strong>setMenuItemService</strong>(any menuItemService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>menuItemService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setMenuService()"><!-- --></a>
+	<h3>setMenuService</h3>
+	
+	<kbd>public any <strong>setMenuService</strong>(any menuService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>menuService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setMinifier()"><!-- --></a>
+	<h3>setMinifier</h3>
+	
+	<kbd>public any <strong>setMinifier</strong>(any minifier)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>minifier</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setMobileDetector()"><!-- --></a>
+	<h3>setMobileDetector</h3>
+	
+	<kbd>public any <strong>setMobileDetector</strong>(any mobileDetector)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>mobileDetector</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setModuleService()"><!-- --></a>
+	<h3>setModuleService</h3>
+	
+	<kbd>public any <strong>setModuleService</strong>(any moduleService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>moduleService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNextModuleEvent()"><!-- --></a>
+	<h3>setNextModuleEvent</h3>
+	
+	<kbd>public any <strong>setNextModuleEvent</strong>(string module, [string event], [any queryString=''], [boolean addToken='false'], [any persist], [struct persistStruct], [boolean ssl='false'], [boolean postProcessExempt='false'], [numeric statusCode])</kbd>
+	
+	<br><br>
+
+	
+		<p>SetNextEvent For ContentBox Modules</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>module</code> - The module to link this URL to</dd>
+		
+		<dd><code>event</code> - The handler action combination to link to</dd>
+		
+		<dd><code>queryString</code> - The query string to append in SES format</dd>
+		
+		<dd><code>addToken</code></dd>
+		
+		<dd><code>persist</code></dd>
+		
+		<dd><code>persistStruct</code></dd>
+		
+		<dd><code>ssl</code> - Create the link in SSL or not</dd>
+		
+		<dd><code>postProcessExempt</code></dd>
+		
+		<dd><code>statusCode</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPageService()"><!-- --></a>
+	<h3>setPageService</h3>
+	
+	<kbd>public any <strong>setPageService</strong>(any pageService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>pageService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setSettingService()"><!-- --></a>
+	<h3>setSettingService</h3>
+	
+	<kbd>public any <strong>setSettingService</strong>(any settingService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>settingService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setting()"><!-- --></a>
+	<h3>setting</h3>
+	
+	<kbd>public any <strong>setting</strong>(any key, [any value])</kbd>
+	
+	<br><br>
+
+	
+		<p>settings ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>key</code></dd>
+		
+		<dd><code>value</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setWidgetService()"><!-- --></a>
+	<h3>setWidgetService</h3>
+	
+	<kbd>public any <strong>setWidgetService</strong>(any widgetService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>widgetService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteBaseURL()"><!-- --></a>
+	<h3>siteBaseURL</h3>
+	
+	<kbd>public any <strong>siteBaseURL</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteDescription()"><!-- --></a>
+	<h3>siteDescription</h3>
+	
+	<kbd>public any <strong>siteDescription</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteEmail()"><!-- --></a>
+	<h3>siteEmail</h3>
+	
+	<kbd>public any <strong>siteEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteKeywords()"><!-- --></a>
+	<h3>siteKeywords</h3>
+	
+	<kbd>public any <strong>siteKeywords</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteName()"><!-- --></a>
+	<h3>siteName</h3>
+	
+	<kbd>public any <strong>siteName</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>site properties ********************************************</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteOutgoingEmail()"><!-- --></a>
+	<h3>siteOutgoingEmail</h3>
+	
+	<kbd>public any <strong>siteOutgoingEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteRoot()"><!-- --></a>
+	<h3>siteRoot</h3>
+	
+	<kbd>public any <strong>siteRoot</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="siteTagLine()"><!-- --></a>
+	<h3>siteTagLine</h3>
+	
+	<kbd>public any <strong>siteTagLine</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="stripHTML()"><!-- --></a>
+	<h3>stripHTML</h3>
+	
+	<kbd>public any <strong>stripHTML</strong>(any stringTarget)</kbd>
+	
+	<br><br>
+
+	
+		<p>utility to strip HTML</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>stringTarget</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="subPageMenu()"><!-- --></a>
+	<h3>subPageMenu</h3>
+	
+	<kbd>public any <strong>subPageMenu</strong>([any page], [any excludes=''], [any type='ul'], [any typeClass=''], [any separator=''], [boolean showNone='true'], [any levels='1'], [any elementClass=''], [any parentClass='parent'], [any activeClass='active'], [any activeShowChildren='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Create a sub page menu for a given page or current page</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>page</code> - Optional page to create menu for, else look for current page, this can be a page object or a page slug</dd>
+		
+		<dd><code>excludes</code> - The list of pages to exclude from the menu</dd>
+		
+		<dd><code>type</code> - The type of menu, valid choices are: ul,ol,li,none</dd>
+		
+		<dd><code>typeClass</code> - The CSS class(es) to add to the type tag, defaults to 'submenu'</dd>
+		
+		<dd><code>separator</code> - Used if type eq none, to separate the list of href's</dd>
+		
+		<dd><code>showNone</code> - Shows a 'No Sub Pages' message or not</dd>
+		
+		<dd><code>levels</code> - The number of levels to nest hierarchical pages, by default it does only 1 level, * does all levels</dd>
+		
+		<dd><code>elementClass</code> - The name of the CSS class to attach to the menu <li> element</dd>
+		
+		<dd><code>parentClass</code> - The name of the CSS class to attach to the menu <li> element when it has nested elements, by default it is 'parent'</dd>
+		
+		<dd><code>activeClass</code> - The name of the CSS class to attach to the menu <li> element when that element is the current page you are on, by default it is 'active'</dd>
+		
+		<dd><code>activeShowChildren</code> - If true, then we will show the children of the active menu element, else we just show the active element</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="widget()"><!-- --></a>
+	<h3>widget</h3>
+	
+	<kbd>public any <strong>widget</strong>(any name, [struct args='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Execute a widget's renderit method</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>name</code> - The name of the installed widget to execute</dd>
+		
+		<dd><code>args</code> - The argument collection to pass to the widget's renderIt() method</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="widgetRoot()"><!-- --></a>
+	<h3>widgetRoot</h3>
+	
+	<kbd>public any <strong>widgetRoot</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

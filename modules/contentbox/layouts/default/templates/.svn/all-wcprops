@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/templates
+END
+category.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/templates/category.cfm
+END
+entry.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/templates/entry.cfm
+END
+comment.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/layouts/default/templates/comment.cfm
+END

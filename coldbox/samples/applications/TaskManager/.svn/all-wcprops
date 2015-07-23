@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager
+END
+settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/settings.xml
+END
+box.json
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/box.json
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/index.cfm
+END
+Application.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/Application.cfc
+END

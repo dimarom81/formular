@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/models
+END
+ValidationManager.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/models/ValidationManager.cfc
+END
+IValidationManager.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/models/IValidationManager.cfc
+END
+Mixins.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/models/Mixins.cfm
+END
+GenericObject.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/models/GenericObject.cfc
+END

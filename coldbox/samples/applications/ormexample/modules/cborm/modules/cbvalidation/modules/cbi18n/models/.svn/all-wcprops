@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/modules/cbi18n/models
+END
+ResourceService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/modules/cbi18n/models/ResourceService.cfc
+END
+i18n.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/modules/cbi18n/models/i18n.cfc
+END
+Mixins.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/modules/cbvalidation/modules/cbi18n/models/Mixins.cfm
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media
+END
+CFContentMediaProvider.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/CFContentMediaProvider.html
+END
+ForwardMediaProvider.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/ForwardMediaProvider.html
+END
+MediaService.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/MediaService.html
+END
+IMediaProvider.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/IMediaProvider.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/package-frame.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/package-summary.html
+END
+RelocationMediaProvider.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/media/RelocationMediaProvider.html
+END

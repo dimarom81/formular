@@ -1,0 +1,11741 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BaseContent</title>
+	<meta name="keywords" content="contentbox.model.content.concurrent.Callable interface">
+	<!-- common assets -->
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+	<!-- syntax highlighter -->
+	<link type="text/css" rel="stylesheet" href="../../../highlighter/styles/shCoreDefault.css">
+	<script src="../../../highlighter/scripts/shCore.js"></script>
+	<script src="../../../highlighter/scripts/shBrushColdFusion.js"></script>
+	<script src="../../../highlighter/scripts/shBrushXml.js"></script>
+	<script src="../../../highlighter/scripts/shBrushSql.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJScript.js"></script>
+	<script src="../../../highlighter/scripts/shBrushJava.js"></script>
+	<script src="../../../highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body class="withNavbar">
+
+
+
+
+
+
+<!-- ========= START OF NAVBAR ======= -->
+<a name="navbar_top"></a>
+<a href="#skip-navbar_top" title="skip navigation links"></a>	
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+    
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#class-navigation">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><strong>ContentBox Modular CMS v2.1.0</strong></a>
+		</div>
+
+	    <div class="collapse navbar-collapse" id="class-navigation">
+	    	<ul class="nav navbar-nav">
+				
+					
+					<li><a href="../../../overview-summary.html"><i class="glyphicon glyphicon-plane"></i> overview</a></li>
+					
+				
+
+				
+					<li><a href="package-summary.html"><i class="glyphicon glyphicon-folder-open"></i> &nbsp;package</a></li>
+				
+
+			  	
+					<li class="dropdown active">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-file"></i> class <b class="caret"></b></a>
+
+						<ul class="dropdown-menu">
+							<li><a href="#class">Class Definition</a></li>
+							<li><a href="#constructor_summary">Constructor Summary</a></li>
+							<li><a href="#constructor_detail">Constructor Detail</a></li>
+							<li><a href="#inherited_methods">Inherited Methods</a></li>
+							<li><a href="#method_summary">Method Summary</a></li>
+							<li><a href="#method_detail">Method Detail</a></li>
+							<li><a href="#property_summary">Property Summary</a></li>
+							<li><a href="#property_detail">Property Detail</a></li>
+							
+						</ul>
+					</li>
+				
+	      	</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="../../../index.html?contentbox/model/content/BaseContent.html" target="_top">
+					<i class="glyphicon glyphicon-fullscreen"></i> Frames
+					</a>
+				</li>
+			</ul>
+	    </div>
+
+	</div>
+</nav>	
+
+<a name="skip-navbar_top"></a>
+<!-- ========= END OF NAVBAR ========= -->
+
+<!-- ======== start of class data ======== -->
+<a name="class"><!-- --></a>
+
+<!-- Package -->
+<div class="pull-right">
+	<a href="package-summary.html" title="Package: contentbox.model.content"><span class="label label-success">contentbox.model.content</span></a>
+</div>
+
+<h2>
+
+Class
+
+ BaseContent</h2>
+
+
+
+
+
+
+
+
+	
+		
+	
+	
+
+	
+		
+		
+			
+		
+	
+	
+
+
+<!-- Inheritance Tree-->
+<pre>railo-context.Component
+        <img src="../../../resources/inherit.gif" alt="extended by ">contentbox.model.content.BaseContent
+</pre>
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Class Attributes:</strong></div>
+		<div class="panel-body">
+		
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				entityname 
+				
+				: cbContent		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cacheuse 
+				
+				: read-write		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				table 
+				
+				: cb_content		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				synchronized 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				cachename 
+				
+				: cbContent		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				discriminatorcolumn 
+				
+				: contentType		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				accessors 
+				
+				: false		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+			
+			<li class="label label-danger label-annotations">
+				persistent 
+				
+				: true		
+				
+			</li>
+			&nbsp;
+			
+		
+			
+		
+			
+		
+		
+	</div>
+</div>
+
+
+	
+	
+
+
+
+<div class="panel panel-default">
+	<div class="panel-heading"><strong>Direct Known Subclasses:</strong></div>
+  	<div class="panel-body">
+	
+		
+		<a href="../../..//contentbox/model/content/ContentStore.html" title="class in contentbox.model.content">ContentStore</a>
+	
+		,
+		<a href="../../..//contentbox/model/content/Entry.html" title="class in contentbox.model.content">Entry</a>
+	
+		,
+		<a href="../../..//contentbox/model/content/Page.html" title="class in contentbox.model.content">Page</a>
+	
+	</div>
+</div>
+
+
+
+
+
+<div id="class-hint">
+	<p>A mapped super class used for contentbox content: entries and pages</p>
+</div>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="property_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="5">
+			<strong>Property Summary</strong>
+		</th>
+	</tr>
+	<tr class="info">
+		<th align="left">
+			<strong>type</strong>
+		</th>
+		<th align="left">
+			<strong>property</strong>
+		</th>
+		<th align="left">
+			<strong>default</strong>
+		</th>
+		<th align="left">
+			<strong>serializable</strong>
+		</th>
+		<th align="left">
+			<strong>required</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#activeContent()">activeContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = save-update</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.ContentVersion</li>
+				
+			
+				
+				<li class="label label-default label-annotations">where = isActive=1</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#allowComments()">allowComments</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>true</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#cache()">cache</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_cache</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>true</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#cachebox()">cachebox</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = cachebox</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#cacheLastAccessTimeout()">cacheLastAccessTimeout</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = integer</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_cachelastaccesstimeout</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#cacheLayout()">cacheLayout</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_cachelayout</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>true</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#cacheTimeout()">cacheTimeout</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = integer</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_cachetimeout</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#categories()">categories</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+				<li class="label label-default label-annotations">linktable = cb_contentCategories</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = category</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inversejoincolumn = FK_categoryID</li>
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.Category</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#categoryService()">categoryService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = categoryService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#children()">children</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all-delete-orphan</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = createdDate</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 25</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = child</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_parentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.BaseContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#comments()">comments</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all-delete-orphan</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = createdDate</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 25</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = comment</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.comments.Comment</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#commentSubscriptions()">commentSubscriptions</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all-delete-orphan</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 25</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = commentSubscription</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.subscriptions.CommentSubscription</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#contentID()">contentID</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = id</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">generator = native</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">setter = no</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#contentService()">contentService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = contentService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#contentType()">contentType</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">insert = false</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">update = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_discriminator,idx_published</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">setter = no</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#contentVersions()">contentVersions</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all-delete-orphan</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 25</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = contentVersion</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.ContentVersion</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#contentVersionService()">contentVersionService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = contentVersionService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#createdDate()">createdDate</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+				<li class="label label-default label-annotations">update = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_createdDate</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#creator()">creator</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-one</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fetch = join</li>
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_authorID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.security.Author</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#customFields()">customFields</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all-delete-orphan</li>
+				
+			
+				
+				<li class="label label-default label-annotations">batchsize = 25</li>
+				
+			
+				
+				<li class="label label-default label-annotations">singularname = customField</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.CustomField</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#customFieldService()">customFieldService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = customFieldService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#expireDate()">expireDate</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_expireDate</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#HTMLDescription()">HTMLDescription</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 160</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#HTMLKeywords()">HTMLKeywords</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 160</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#interceptorService()">interceptorService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = coldbox:interceptorService</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#isPublished()">isPublished</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_published,idx_search,idx_publishedSlug</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>true</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#linkedContent()">linkedContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+				<li class="label label-default label-annotations">linktable = cb_relatedContent</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inverse = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = title</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_relatedContentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inversejoincolumn = FK_contentID</li>
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.BaseContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#markup()">markup</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>HTML</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#numberOfApprovedComments()">numberOfApprovedComments</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select count(*) from cb_comment comment where comment.FK_contentID=contentID and comment.isApproved = 1</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#numberOfChildren()">numberOfChildren</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select count(*) from cb_content content where content.FK_parentID=contentID</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#numberOfComments()">numberOfComments</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select count(*) from cb_comment comment where comment.FK_contentID=contentID</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#numberOfHits()">numberOfHits</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select cs.hits from cb_stats cs where cs.FK_contentID=contentID</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#numberOfVersions()">numberOfVersions</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">formula = select count(*) from cb_contentVersion cv where cv.FK_contentID=contentID</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>0</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#parent()">parent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-one</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_parentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.BaseContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#passwordProtection()">passwordProtection</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_published</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 100</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#publishedDate()">publishedDate</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = false</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = timestamp</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_publishedDate</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>array</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#relatedContent()">relatedContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+				<li class="label label-default label-annotations">linktable = cb_relatedContent</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = many-to-many</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cascade = all</li>
+				
+			
+				
+				<li class="label label-default label-annotations">orderby = title</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fkcolumn = FK_contentID</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inversejoincolumn = FK_relatedContentID</li>
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.BaseContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = extra</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#renderedContent()">renderedContent</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#settingService()">settingService</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">inject = id:settingService@cb</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">persistent = false</li>
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#showInSearch()">showInSearch</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">dbdefault = 1</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">ormtype = boolean</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_showInSearch</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+				<code>true</code>
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#slug()">slug</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+				<li class="label label-default label-annotations">unique = true</li>
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_slug,idx_publishedSlug</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 200</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#stats()">stats</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fieldtype = one-to-one</li>
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">fetch = join</li>
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">cfc = contentbox.model.content.Stats</li>
+				
+			
+				
+				<li class="label label-default label-annotations">mappedby = relatedContent</li>
+				
+			
+				
+				<li class="label label-default label-annotations">lazy = true</li>
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#title()">title</A></strong> 
+			<br>
+			
+			<br><br>
+			<ul>
+			
+				
+			
+				
+			
+				
+			
+				
+				<li class="label label-default label-annotations">notnull = true</li>
+				
+			
+				
+				<li class="label label-default label-annotations">index = idx_search</li>
+				
+			
+				
+				<li class="label label-default label-annotations">length = 200</li>
+				
+			
+				
+			
+				
+			
+				
+			
+			</ul>
+
+		</td>
+		<td align="right" valign="top" width="1%">
+			
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				true
+			</code>
+		</td>
+		<td align="right" valign="top" width="1%">
+			<code>
+				false
+			</code>
+		</td>
+	</tr>
+	
+	</tr>
+</table>
+
+
+
+	
+	
+	<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+	<a name="constructor_summary"><!-- --></a>
+	<table class="table table-bordered table-hover">
+		<tr class="info">
+			<th align="left" colspan="2">
+				<strong>Constructor Summary</strong>
+			</th>
+		</tr>
+		<tr>
+			
+			<td>
+				<strong><a href="BaseContent.html#init()">init</A></strong>()
+				<br>
+				
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Base constructor.
+				
+			</td>
+		</tr>
+	</table>
+
+
+
+
+
+<!-- ========== METHOD SUMMARY =========== -->
+
+<a name="method_summary"><!-- --></a>
+<table class="table table-bordered table-hover">
+	<tr class="info">
+		<th align="left" colspan="2">
+			<strong>Method Summary</strong>
+		</th>
+	</tr>
+
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addActiveContent()">addActiveContent</A></strong>(any activeContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addCategories()">addCategories</A></strong>(any category)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only adds it if not found in content object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addChild()">addChild</A></strong>(any child)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addComment()">addComment</A></strong>(any comment)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addCommentSubscription()">addCommentSubscription</A></strong>(any commentSubscription)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addContentVersion()">addContentVersion</A></strong>(any contentVersion)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addCustomField()">addCustomField</A></strong>(any customField)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addExpiredTime()">addExpiredTime</A></strong>(any hour, any minute)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add expired timestamp to property.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addLinkedContent()">addLinkedContent</A></strong>(any linkedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addNewContentVersion()">addNewContentVersion</A></strong>(any content, [any changelog=''], any author)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add a new content version to save for this content object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addPublishedTime()">addPublishedTime</A></strong>(any hour, any minute)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add published timestamp to property.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#addRelatedContent()">addRelatedContent</A></strong>(any relatedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#buildContentCacheKey()">buildContentCacheKey</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Build content cache keys according to sent content object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#canCacheContent()">canCacheContent</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verify we can do content caching on this content object using global and local rules.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getActiveContent()">getActiveContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getAllowComments()">getAllowComments</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getAuthor()">getAuthor</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Author from latest version or null if any yet.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getAuthorEmail()">getAuthorEmail</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Author email from latest version.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getAuthorName()">getAuthorName</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Author name from latest version.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCache()">getCache</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCachebox()">getCachebox</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCacheLastAccessTimeout()">getCacheLastAccessTimeout</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCacheLayout()">getCacheLayout</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCacheTimeout()">getCacheTimeout</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCategories()">getCategories</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCategoriesList()">getCategoriesList</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get flat categories list.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCategoryService()">getCategoryService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getChildren()">getChildren</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getComments()">getComments</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCommentSubscriptions()">getCommentSubscriptions</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getContent()">getContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getContentID()">getContentID</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getContentService()">getContentService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getContentType()">getContentType</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getContentVersions()">getContentVersions</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getContentVersionService()">getContentVersionService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCreatedDate()">getCreatedDate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCreator()">getCreator</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCreatorEmail()">getCreatorEmail</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Creator email.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCreatorName()">getCreatorName</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorthand Creator name.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCustomField()">getCustomField</A></strong>(any key, [any defaultValue])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortcut to get a custom field value.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCustomFields()">getCustomFields</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>struct</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCustomFieldsAsStruct()">getCustomFieldsAsStruct</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get custom fields as a structure representation.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getCustomFieldService()">getCustomFieldService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getDisplayCreatedDate()">getDisplayCreatedDate</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get formatted createdDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getDisplayExpireDate()">getDisplayExpireDate</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get formatted expireDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getDisplayPublishedDate()">getDisplayPublishedDate</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get display publishedDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getExpireDate()">getExpireDate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getExpireDateForEditor()">getExpireDateForEditor</A></strong>([boolean showTime='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get display expireDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getHTMLDescription()">getHTMLDescription</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getHTMLKeywords()">getHTMLKeywords</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getInterceptorService()">getInterceptorService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getIsPublished()">getIsPublished</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getLinkedContent()">getLinkedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getMarkup()">getMarkup</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getMemento()">getMemento</A></strong>(array slugCache='[runtime expression]', [any counter='0'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get a flat representation of this entry.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getNumberOfApprovedComments()">getNumberOfApprovedComments</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getNumberOfChildren()">getNumberOfChildren</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getNumberOfComments()">getNumberOfComments</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>numeric</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getNumberOfHits()">getNumberOfHits</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Getter override to allow for null values.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getNumberOfVersions()">getNumberOfVersions</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getParent()">getParent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getParentID()">getParentID</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get parent ID if set or empty if none.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getParentName()">getParentName</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get parent name or empty if none.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getPasswordProtection()">getPasswordProtection</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getPublishedDate()">getPublishedDate</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getPublishedDateForEditor()">getPublishedDateForEditor</A></strong>([boolean showTime='false'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get display publishedDate.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getRecursiveSlug()">getRecursiveSlug</A></strong>([any separator='/'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get recursive slug paths to get ancestry, DEPRECATED.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getRelatedContent()">getRelatedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getRelatedContentIDs()">getRelatedContentIDs</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns a list of active related content for this piece of content.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getRenderedContent()">getRenderedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getSettingService()">getSettingService</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getShowInSearch()">getShowInSearch</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getSlug()">getSlug</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getStats()">getStats</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>string</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#getTitle()">getTitle</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasActiveContent()">hasActiveContent</A></strong>([any activeContent])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasCategories()">hasCategories</A></strong>([any categories])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasChild()">hasChild</A></strong>([any child])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasComment()">hasComment</A></strong>([any comment])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasCommentSubscription()">hasCommentSubscription</A></strong>([any commentSubscription])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasContentVersion()">hasContentVersion</A></strong>([any contentVersion])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasCreator()">hasCreator</A></strong>([any creator])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasCustomField()">hasCustomField</A></strong>([any customField])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasLinkedContent()">hasLinkedContent</A></strong>([any linkedContent])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasParent()">hasParent</A></strong>([any parent])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasRelatedContent()">hasRelatedContent</A></strong>([any relatedContent])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#hasStats()">hasStats</A></strong>([any stats])
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#inflateCustomFields()">inflateCustomFields</A></strong>(numeric fieldCount, struct memento)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inflate custom fields from the incoming count and memento structure.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#inflateRelatedContent()">inflateRelatedContent</A></strong>(any relatedContent)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inflates from comma-delimited list (or array) of id's.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#isContentPublished()">isContentPublished</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bit that denotes if the content has been published or not.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#isExpired()">isExpired</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bit that denotes if the content has expired or not, in order to be expired the content must have been published as well.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#isLoaded()">isLoaded</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is loaded?.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#isPasswordProtected()">isPasswordProtected</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isPassword Protected.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#isPublishedInFuture()">isPublishedInFuture</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bit that denotes if the content has been published or not in the future.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>private&nbsp;any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#maxContentVersionChecks()">maxContentVersionChecks</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#prepareForClone()">prepareForClone</A></strong>(any author, any original, any originalService, boolean publish, any originalSlugRoot, any newSlugRoot)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wipe primary key, and descendant keys, and prepare for cloning of entire hierarchies.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeActiveContent()">removeActiveContent</A></strong>(any activeContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeAllCategories()">removeAllCategories</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeAllLinkedContent()">removeAllLinkedContent</A></strong>()
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeCategories()">removeCategories</A></strong>(any category)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove only if it's found in the content object.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeChild()">removeChild</A></strong>(any child)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeComment()">removeComment</A></strong>(any comment)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeCommentSubscription()">removeCommentSubscription</A></strong>(any commentSubscription)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeContentVersion()">removeContentVersion</A></strong>(any contentVersion)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeCustomField()">removeCustomField</A></strong>(any customField)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeLinkedContent()">removeLinkedContent</A></strong>(any linkedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>boolean</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#removeRelatedContent()">removeRelatedContent</A></strong>(any relatedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#renderContent()">renderContent</A></strong>()
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Render content out using translations, caching, etc.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#renderContentSilent()">renderContentSilent</A></strong>([any content='[runtime expression]'])
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Renders the content silently so no caching, or extra fluff is done, just content translation rendering.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setActiveContent()">setActiveContent</A></strong>(array activeContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setAllowComments()">setAllowComments</A></strong>(any allowComments)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCache()">setCache</A></strong>(any cache)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCachebox()">setCachebox</A></strong>(any cachebox)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCacheLastAccessTimeout()">setCacheLastAccessTimeout</A></strong>(any cacheLastAccessTimeout)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCacheLayout()">setCacheLayout</A></strong>(any cacheLayout)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCacheTimeout()">setCacheTimeout</A></strong>(any cacheTimeout)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCategories()">setCategories</A></strong>(array categories)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCategoryService()">setCategoryService</A></strong>(any categoryService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setChildren()">setChildren</A></strong>(array children)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Override the setChildren.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setComments()">setComments</A></strong>(array comments)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Override the setComments.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCommentSubscriptions()">setCommentSubscriptions</A></strong>(array commentSubscriptions)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setContentService()">setContentService</A></strong>(any contentService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setContentVersions()">setContentVersions</A></strong>(array contentVersions)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Override the setContentVersions.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setContentVersionService()">setContentVersionService</A></strong>(any contentVersionService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCreatedDate()">setCreatedDate</A></strong>(any createdDate)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCreator()">setCreator</A></strong>(any creator)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCustomFields()">setCustomFields</A></strong>(array customFields)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Override the setCustomFields.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setCustomFieldService()">setCustomFieldService</A></strong>(any customFieldService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setExpireDate()">setExpireDate</A></strong>(any expireDate)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setHTMLDescription()">setHTMLDescription</A></strong>(any HTMLDescription)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setHTMLKeywords()">setHTMLKeywords</A></strong>(any HTMLKeywords)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setInterceptorService()">setInterceptorService</A></strong>(any interceptorService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setIsPublished()">setIsPublished</A></strong>(any isPublished)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setLinkedContent()">setLinkedContent</A></strong>(array linkedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setMarkup()">setMarkup</A></strong>(any markup)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setNumberOfApprovedComments()">setNumberOfApprovedComments</A></strong>(any numberOfApprovedComments)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setNumberOfChildren()">setNumberOfChildren</A></strong>(any numberOfChildren)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setNumberOfComments()">setNumberOfComments</A></strong>(any numberOfComments)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setNumberOfHits()">setNumberOfHits</A></strong>(any numberOfHits)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setNumberOfVersions()">setNumberOfVersions</A></strong>(any numberOfVersions)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setParent()">setParent</A></strong>(any parent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setPasswordProtection()">setPasswordProtection</A></strong>(any passwordProtection)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setPublishedDate()">setPublishedDate</A></strong>(any publishedDate)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code><a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a></code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setRelatedContent()">setRelatedContent</A></strong>(array relatedContent)
+			<br>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Override the setRelatedContent.
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setRenderedContent()">setRenderedContent</A></strong>(any renderedContent)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setSettingService()">setSettingService</A></strong>(any settingService)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setShowInSearch()">setShowInSearch</A></strong>(any showInSearch)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setSlug()">setSlug</A></strong>(any slug)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setStats()">setStats</A></strong>(any stats)
+			<br>
+			
+		</td>
+	</tr>
+	
+	
+	
+	<tr>
+		<td align="right" valign="top" width="1%">
+			<code>any</code>
+		</td>
+		<td>
+			<strong><a href="BaseContent.html#setTitle()">setTitle</A></strong>(any title)
+			<br>
+			
+		</td>
+	</tr>
+	
+</table>
+
+
+
+<a name="inherited_methods"><!-- --></a>
+
+
+	
+
+	
+
+	&nbsp;
+	<a name="methods_inherited_from_class_railo-context.Component"><!-- --></a>
+	<table class="table table-hover table-bordered">
+		<tr class="info">
+			<th align="left">
+				<strong>Methods inherited from class <kbd>railo-context.Component</kbd></strong>
+			</th>
+		</tr>
+		<tr>
+			<td>
+				
+				
+				
+				
+				
+					<span class="label label-warning"><em>None</em></span>
+				
+			</td>
+		</tr>
+	</table>
+
+
+<hr>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+	<a name="constructor_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Constructor Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	<a name="init()"><!-- --></a><h3>
+	init</h3>
+	<kbd>public <strong>init</strong>()</kbd>
+
+	<br><br>
+
+	
+	<p>Base constructor</p>
+	
+
+	
+	<hr>
+
+
+<!-- ============ PROPERTY DETAIL ========== -->
+
+	<a name="property_detail"><!-- --></a>
+	<table class="table table-bordered">
+		<tr class="info">
+			<th colspan="1" align="left">
+				<strong>Property Detail</strong>
+			</th>
+		</tr>
+	</table>
+
+	
+		
+		<a name="activeContent()"><!-- --></a>
+		<h3>activeContent</h3>
+
+		<kbd>
+			property array 
+			<strong>activeContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - save-update</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.ContentVersion</dd>
+			
+		
+			
+			<dd><code>where</code> - isActive=1</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="allowComments()"><!-- --></a>
+		<h3>allowComments</h3>
+
+		<kbd>
+			property any 
+			<strong>allowComments</strong>
+			
+			= [true]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="cache()"><!-- --></a>
+		<h3>cache</h3>
+
+		<kbd>
+			property any 
+			<strong>cache</strong>
+			
+			= [true]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_cache</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="cachebox()"><!-- --></a>
+		<h3>cachebox</h3>
+
+		<kbd>
+			property any 
+			<strong>cachebox</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - cachebox</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="cacheLastAccessTimeout()"><!-- --></a>
+		<h3>cacheLastAccessTimeout</h3>
+
+		<kbd>
+			property any 
+			<strong>cacheLastAccessTimeout</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - integer</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_cachelastaccesstimeout</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="cacheLayout()"><!-- --></a>
+		<h3>cacheLayout</h3>
+
+		<kbd>
+			property any 
+			<strong>cacheLayout</strong>
+			
+			= [true]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_cachelayout</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="cacheTimeout()"><!-- --></a>
+		<h3>cacheTimeout</h3>
+
+		<kbd>
+			property any 
+			<strong>cacheTimeout</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - integer</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_cachetimeout</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="categories()"><!-- --></a>
+		<h3>categories</h3>
+
+		<kbd>
+			property array 
+			<strong>categories</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+			<dd><code>linktable</code> - cb_contentCategories</dd>
+			
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all</dd>
+			
+		
+			
+			<dd><code>orderby</code> - category</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>inversejoincolumn</code> - FK_categoryID</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.Category</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="categoryService()"><!-- --></a>
+		<h3>categoryService</h3>
+
+		<kbd>
+			property any 
+			<strong>categoryService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - categoryService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="children()"><!-- --></a>
+		<h3>children</h3>
+
+		<kbd>
+			property array 
+			<strong>children</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all-delete-orphan</dd>
+			
+		
+			
+			<dd><code>orderby</code> - createdDate</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 25</dd>
+			
+		
+			
+			<dd><code>singularname</code> - child</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_parentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.BaseContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="comments()"><!-- --></a>
+		<h3>comments</h3>
+
+		<kbd>
+			property array 
+			<strong>comments</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all-delete-orphan</dd>
+			
+		
+			
+			<dd><code>orderby</code> - createdDate</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 25</dd>
+			
+		
+			
+			<dd><code>singularname</code> - comment</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.comments.Comment</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="commentSubscriptions()"><!-- --></a>
+		<h3>commentSubscriptions</h3>
+
+		<kbd>
+			property array 
+			<strong>commentSubscriptions</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all-delete-orphan</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 25</dd>
+			
+		
+			
+			<dd><code>singularname</code> - commentSubscription</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.subscriptions.CommentSubscription</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentID()"><!-- --></a>
+		<h3>contentID</h3>
+
+		<kbd>
+			property any 
+			<strong>contentID</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - id</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>generator</code> - native</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>setter</code> - no</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentService()"><!-- --></a>
+		<h3>contentService</h3>
+
+		<kbd>
+			property any 
+			<strong>contentService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - contentService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentType()"><!-- --></a>
+		<h3>contentType</h3>
+
+		<kbd>
+			property any 
+			<strong>contentType</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>insert</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>update</code> - false</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_discriminator,idx_published</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>setter</code> - no</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentVersions()"><!-- --></a>
+		<h3>contentVersions</h3>
+
+		<kbd>
+			property array 
+			<strong>contentVersions</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all-delete-orphan</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 25</dd>
+			
+		
+			
+			<dd><code>singularname</code> - contentVersion</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.ContentVersion</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="contentVersionService()"><!-- --></a>
+		<h3>contentVersionService</h3>
+
+		<kbd>
+			property any 
+			<strong>contentVersionService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - contentVersionService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="createdDate()"><!-- --></a>
+		<h3>createdDate</h3>
+
+		<kbd>
+			property any 
+			<strong>createdDate</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+			<dd><code>update</code> - false</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_createdDate</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="creator()"><!-- --></a>
+		<h3>creator</h3>
+
+		<kbd>
+			property any 
+			<strong>creator</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-one</dd>
+			
+		
+			
+		
+			
+			<dd><code>fetch</code> - join</dd>
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_authorID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.security.Author</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="customFields()"><!-- --></a>
+		<h3>customFields</h3>
+
+		<kbd>
+			property array 
+			<strong>customFields</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all-delete-orphan</dd>
+			
+		
+			
+			<dd><code>batchsize</code> - 25</dd>
+			
+		
+			
+			<dd><code>singularname</code> - customField</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.CustomField</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="customFieldService()"><!-- --></a>
+		<h3>customFieldService</h3>
+
+		<kbd>
+			property any 
+			<strong>customFieldService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - customFieldService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="expireDate()"><!-- --></a>
+		<h3>expireDate</h3>
+
+		<kbd>
+			property any 
+			<strong>expireDate</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_expireDate</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="HTMLDescription()"><!-- --></a>
+		<h3>HTMLDescription</h3>
+
+		<kbd>
+			property any 
+			<strong>HTMLDescription</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>length</code> - 160</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="HTMLKeywords()"><!-- --></a>
+		<h3>HTMLKeywords</h3>
+
+		<kbd>
+			property any 
+			<strong>HTMLKeywords</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>length</code> - 160</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="interceptorService()"><!-- --></a>
+		<h3>interceptorService</h3>
+
+		<kbd>
+			property any 
+			<strong>interceptorService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - coldbox:interceptorService</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="isPublished()"><!-- --></a>
+		<h3>isPublished</h3>
+
+		<kbd>
+			property any 
+			<strong>isPublished</strong>
+			
+			= [true]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_published,idx_search,idx_publishedSlug</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="linkedContent()"><!-- --></a>
+		<h3>linkedContent</h3>
+
+		<kbd>
+			property array 
+			<strong>linkedContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+			<dd><code>linktable</code> - cb_relatedContent</dd>
+			
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>inverse</code> - true</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>orderby</code> - title</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_relatedContentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>inversejoincolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.BaseContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="markup()"><!-- --></a>
+		<h3>markup</h3>
+
+		<kbd>
+			property any 
+			<strong>markup</strong>
+			
+			= [HTML]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfApprovedComments()"><!-- --></a>
+		<h3>numberOfApprovedComments</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfApprovedComments</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select count(*) from cb_comment comment where comment.FK_contentID=contentID and comment.isApproved = 1</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfChildren()"><!-- --></a>
+		<h3>numberOfChildren</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfChildren</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select count(*) from cb_content content where content.FK_parentID=contentID</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfComments()"><!-- --></a>
+		<h3>numberOfComments</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfComments</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select count(*) from cb_comment comment where comment.FK_contentID=contentID</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfHits()"><!-- --></a>
+		<h3>numberOfHits</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfHits</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select cs.hits from cb_stats cs where cs.FK_contentID=contentID</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="numberOfVersions()"><!-- --></a>
+		<h3>numberOfVersions</h3>
+
+		<kbd>
+			property any 
+			<strong>numberOfVersions</strong>
+			
+			= [0]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>formula</code> - select count(*) from cb_contentVersion cv where cv.FK_contentID=contentID</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="parent()"><!-- --></a>
+		<h3>parent</h3>
+
+		<kbd>
+			property any 
+			<strong>parent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-one</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_parentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.BaseContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="passwordProtection()"><!-- --></a>
+		<h3>passwordProtection</h3>
+
+		<kbd>
+			property any 
+			<strong>passwordProtection</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_published</dd>
+			
+		
+			
+			<dd><code>length</code> - 100</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="publishedDate()"><!-- --></a>
+		<h3>publishedDate</h3>
+
+		<kbd>
+			property any 
+			<strong>publishedDate</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - false</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - timestamp</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_publishedDate</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="relatedContent()"><!-- --></a>
+		<h3>relatedContent</h3>
+
+		<kbd>
+			property array 
+			<strong>relatedContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+			<dd><code>linktable</code> - cb_relatedContent</dd>
+			
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - many-to-many</dd>
+			
+		
+			
+		
+			
+			<dd><code>cascade</code> - all</dd>
+			
+		
+			
+			<dd><code>orderby</code> - title</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>fkcolumn</code> - FK_contentID</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>inversejoincolumn</code> - FK_relatedContentID</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.BaseContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - extra</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="renderedContent()"><!-- --></a>
+		<h3>renderedContent</h3>
+
+		<kbd>
+			property any 
+			<strong>renderedContent</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="settingService()"><!-- --></a>
+		<h3>settingService</h3>
+
+		<kbd>
+			property any 
+			<strong>settingService</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>inject</code> - id:settingService@cb</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>persistent</code> - false</dd>
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="showInSearch()"><!-- --></a>
+		<h3>showInSearch</h3>
+
+		<kbd>
+			property any 
+			<strong>showInSearch</strong>
+			
+			= [true]
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>dbdefault</code> - 1</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>ormtype</code> - boolean</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_showInSearch</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="slug()"><!-- --></a>
+		<h3>slug</h3>
+
+		<kbd>
+			property any 
+			<strong>slug</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>unique</code> - true</dd>
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_slug,idx_publishedSlug</dd>
+			
+		
+			
+			<dd><code>length</code> - 200</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="stats()"><!-- --></a>
+		<h3>stats</h3>
+
+		<kbd>
+			property any 
+			<strong>stats</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+			<dd><code>fieldtype</code> - one-to-one</dd>
+			
+		
+			
+		
+			
+			<dd><code>fetch</code> - join</dd>
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+			
+			<dd><code>cfc</code> - contentbox.model.content.Stats</dd>
+			
+		
+			
+			<dd><code>mappedby</code> - relatedContent</dd>
+			
+		
+			
+			<dd><code>lazy</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+		
+		<a name="title()"><!-- --></a>
+		<h3>title</h3>
+
+		<kbd>
+			property any 
+			<strong>title</strong>
+			
+		</kbd>
+
+		<br><br>
+		
+
+		<dl>
+		<dt><strong>Attributes:</strong></dt>
+		
+			
+		
+			
+			<dd><code>required</code> - false</dd>
+			
+		
+			
+		
+			
+			<dd><code>notnull</code> - true</dd>
+			
+		
+			
+			<dd><code>index</code> - idx_search</dd>
+			
+		
+			
+			<dd><code>length</code> - 200</dd>
+			
+		
+			
+		
+			
+		
+			
+			<dd><code>serializable</code> - true</dd>
+			
+		
+		</dl>
+
+		<hr>
+	
+
+
+
+
+
+
+
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<a name="method_detail"><!-- --></a>
+<table class="table table-bordered">
+	<tr class="info">
+		<th colspan="1" align="left">
+			<strong>Method Detail</strong>
+		</th>
+	</tr>
+</table>
+
+
+	
+	<a name="addActiveContent()"><!-- --></a>
+	<h3>addActiveContent</h3>
+	
+	<kbd>public any <strong>addActiveContent</strong>(any activeContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>activeContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addCategories()"><!-- --></a>
+	<h3>addCategories</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>addCategories</strong>(any category)</kbd>
+	
+	<br><br>
+
+	
+		<p>Only adds it if not found in content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addChild()"><!-- --></a>
+	<h3>addChild</h3>
+	
+	<kbd>public any <strong>addChild</strong>(any child)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>child</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addComment()"><!-- --></a>
+	<h3>addComment</h3>
+	
+	<kbd>public any <strong>addComment</strong>(any comment)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>comment</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addCommentSubscription()"><!-- --></a>
+	<h3>addCommentSubscription</h3>
+	
+	<kbd>public any <strong>addCommentSubscription</strong>(any commentSubscription)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>commentSubscription</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addContentVersion()"><!-- --></a>
+	<h3>addContentVersion</h3>
+	
+	<kbd>public any <strong>addContentVersion</strong>(any contentVersion)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentVersion</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addCustomField()"><!-- --></a>
+	<h3>addCustomField</h3>
+	
+	<kbd>public any <strong>addCustomField</strong>(any customField)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>customField</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addExpiredTime()"><!-- --></a>
+	<h3>addExpiredTime</h3>
+	
+	<kbd>public any <strong>addExpiredTime</strong>(any hour, any minute)</kbd>
+	
+	<br><br>
+
+	
+		<p>add expired timestamp to property</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>hour</code></dd>
+		
+		<dd><code>minute</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addLinkedContent()"><!-- --></a>
+	<h3>addLinkedContent</h3>
+	
+	<kbd>public any <strong>addLinkedContent</strong>(any linkedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>linkedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addNewContentVersion()"><!-- --></a>
+	<h3>addNewContentVersion</h3>
+	
+	<kbd>public any <strong>addNewContentVersion</strong>(any content, [any changelog=''], any author)</kbd>
+	
+	<br><br>
+
+	
+		<p>Add a new content version to save for this content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code></dd>
+		
+		<dd><code>changelog</code></dd>
+		
+		<dd><code>author</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addPublishedTime()"><!-- --></a>
+	<h3>addPublishedTime</h3>
+	
+	<kbd>public any <strong>addPublishedTime</strong>(any hour, any minute)</kbd>
+	
+	<br><br>
+
+	
+		<p>add published timestamp to property</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>hour</code></dd>
+		
+		<dd><code>minute</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="addRelatedContent()"><!-- --></a>
+	<h3>addRelatedContent</h3>
+	
+	<kbd>public any <strong>addRelatedContent</strong>(any relatedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="buildContentCacheKey()"><!-- --></a>
+	<h3>buildContentCacheKey</h3>
+	
+	<kbd>public string <strong>buildContentCacheKey</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Build content cache keys according to sent content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="canCacheContent()"><!-- --></a>
+	<h3>canCacheContent</h3>
+	
+	<kbd>public boolean <strong>canCacheContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Verify we can do content caching on this content object using global and local rules</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getActiveContent()"><!-- --></a>
+	<h3>getActiveContent</h3>
+	
+	<kbd>public any <strong>getActiveContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAllowComments()"><!-- --></a>
+	<h3>getAllowComments</h3>
+	
+	<kbd>public string <strong>getAllowComments</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthor()"><!-- --></a>
+	<h3>getAuthor</h3>
+	
+	<kbd>public any <strong>getAuthor</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Author from latest version or null if any yet</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorEmail()"><!-- --></a>
+	<h3>getAuthorEmail</h3>
+	
+	<kbd>public string <strong>getAuthorEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Author email from latest version</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getAuthorName()"><!-- --></a>
+	<h3>getAuthorName</h3>
+	
+	<kbd>public string <strong>getAuthorName</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Author name from latest version</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCache()"><!-- --></a>
+	<h3>getCache</h3>
+	
+	<kbd>public string <strong>getCache</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCachebox()"><!-- --></a>
+	<h3>getCachebox</h3>
+	
+	<kbd>public string <strong>getCachebox</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCacheLastAccessTimeout()"><!-- --></a>
+	<h3>getCacheLastAccessTimeout</h3>
+	
+	<kbd>public string <strong>getCacheLastAccessTimeout</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCacheLayout()"><!-- --></a>
+	<h3>getCacheLayout</h3>
+	
+	<kbd>public string <strong>getCacheLayout</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCacheTimeout()"><!-- --></a>
+	<h3>getCacheTimeout</h3>
+	
+	<kbd>public string <strong>getCacheTimeout</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCategories()"><!-- --></a>
+	<h3>getCategories</h3>
+	
+	<kbd>public string <strong>getCategories</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCategoriesList()"><!-- --></a>
+	<h3>getCategoriesList</h3>
+	
+	<kbd>public any <strong>getCategoriesList</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>get flat categories list</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCategoryService()"><!-- --></a>
+	<h3>getCategoryService</h3>
+	
+	<kbd>public string <strong>getCategoryService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getChildren()"><!-- --></a>
+	<h3>getChildren</h3>
+	
+	<kbd>public string <strong>getChildren</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getComments()"><!-- --></a>
+	<h3>getComments</h3>
+	
+	<kbd>public string <strong>getComments</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCommentSubscriptions()"><!-- --></a>
+	<h3>getCommentSubscriptions</h3>
+	
+	<kbd>public string <strong>getCommentSubscriptions</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContent()"><!-- --></a>
+	<h3>getContent</h3>
+	
+	<kbd>public any <strong>getContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentID()"><!-- --></a>
+	<h3>getContentID</h3>
+	
+	<kbd>public string <strong>getContentID</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentService()"><!-- --></a>
+	<h3>getContentService</h3>
+	
+	<kbd>public string <strong>getContentService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentType()"><!-- --></a>
+	<h3>getContentType</h3>
+	
+	<kbd>public string <strong>getContentType</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentVersions()"><!-- --></a>
+	<h3>getContentVersions</h3>
+	
+	<kbd>public string <strong>getContentVersions</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getContentVersionService()"><!-- --></a>
+	<h3>getContentVersionService</h3>
+	
+	<kbd>public string <strong>getContentVersionService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreatedDate()"><!-- --></a>
+	<h3>getCreatedDate</h3>
+	
+	<kbd>public string <strong>getCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreator()"><!-- --></a>
+	<h3>getCreator</h3>
+	
+	<kbd>public string <strong>getCreator</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreatorEmail()"><!-- --></a>
+	<h3>getCreatorEmail</h3>
+	
+	<kbd>public string <strong>getCreatorEmail</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Creator email</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCreatorName()"><!-- --></a>
+	<h3>getCreatorName</h3>
+	
+	<kbd>public string <strong>getCreatorName</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Shorthand Creator name</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCustomField()"><!-- --></a>
+	<h3>getCustomField</h3>
+	
+	<kbd>public any <strong>getCustomField</strong>(any key, [any defaultValue])</kbd>
+	
+	<br><br>
+
+	
+		<p>Shortcut to get a custom field value</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>key</code> - The custom field key to get</dd>
+		
+		<dd><code>defaultValue</code> - The default value if the key is not found.</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCustomFields()"><!-- --></a>
+	<h3>getCustomFields</h3>
+	
+	<kbd>public string <strong>getCustomFields</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCustomFieldsAsStruct()"><!-- --></a>
+	<h3>getCustomFieldsAsStruct</h3>
+	
+	<kbd>public struct <strong>getCustomFieldsAsStruct</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get custom fields as a structure representation</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getCustomFieldService()"><!-- --></a>
+	<h3>getCustomFieldService</h3>
+	
+	<kbd>public string <strong>getCustomFieldService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayCreatedDate()"><!-- --></a>
+	<h3>getDisplayCreatedDate</h3>
+	
+	<kbd>public string <strong>getDisplayCreatedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get formatted createdDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayExpireDate()"><!-- --></a>
+	<h3>getDisplayExpireDate</h3>
+	
+	<kbd>public string <strong>getDisplayExpireDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get formatted expireDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getDisplayPublishedDate()"><!-- --></a>
+	<h3>getDisplayPublishedDate</h3>
+	
+	<kbd>public string <strong>getDisplayPublishedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get display publishedDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getExpireDate()"><!-- --></a>
+	<h3>getExpireDate</h3>
+	
+	<kbd>public string <strong>getExpireDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getExpireDateForEditor()"><!-- --></a>
+	<h3>getExpireDateForEditor</h3>
+	
+	<kbd>public string <strong>getExpireDateForEditor</strong>([boolean showTime='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get display expireDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>showTime</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getHTMLDescription()"><!-- --></a>
+	<h3>getHTMLDescription</h3>
+	
+	<kbd>public string <strong>getHTMLDescription</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getHTMLKeywords()"><!-- --></a>
+	<h3>getHTMLKeywords</h3>
+	
+	<kbd>public string <strong>getHTMLKeywords</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getInterceptorService()"><!-- --></a>
+	<h3>getInterceptorService</h3>
+	
+	<kbd>public string <strong>getInterceptorService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getIsPublished()"><!-- --></a>
+	<h3>getIsPublished</h3>
+	
+	<kbd>public string <strong>getIsPublished</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getLinkedContent()"><!-- --></a>
+	<h3>getLinkedContent</h3>
+	
+	<kbd>public string <strong>getLinkedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMarkup()"><!-- --></a>
+	<h3>getMarkup</h3>
+	
+	<kbd>public string <strong>getMarkup</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getMemento()"><!-- --></a>
+	<h3>getMemento</h3>
+	
+	<kbd>public any <strong>getMemento</strong>(array slugCache='[runtime expression]', [any counter='0'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get a flat representation of this entry
+slugCache.hint Cache of slugs to prevent infinite recursions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slugCache</code></dd>
+		
+		<dd><code>counter</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfApprovedComments()"><!-- --></a>
+	<h3>getNumberOfApprovedComments</h3>
+	
+	<kbd>public string <strong>getNumberOfApprovedComments</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfChildren()"><!-- --></a>
+	<h3>getNumberOfChildren</h3>
+	
+	<kbd>public string <strong>getNumberOfChildren</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfComments()"><!-- --></a>
+	<h3>getNumberOfComments</h3>
+	
+	<kbd>public string <strong>getNumberOfComments</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfHits()"><!-- --></a>
+	<h3>getNumberOfHits</h3>
+	
+	<kbd>public numeric <strong>getNumberOfHits</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Getter override to allow for null values</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getNumberOfVersions()"><!-- --></a>
+	<h3>getNumberOfVersions</h3>
+	
+	<kbd>public string <strong>getNumberOfVersions</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParent()"><!-- --></a>
+	<h3>getParent</h3>
+	
+	<kbd>public string <strong>getParent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParentID()"><!-- --></a>
+	<h3>getParentID</h3>
+	
+	<kbd>public any <strong>getParentID</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get parent ID if set or empty if none</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getParentName()"><!-- --></a>
+	<h3>getParentName</h3>
+	
+	<kbd>public any <strong>getParentName</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Get parent name or empty if none</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPasswordProtection()"><!-- --></a>
+	<h3>getPasswordProtection</h3>
+	
+	<kbd>public string <strong>getPasswordProtection</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPublishedDate()"><!-- --></a>
+	<h3>getPublishedDate</h3>
+	
+	<kbd>public string <strong>getPublishedDate</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getPublishedDateForEditor()"><!-- --></a>
+	<h3>getPublishedDateForEditor</h3>
+	
+	<kbd>public string <strong>getPublishedDateForEditor</strong>([boolean showTime='false'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get display publishedDate</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>showTime</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRecursiveSlug()"><!-- --></a>
+	<h3>getRecursiveSlug</h3>
+	
+	<kbd>public any <strong>getRecursiveSlug</strong>([any separator='/'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Get recursive slug paths to get ancestry, DEPRECATED.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>separator</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRelatedContent()"><!-- --></a>
+	<h3>getRelatedContent</h3>
+	
+	<kbd>public string <strong>getRelatedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRelatedContentIDs()"><!-- --></a>
+	<h3>getRelatedContentIDs</h3>
+	
+	<kbd>public string <strong>getRelatedContentIDs</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Returns a list of active related content for this piece of content</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getRenderedContent()"><!-- --></a>
+	<h3>getRenderedContent</h3>
+	
+	<kbd>public string <strong>getRenderedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSettingService()"><!-- --></a>
+	<h3>getSettingService</h3>
+	
+	<kbd>public string <strong>getSettingService</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getShowInSearch()"><!-- --></a>
+	<h3>getShowInSearch</h3>
+	
+	<kbd>public string <strong>getShowInSearch</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getSlug()"><!-- --></a>
+	<h3>getSlug</h3>
+	
+	<kbd>public string <strong>getSlug</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getStats()"><!-- --></a>
+	<h3>getStats</h3>
+	
+	<kbd>public string <strong>getStats</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="getTitle()"><!-- --></a>
+	<h3>getTitle</h3>
+	
+	<kbd>public string <strong>getTitle</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasActiveContent()"><!-- --></a>
+	<h3>hasActiveContent</h3>
+	
+	<kbd>public boolean <strong>hasActiveContent</strong>([any activeContent])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>activeContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasCategories()"><!-- --></a>
+	<h3>hasCategories</h3>
+	
+	<kbd>public boolean <strong>hasCategories</strong>([any categories])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>categories</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasChild()"><!-- --></a>
+	<h3>hasChild</h3>
+	
+	<kbd>public boolean <strong>hasChild</strong>([any child])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>child</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasComment()"><!-- --></a>
+	<h3>hasComment</h3>
+	
+	<kbd>public boolean <strong>hasComment</strong>([any comment])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>comment</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasCommentSubscription()"><!-- --></a>
+	<h3>hasCommentSubscription</h3>
+	
+	<kbd>public boolean <strong>hasCommentSubscription</strong>([any commentSubscription])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>commentSubscription</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasContentVersion()"><!-- --></a>
+	<h3>hasContentVersion</h3>
+	
+	<kbd>public boolean <strong>hasContentVersion</strong>([any contentVersion])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentVersion</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasCreator()"><!-- --></a>
+	<h3>hasCreator</h3>
+	
+	<kbd>public boolean <strong>hasCreator</strong>([any creator])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>creator</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasCustomField()"><!-- --></a>
+	<h3>hasCustomField</h3>
+	
+	<kbd>public boolean <strong>hasCustomField</strong>([any customField])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>customField</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasLinkedContent()"><!-- --></a>
+	<h3>hasLinkedContent</h3>
+	
+	<kbd>public boolean <strong>hasLinkedContent</strong>([any linkedContent])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>linkedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasParent()"><!-- --></a>
+	<h3>hasParent</h3>
+	
+	<kbd>public boolean <strong>hasParent</strong>([any parent])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>parent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasRelatedContent()"><!-- --></a>
+	<h3>hasRelatedContent</h3>
+	
+	<kbd>public boolean <strong>hasRelatedContent</strong>([any relatedContent])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="hasStats()"><!-- --></a>
+	<h3>hasStats</h3>
+	
+	<kbd>public boolean <strong>hasStats</strong>([any stats])</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>stats</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="inflateCustomFields()"><!-- --></a>
+	<h3>inflateCustomFields</h3>
+	
+	<kbd>public any <strong>inflateCustomFields</strong>(numeric fieldCount, struct memento)</kbd>
+	
+	<br><br>
+
+	
+		<p>Inflate custom fields from the incoming count and memento structure</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>fieldCount</code></dd>
+		
+		<dd><code>memento</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="inflateRelatedContent()"><!-- --></a>
+	<h3>inflateRelatedContent</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>inflateRelatedContent</strong>(any relatedContent)</kbd>
+	
+	<br><br>
+
+	
+		<p>Inflates from comma-delimited list (or array) of id's</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code> - The list or array of relatedContent ids</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isContentPublished()"><!-- --></a>
+	<h3>isContentPublished</h3>
+	
+	<kbd>public boolean <strong>isContentPublished</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Bit that denotes if the content has been published or not</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isExpired()"><!-- --></a>
+	<h3>isExpired</h3>
+	
+	<kbd>public boolean <strong>isExpired</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Bit that denotes if the content has expired or not, in order to be expired the content must have been published as well</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isLoaded()"><!-- --></a>
+	<h3>isLoaded</h3>
+	
+	<kbd>public boolean <strong>isLoaded</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>is loaded?</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isPasswordProtected()"><!-- --></a>
+	<h3>isPasswordProtected</h3>
+	
+	<kbd>public boolean <strong>isPasswordProtected</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>isPassword Protected</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="isPublishedInFuture()"><!-- --></a>
+	<h3>isPublishedInFuture</h3>
+	
+	<kbd>public boolean <strong>isPublishedInFuture</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Bit that denotes if the content has been published or not in the future</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="maxContentVersionChecks()"><!-- --></a>
+	<h3>maxContentVersionChecks</h3>
+	
+	<kbd>private any <strong>maxContentVersionChecks</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="prepareForClone()"><!-- --></a>
+	<h3>prepareForClone</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>prepareForClone</strong>(any author, any original, any originalService, boolean publish, any originalSlugRoot, any newSlugRoot)</kbd>
+	
+	<br><br>
+
+	
+		<p>Wipe primary key, and descendant keys, and prepare for cloning of entire hierarchies</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>author</code> - The author doing the cloning</dd>
+		
+		<dd><code>original</code> - The original content object that will be cloned into this content object</dd>
+		
+		<dd><code>originalService</code> - The ContentBox content service object</dd>
+		
+		<dd><code>publish</code> - Publish pages or leave as drafts</dd>
+		
+		<dd><code>originalSlugRoot</code> - The original slug that will be replaced in all cloned content</dd>
+		
+		<dd><code>newSlugRoot</code> - The new slug root that will be replaced in all cloned content</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeActiveContent()"><!-- --></a>
+	<h3>removeActiveContent</h3>
+	
+	<kbd>public boolean <strong>removeActiveContent</strong>(any activeContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>activeContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeAllCategories()"><!-- --></a>
+	<h3>removeAllCategories</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>removeAllCategories</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeAllLinkedContent()"><!-- --></a>
+	<h3>removeAllLinkedContent</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>removeAllLinkedContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeCategories()"><!-- --></a>
+	<h3>removeCategories</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>removeCategories</strong>(any category)</kbd>
+	
+	<br><br>
+
+	
+		<p>Remove only if it's found in the content object</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>category</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeChild()"><!-- --></a>
+	<h3>removeChild</h3>
+	
+	<kbd>public boolean <strong>removeChild</strong>(any child)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>child</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeComment()"><!-- --></a>
+	<h3>removeComment</h3>
+	
+	<kbd>public boolean <strong>removeComment</strong>(any comment)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>comment</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeCommentSubscription()"><!-- --></a>
+	<h3>removeCommentSubscription</h3>
+	
+	<kbd>public boolean <strong>removeCommentSubscription</strong>(any commentSubscription)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>commentSubscription</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeContentVersion()"><!-- --></a>
+	<h3>removeContentVersion</h3>
+	
+	<kbd>public boolean <strong>removeContentVersion</strong>(any contentVersion)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentVersion</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeCustomField()"><!-- --></a>
+	<h3>removeCustomField</h3>
+	
+	<kbd>public boolean <strong>removeCustomField</strong>(any customField)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>customField</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeLinkedContent()"><!-- --></a>
+	<h3>removeLinkedContent</h3>
+	
+	<kbd>public boolean <strong>removeLinkedContent</strong>(any linkedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>linkedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="removeRelatedContent()"><!-- --></a>
+	<h3>removeRelatedContent</h3>
+	
+	<kbd>public boolean <strong>removeRelatedContent</strong>(any relatedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="renderContent()"><!-- --></a>
+	<h3>renderContent</h3>
+	
+	<kbd>public any <strong>renderContent</strong>()</kbd>
+	
+	<br><br>
+
+	
+		<p>Render content out using translations, caching, etc.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="renderContentSilent()"><!-- --></a>
+	<h3>renderContentSilent</h3>
+	
+	<kbd>public any <strong>renderContentSilent</strong>([any content='[runtime expression]'])</kbd>
+	
+	<br><br>
+
+	
+		<p>Renders the content silently so no caching, or extra fluff is done, just content translation rendering.</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>content</code> - The content markup to translate, by default it uses the active content version's content</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setActiveContent()"><!-- --></a>
+	<h3>setActiveContent</h3>
+	
+	<kbd>public any <strong>setActiveContent</strong>(array activeContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>activeContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setAllowComments()"><!-- --></a>
+	<h3>setAllowComments</h3>
+	
+	<kbd>public any <strong>setAllowComments</strong>(any allowComments)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>allowComments</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCache()"><!-- --></a>
+	<h3>setCache</h3>
+	
+	<kbd>public any <strong>setCache</strong>(any cache)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>cache</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCachebox()"><!-- --></a>
+	<h3>setCachebox</h3>
+	
+	<kbd>public any <strong>setCachebox</strong>(any cachebox)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>cachebox</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCacheLastAccessTimeout()"><!-- --></a>
+	<h3>setCacheLastAccessTimeout</h3>
+	
+	<kbd>public any <strong>setCacheLastAccessTimeout</strong>(any cacheLastAccessTimeout)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>cacheLastAccessTimeout</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCacheLayout()"><!-- --></a>
+	<h3>setCacheLayout</h3>
+	
+	<kbd>public any <strong>setCacheLayout</strong>(any cacheLayout)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>cacheLayout</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCacheTimeout()"><!-- --></a>
+	<h3>setCacheTimeout</h3>
+	
+	<kbd>public any <strong>setCacheTimeout</strong>(any cacheTimeout)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>cacheTimeout</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCategories()"><!-- --></a>
+	<h3>setCategories</h3>
+	
+	<kbd>public any <strong>setCategories</strong>(array categories)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>categories</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCategoryService()"><!-- --></a>
+	<h3>setCategoryService</h3>
+	
+	<kbd>public any <strong>setCategoryService</strong>(any categoryService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>categoryService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setChildren()"><!-- --></a>
+	<h3>setChildren</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>setChildren</strong>(array children)</kbd>
+	
+	<br><br>
+
+	
+		<p>Override the setChildren</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>children</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setComments()"><!-- --></a>
+	<h3>setComments</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>setComments</strong>(array comments)</kbd>
+	
+	<br><br>
+
+	
+		<p>Override the setComments</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>comments</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCommentSubscriptions()"><!-- --></a>
+	<h3>setCommentSubscriptions</h3>
+	
+	<kbd>public any <strong>setCommentSubscriptions</strong>(array commentSubscriptions)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>commentSubscriptions</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setContentService()"><!-- --></a>
+	<h3>setContentService</h3>
+	
+	<kbd>public any <strong>setContentService</strong>(any contentService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setContentVersions()"><!-- --></a>
+	<h3>setContentVersions</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>setContentVersions</strong>(array contentVersions)</kbd>
+	
+	<br><br>
+
+	
+		<p>Override the setContentVersions</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentVersions</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setContentVersionService()"><!-- --></a>
+	<h3>setContentVersionService</h3>
+	
+	<kbd>public any <strong>setContentVersionService</strong>(any contentVersionService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>contentVersionService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCreatedDate()"><!-- --></a>
+	<h3>setCreatedDate</h3>
+	
+	<kbd>public any <strong>setCreatedDate</strong>(any createdDate)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>createdDate</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCreator()"><!-- --></a>
+	<h3>setCreator</h3>
+	
+	<kbd>public any <strong>setCreator</strong>(any creator)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>creator</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCustomFields()"><!-- --></a>
+	<h3>setCustomFields</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>setCustomFields</strong>(array customFields)</kbd>
+	
+	<br><br>
+
+	
+		<p>Override the setCustomFields</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>customFields</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setCustomFieldService()"><!-- --></a>
+	<h3>setCustomFieldService</h3>
+	
+	<kbd>public any <strong>setCustomFieldService</strong>(any customFieldService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>customFieldService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setExpireDate()"><!-- --></a>
+	<h3>setExpireDate</h3>
+	
+	<kbd>public any <strong>setExpireDate</strong>(any expireDate)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>expireDate</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setHTMLDescription()"><!-- --></a>
+	<h3>setHTMLDescription</h3>
+	
+	<kbd>public any <strong>setHTMLDescription</strong>(any HTMLDescription)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>HTMLDescription</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setHTMLKeywords()"><!-- --></a>
+	<h3>setHTMLKeywords</h3>
+	
+	<kbd>public any <strong>setHTMLKeywords</strong>(any HTMLKeywords)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>HTMLKeywords</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setInterceptorService()"><!-- --></a>
+	<h3>setInterceptorService</h3>
+	
+	<kbd>public any <strong>setInterceptorService</strong>(any interceptorService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>interceptorService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setIsPublished()"><!-- --></a>
+	<h3>setIsPublished</h3>
+	
+	<kbd>public any <strong>setIsPublished</strong>(any isPublished)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>isPublished</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setLinkedContent()"><!-- --></a>
+	<h3>setLinkedContent</h3>
+	
+	<kbd>public any <strong>setLinkedContent</strong>(array linkedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>linkedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setMarkup()"><!-- --></a>
+	<h3>setMarkup</h3>
+	
+	<kbd>public any <strong>setMarkup</strong>(any markup)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>markup</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfApprovedComments()"><!-- --></a>
+	<h3>setNumberOfApprovedComments</h3>
+	
+	<kbd>public any <strong>setNumberOfApprovedComments</strong>(any numberOfApprovedComments)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfApprovedComments</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfChildren()"><!-- --></a>
+	<h3>setNumberOfChildren</h3>
+	
+	<kbd>public any <strong>setNumberOfChildren</strong>(any numberOfChildren)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfChildren</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfComments()"><!-- --></a>
+	<h3>setNumberOfComments</h3>
+	
+	<kbd>public any <strong>setNumberOfComments</strong>(any numberOfComments)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfComments</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfHits()"><!-- --></a>
+	<h3>setNumberOfHits</h3>
+	
+	<kbd>public any <strong>setNumberOfHits</strong>(any numberOfHits)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfHits</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setNumberOfVersions()"><!-- --></a>
+	<h3>setNumberOfVersions</h3>
+	
+	<kbd>public any <strong>setNumberOfVersions</strong>(any numberOfVersions)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>numberOfVersions</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setParent()"><!-- --></a>
+	<h3>setParent</h3>
+	
+	<kbd>public any <strong>setParent</strong>(any parent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>parent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPasswordProtection()"><!-- --></a>
+	<h3>setPasswordProtection</h3>
+	
+	<kbd>public any <strong>setPasswordProtection</strong>(any passwordProtection)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>passwordProtection</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setPublishedDate()"><!-- --></a>
+	<h3>setPublishedDate</h3>
+	
+	<kbd>public any <strong>setPublishedDate</strong>(any publishedDate)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>publishedDate</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRelatedContent()"><!-- --></a>
+	<h3>setRelatedContent</h3>
+	
+	<kbd>public <a href="../../../contentbox/model/content/BaseContent.html" title="class in contentbox.model.content">BaseContent</a> <strong>setRelatedContent</strong>(array relatedContent)</kbd>
+	
+	<br><br>
+
+	
+		<p>Override the setRelatedContent</p>
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>relatedContent</code> - The related content to set</dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setRenderedContent()"><!-- --></a>
+	<h3>setRenderedContent</h3>
+	
+	<kbd>public any <strong>setRenderedContent</strong>(any renderedContent)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>renderedContent</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setSettingService()"><!-- --></a>
+	<h3>setSettingService</h3>
+	
+	<kbd>public any <strong>setSettingService</strong>(any settingService)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>settingService</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setShowInSearch()"><!-- --></a>
+	<h3>setShowInSearch</h3>
+	
+	<kbd>public any <strong>setShowInSearch</strong>(any showInSearch)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>showInSearch</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setSlug()"><!-- --></a>
+	<h3>setSlug</h3>
+	
+	<kbd>public any <strong>setSlug</strong>(any slug)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>slug</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setStats()"><!-- --></a>
+	<h3>setStats</h3>
+	
+	<kbd>public any <strong>setStats</strong>(any stats)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>stats</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+	
+	<a name="setTitle()"><!-- --></a>
+	<h3>setTitle</h3>
+	
+	<kbd>public any <strong>setTitle</strong>(any title)</kbd>
+	
+	<br><br>
+
+	
+
+	
+		
+		
+	
+
+	
+	
+
+	
+		<dl>
+		<dt><strong>Parameters:</strong></dt>
+		
+		<dd><code>title</code></dd>
+		
+		</dl>
+	
+
+	
+
+	</dl>
+	<hr>
+
+
+
+
+</body>
+</html>
+

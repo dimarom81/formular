@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports
+END
+ConsoleReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/ConsoleReporter.cfc
+END
+MinReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/MinReporter.cfc
+END
+TapReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/TapReporter.cfc
+END
+TextReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/TextReporter.cfc
+END
+DocReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/DocReporter.cfc
+END
+CodexWikiReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/CodexWikiReporter.cfc
+END
+DotReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/DotReporter.cfc
+END
+IReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/IReporter.cfc
+END
+JSONReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/JSONReporter.cfc
+END
+JUnitReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/JUnitReporter.cfc
+END
+RawReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/RawReporter.cfc
+END
+SimpleReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/SimpleReporter.cfc
+END
+ANTJUnitReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/ANTJUnitReporter.cfc
+END
+XMLReporter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/reports/XMLReporter.cfc
+END

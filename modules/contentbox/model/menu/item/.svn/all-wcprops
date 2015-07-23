@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item
+END
+FreeMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/FreeMenuItem.cfc
+END
+URLMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/URLMenuItem.cfc
+END
+SubMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/SubMenuItem.cfc
+END
+BaseMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/BaseMenuItem.cfc
+END
+ContentMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/ContentMenuItem.cfc
+END
+JSMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/JSMenuItem.cfc
+END
+MediaMenuItem.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/menu/item/MediaMenuItem.cfc
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ColdBoxSES/views/general
+END
+testcase1.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ColdBoxSES/views/general/testcase1.cfm
+END
+testcase2.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ColdBoxSES/views/general/testcase2.cfm
+END
+printSample.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ColdBoxSES/views/general/printSample.cfm
+END
+index.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ColdBoxSES/views/general/index.cfm
+END
+regex.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ColdBoxSES/views/general/regex.cfm
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/mvc/core
+END
+EventHandlerBean.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/mvc/core/EventHandlerBean.cfc
+END
+Renderer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/mvc/core/Renderer.cfc
+END
+ApplicationLoader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/mvc/core/ApplicationLoader.cfc
+END
+RequestContext.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/mvc/core/RequestContext.cfc
+END

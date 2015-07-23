@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/modules/cbvalidation/models
+END
+ValidationManager.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/modules/cbvalidation/models/ValidationManager.cfc
+END
+IValidationManager.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/modules/cbvalidation/models/IValidationManager.cfc
+END
+Mixins.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/modules/cbvalidation/models/Mixins.cfm
+END
+GenericObject.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/TaskManager/modules/cborm/modules/cbvalidation/models/GenericObject.cfc
+END

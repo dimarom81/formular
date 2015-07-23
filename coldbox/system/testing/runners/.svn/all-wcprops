@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/runners
+END
+HTMLRunner.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/runners/HTMLRunner.cfm
+END
+UnitRunner.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/runners/UnitRunner.cfc
+END
+IRunner.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/runners/IRunner.cfc
+END
+BDDRunner.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/runners/BDDRunner.cfc
+END
+BaseRunner.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/runners/BaseRunner.cfc
+END

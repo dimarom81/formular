@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes
+END
+debugHeader.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/debugHeader.cfm
+END
+debug.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/debug.cfm
+END
+debugoutput.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/helloworld/modules/cbdebugger/includes/debugoutput.cfm
+END

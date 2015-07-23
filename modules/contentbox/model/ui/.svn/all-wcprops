@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/ui
+END
+AdminMenuService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/ui/AdminMenuService.cfc
+END
+BaseWidget.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/ui/BaseWidget.cfc
+END
+LayoutService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/ui/LayoutService.cfc
+END
+Widget.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/ui/Widget.cfc
+END
+WidgetService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/model/ui/WidgetService.cfc
+END

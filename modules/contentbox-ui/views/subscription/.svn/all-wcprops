@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/views/subscription
+END
+unsubscribe.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/views/subscription/unsubscribe.cfm
+END
+subscriptions.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/views/subscription/subscriptions.cfm
+END
+subscriptionsHelper.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox-ui/views/subscription/subscriptionsHelper.cfm
+END

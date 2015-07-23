@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc
+END
+Builder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/Builder.cfc
+END
+IInjector.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/IInjector.cfc
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/license.txt
+END
+Provider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/Provider.cfc
+END
+Scopes.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/Scopes.cfc
+END
+Injector.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/Injector.cfc
+END
+AbstractIOCAdapter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/AbstractIOCAdapter.cfc
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/readme.txt
+END
+ColdboxFactory.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/ColdboxFactory.cfc
+END
+IProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/IProvider.cfc
+END
+Types.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/Types.cfc
+END

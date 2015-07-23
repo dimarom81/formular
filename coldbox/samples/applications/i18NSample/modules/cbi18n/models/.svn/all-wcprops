@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/modules/cbi18n/models
+END
+ResourceService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/modules/cbi18n/models/ResourceService.cfc
+END
+i18n.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/modules/cbi18n/models/i18n.cfc
+END
+Mixins.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/i18NSample/modules/cbi18n/models/Mixins.cfm
+END

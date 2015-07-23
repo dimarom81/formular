@@ -1,4 +1,18 @@
 ﻿<script>
+	
+	
+	function senddata(){
+		
+		var data = $("#integerForm").serialize();
+		
+		window.location.replace("<cfoutput>#event.buildlink('bewirtung/generatePDF')#</cfoutput>" + "?" + data);
+	}
+	
+	
+	
+	
+	
+	
 	$(document).ready(function () {
 		$('#mealDate').datepicker({
 			format: "dd/mm/yyyy", autoclose:"true"
@@ -189,7 +203,7 @@
 		<div class="form-group input_files_wrap col-md-6">
 			<label for="beleg">Rechnung hochladen:</label>
 				<button class="add_files_input btn-link">Weitere Dateien hochladen</button>
-			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan_1"></br>
+			<input type="hidden" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan_1"></br>
 		</div>							
 	</div><!---well_4--->
 </div><!---container_4--->
@@ -198,8 +212,8 @@
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
 		<button type="submit" class="btn btn-success btn-lg" name="submit_upload"><span class="glyphicon glyphicon-download-alt" aria-hidden="true" style="margin-right:5px;"></span>Bewirtungsbeleg speichern</button>
-		<a href="#event.buildLink('bewirtung/form')#" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;"></span>Als PDF herunterladen</a>
-		
+		<a href="#event.buildLink('bewirtung/generatePDF')#" class="btn btn-warning btn-lg" role="button"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;"></span>Als PDF herunterladen</a>
+		<button type="button" class="btn btn-success btn-lg" onclick="senddata();" >TEST</button>
 		
 	</div><!---well_5--->
 </div><!---container_5--->		

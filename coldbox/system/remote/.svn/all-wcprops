@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/remote
+END
+ColdboxProxy.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/remote/ColdboxProxy.cfc
+END
+RemotingUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/remote/RemotingUtil.cfc
+END

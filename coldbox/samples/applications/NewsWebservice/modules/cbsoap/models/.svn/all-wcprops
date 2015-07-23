@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbsoap/models
+END
+Webservices.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbsoap/models/Webservices.cfc
+END
+WebservicesDSL.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/modules/cbsoap/models/WebservicesDSL.cfc
+END

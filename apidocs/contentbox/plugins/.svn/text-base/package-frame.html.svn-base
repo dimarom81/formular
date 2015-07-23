@@ -1,0 +1,80 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> contentbox.plugins </title>
+	<meta name="keywords" content="contentbox.plugins package">
+	
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel ="stylesheet" type="text/css" href="../../bootstrap/css/bootstrap.min.css">
+<link rel ="stylesheet" type="text/css" href="../../stylesheet.css">
+	
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic|Ubuntu+Mono' rel='stylesheet' type='text/css' />
+	
+<script src="../../bootstrap/js/jquery-2.1.0.min.js" type="text/javascript"></script>
+<script src="../../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+<script>
+$(document).ready(function() {
+	// Global Tool Tip Settings
+	$( '[title]' ).tooltip({
+		 animation: 'slide',
+		 delay: { show: 250, hide: 250 }
+	});
+});
+</script>
+</head>
+<body>
+	
+	<p>
+		<a href="package-summary.html" target="classFrame"><span class="label label-success">contentbox.plugins</span></a>
+	</p>
+	
+	
+	
+	
+	<p><strong>classes</strong></p>
+	<ul class="list-unstyled">
+		
+		<li>
+			<a href="Avatar.html" title="class in contentbox.plugins" target="classFrame">Avatar</a>
+		</li>
+		
+		<li>
+			<a href="BootstrapFileUpload.html" title="class in contentbox.plugins" target="classFrame">BootstrapFileUpload</a>
+		</li>
+		
+		<li>
+			<a href="Captcha.html" title="class in contentbox.plugins" target="classFrame">Captcha</a>
+		</li>
+		
+		<li>
+			<a href="CBHelper.html" title="class in contentbox.plugins" target="classFrame">CBHelper</a>
+		</li>
+		
+		<li>
+			<a href="EmailTemplateHelper.html" title="class in contentbox.plugins" target="classFrame">EmailTemplateHelper</a>
+		</li>
+		
+		<li>
+			<a href="JSMin.html" title="class in contentbox.plugins" target="classFrame">JSMin</a>
+		</li>
+		
+		<li>
+			<a href="MobileDetector.html" title="class in contentbox.plugins" target="classFrame">MobileDetector</a>
+		</li>
+		
+		<li>
+			<a href="Paging.html" title="class in contentbox.plugins" target="classFrame">Paging</a>
+		</li>
+		
+	</ul>
+	
+
+</body>
+</html>

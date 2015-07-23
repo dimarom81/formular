@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util
+END
+Validator.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/Validator.cfc
+END
+CFMLEngine.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/CFMLEngine.cfc
+END
+Util.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/Util.cfc
+END
+DateUtils.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/DateUtils.cfc
+END
+FileUtils.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/FileUtils.cfc
+END
+RequestBuffer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/RequestBuffer.cfc
+END
+Zip.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/core/util/Zip.cfc
+END

@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins
+END
+AntiSamy.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/AntiSamy.cfc
+END
+Validator.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Validator.cfc
+END
+FeedReader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/FeedReader.cfc
+END
+ApplicationStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/ApplicationStorage.cfc
+END
+XMLConverter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/XMLConverter.cfc
+END
+BeanFactory.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/BeanFactory.cfc
+END
+MessageBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/MessageBox.cfc
+END
+DateUtils.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/DateUtils.cfc
+END
+CookieStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/CookieStorage.cfc
+END
+FileUtils.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/FileUtils.cfc
+END
+Zip.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Zip.cfc
+END
+ClientStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/ClientStorage.cfc
+END
+MailService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/MailService.cfc
+END
+HTMLHelper.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/HTMLHelper.cfc
+END
+QueryHelper.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/QueryHelper.cfc
+END
+ClusterStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/ClusterStorage.cfc
+END
+Renderer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Renderer.cfc
+END
+JavaLoader.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/JavaLoader.cfc
+END
+SessionStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/SessionStorage.cfc
+END
+JSON.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/JSON.cfc
+END
+IOC.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/IOC.cfc
+END
+FeedGenerator.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/FeedGenerator.cfc
+END
+Utilities.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Utilities.cfc
+END
+JVMUtils.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/JVMUtils.cfc
+END
+ORMService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/ORMService.cfc
+END
+Logger.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Logger.cfc
+END
+i18n.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/i18n.cfc
+END
+Timer.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Timer.cfc
+END
+ResourceBundle.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/ResourceBundle.cfc
+END
+Webservices.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/plugins/Webservices.cfc
+END

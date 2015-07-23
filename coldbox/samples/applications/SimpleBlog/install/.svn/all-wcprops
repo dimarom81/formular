@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/install
+END
+MySQL.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/install/MySQL.sql
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/install/readme.txt
+END
+MSSQL.sql
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/install/MSSQL.sql
+END

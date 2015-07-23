@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing
+END
+BaseSpec.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/BaseSpec.cfc
+END
+mockbox.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/mockbox.txt
+END
+TestBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/TestBox.cfc
+END
+BasePluginTest.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/BasePluginTest.cfc
+END
+BaseInterceptorTest.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/BaseInterceptorTest.cfc
+END
+BaseModelTest.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/BaseModelTest.cfc
+END
+MockBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/MockBox.cfc
+END
+Application.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/Application.cfc
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/license.txt
+END
+BaseTestCase.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/BaseTestCase.cfc
+END
+Assertion.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/Assertion.cfc
+END
+BaseHandlerTest.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/BaseHandlerTest.cfc
+END
+testbox.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/testbox.txt
+END
+TestResult.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/TestResult.cfc
+END
+Expectation.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/testing/Expectation.cfc
+END

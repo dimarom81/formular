@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/dsl
+END
+ColdBoxDSL.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/dsl/ColdBoxDSL.cfc
+END
+LogBoxDSL.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/dsl/LogBoxDSL.cfc
+END
+CacheBoxDSL.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/dsl/CacheBoxDSL.cfc
+END
+IDSLBuilder.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/dsl/IDSLBuilder.cfc
+END

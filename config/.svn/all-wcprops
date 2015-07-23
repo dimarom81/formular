@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config/Coldbox.cfc
+END
+Routes.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config/Routes.cfm
+END
+CacheBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config/CacheBox.cfc
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config/Application.cfm
+END
+WireBox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config/WireBox.cfc
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/config/.htaccess
+END

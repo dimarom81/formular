@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/adapters
+END
+ColdSpringAdapter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/adapters/ColdSpringAdapter.cfc
+END
+ColdSpring2Adapter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/adapters/ColdSpring2Adapter.cfc
+END
+LightWireAdapter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/adapters/LightWireAdapter.cfc
+END
+WireBoxAdapter.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/ioc/adapters/WireBoxAdapter.cfc
+END

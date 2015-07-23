@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/config
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/config/Coldbox.cfc
+END
+Routes.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/config/Routes.cfm
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleCrudWithREST/config/Application.cfm
+END

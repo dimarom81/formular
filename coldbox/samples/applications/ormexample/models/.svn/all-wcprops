@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/models
+END
+Book.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/models/Book.cfc
+END
+Author.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/models/Author.cfc
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/aop/aspects
+END
+HibernateTransaction.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/aop/aspects/HibernateTransaction.cfc
+END
+CFTransaction.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/aop/aspects/CFTransaction.cfc
+END
+MethodLogger.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/aop/aspects/MethodLogger.cfc
+END

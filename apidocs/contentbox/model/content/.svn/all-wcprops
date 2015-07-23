@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content
+END
+Page.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/Page.html
+END
+Category.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/Category.html
+END
+CustomField.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/CustomField.html
+END
+StatsService.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/StatsService.html
+END
+ContentVersion.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/ContentVersion.html
+END
+EntryService.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/EntryService.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/package-frame.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/package-summary.html
+END
+ContentStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/ContentStore.html
+END
+ContentService.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/ContentService.html
+END
+PageService.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/PageService.html
+END
+Stats.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/Stats.html
+END
+CategoryService.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/CategoryService.html
+END
+Entry.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/Entry.html
+END
+ContentVersionService.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/ContentVersionService.html
+END
+BaseContent.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/BaseContent.html
+END
+ContentStoreService.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/apidocs/contentbox/model/content/ContentStoreService.html
+END

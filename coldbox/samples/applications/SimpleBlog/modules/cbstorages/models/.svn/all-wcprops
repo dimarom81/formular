@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbstorages/models
+END
+ClusterStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbstorages/models/ClusterStorage.cfc
+END
+ApplicationStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbstorages/models/ApplicationStorage.cfc
+END
+SessionStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbstorages/models/SessionStorage.cfc
+END
+CookieStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbstorages/models/CookieStorage.cfc
+END
+ClientStorage.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cbstorages/models/ClientStorage.cfc
+END

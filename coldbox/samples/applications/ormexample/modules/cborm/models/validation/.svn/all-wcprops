@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/models/validation
+END
+UniqueValidator.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/ormexample/modules/cborm/models/validation/UniqueValidator.cfc
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util
+END
+ORMUtilSupport.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util/ORMUtilSupport.cfc
+END
+ORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util/ORMUtil.cfc
+END
+RailoORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util/RailoORMUtil.cfc
+END
+ORMUtilFactory.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util/ORMUtilFactory.cfc
+END
+CFORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util/CFORMUtil.cfc
+END
+IORMUtil.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/SimpleBlog/modules/cborm/models/util/IORMUtil.cfc
+END

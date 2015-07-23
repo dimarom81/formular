@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins
+END
+Paging.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/Paging.cfc
+END
+Avatar.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/Avatar.cfc
+END
+JSMin.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/JSMin.cfc
+END
+MobileDetector.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/MobileDetector.cfc
+END
+BootstrapFileUpload.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/BootstrapFileUpload.cfc
+END
+Captcha.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/Captcha.cfc
+END
+EmailTemplateHelper.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/EmailTemplateHelper.cfc
+END
+CBHelper.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/modules/contentbox/plugins/CBHelper.cfc
+END

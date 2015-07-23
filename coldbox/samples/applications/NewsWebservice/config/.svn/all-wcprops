@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/config
+END
+Coldbox.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/config/Coldbox.cfc
+END
+Application.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/config/Application.cfm
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/samples/applications/NewsWebservice/config/.htaccess
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model
+END
+GmWrapperService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/GmWrapperService.cfc
+END
+belegBewirtung.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/belegBewirtung.cfc
+END
+userBewirtung.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/userBewirtung.cfc
+END
+belegBewirtungService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/belegBewirtungService.cfc
+END
+userBewirtungService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/userBewirtungService.cfc
+END
+dmitry.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/dmitry.cfc
+END
+countries.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/countries.cfc
+END
+YourModelsGoHere.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/YourModelsGoHere.txt
+END
+dm.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/dm.cfc
+END
+bildBewirtung.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/bildBewirtung.cfc
+END
+bildBewirtungService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/bildBewirtungService.cfc
+END
+countryService.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/model/countryService.cfc
+END

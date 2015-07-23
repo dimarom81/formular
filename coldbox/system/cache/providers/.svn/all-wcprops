@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers
+END
+CacheBoxProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/CacheBoxProvider.cfc
+END
+RailoColdboxProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/RailoColdboxProvider.cfc
+END
+CFColdBoxProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/CFColdBoxProvider.cfc
+END
+RailoProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/RailoProvider.cfc
+END
+CacheBoxColdBoxProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/CacheBoxColdBoxProvider.cfc
+END
+CFProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/CFProvider.cfc
+END
+MockProvider.cfc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/coldbox/system/cache/providers/MockProvider.cfc
+END
