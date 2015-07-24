@@ -60,7 +60,7 @@
 
 <body data-spy="scroll">
 	
-	<h2 align="center">Angaben ueber Bewirtungsaufwendungen</h2>
+	<h3 align="center">Angaben ueber Bewirtungsaufwendungen</h3>
 	
 <table class="gridtable" style="width:100%">
   <tr>
@@ -101,14 +101,17 @@
      <td colspan="2">&nbsp;</td>
   </tr>
   <tr>
-     <td colspan="2">Treffen mit den Kunden, usw usf</td>
+     <td colspan="2">&nbsp;</td>
   </tr>
   <tr>
-    <td><strong>Hoehe der Bewirtung: #prc.price# EUR</strong></td>
-	<td>In Restaurationsbetrieben </td>
+    <td><strong>Hoehe der Bewirtung:</strong></td>
+	<td>#prc.price# EUR</td>
   </tr>
   <tr>
-    <td><strong>Ort, Datum: #prc.currentLocation#, #prc.currentDate#</strong></td>
+     <td colspan="2">#prc.restaurant#</td>
+  </tr>
+  <tr>
+    <td><strong>Ort, Datum: #prc.currentLocation#, den #prc.currentDate#</strong></td>
     <td><strong>Unterschrift:</strong></td>
   </tr>
  

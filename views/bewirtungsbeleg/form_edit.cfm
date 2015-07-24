@@ -1,6 +1,5 @@
 ﻿<script>
-		
-		
+
 		function removePicture(btn){
 					
 			var picID = $(btn).attr("data-id");
@@ -124,7 +123,9 @@
 	</div>
 </div>
 
-<form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data">
+<!---<form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data">--->
+	<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data" target="_self">
+	
 	
 <div class="container"><!---container_1--->
 	<div class="well col-sm-12 col-md-12"><!---well_1--->
@@ -143,7 +144,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adress" >#prc.location#</textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse" >#prc.location#</textarea>
 		 		</div>
 		</div>	
 			
@@ -183,7 +184,7 @@
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100" value="#prc.price#">
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="#prc.price#">
 				</div>
 		</div>
 		
@@ -354,7 +355,7 @@
 			<span class="glyphicon glyphicon-edit" aria-hidden="true" style="margin-right:5px;">
 			</span>Bewirtungsbeleg bearbeiten
 		</button>
-		<a href="#event.buildLink('bewirtung/generatePdf')#" class="btn btn-warning btn-lg" role="button">
+		<a href="##" onclick="toggleURL(); return false;" class="btn btn-warning btn-lg" role="button">
 			<span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;">
 			</span>Als PDF herunterladen</a>
 		<a href="##" data-href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="##confirm-delete-documentation">
