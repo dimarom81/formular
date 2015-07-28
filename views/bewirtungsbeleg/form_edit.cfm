@@ -123,9 +123,9 @@
 	</div>
 </div>
 
-<!---<form id="integerForm" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data">--->
-	<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data" target="_self">
-	
+	<!---<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data" target="_self">--->
+	<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data" target="_self">
+
 	
 <div class="container"><!---container_1--->
 	<div class="well col-sm-12 col-md-12"><!---well_1--->
@@ -134,7 +134,7 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#prc.mealDate#">
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#prc.beleg.getMealDate()#">
 		 		</div>
 		</div>		
 	
@@ -144,7 +144,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse" >#prc.location#</textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse" >#prc.beleg.getLocation()#</textarea>
 		 		</div>
 		</div>	
 			
@@ -158,7 +158,7 @@
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants" value="#prc.participants#"></div></br>		
+		    			<div><input class="form-control" type="text" name="participants" value="#prc.beleg.getParticipants()#"></div></br>		
 				</div>
 		</div>
 		
@@ -176,7 +176,7 @@
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
 				<div>
-					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting">#prc.occasion#</textarea>	
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting">#prc.beleg.getOccasion()#</textarea>	
 				</div>
 		</div>	
 				
@@ -184,7 +184,7 @@
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="#prc.price#">
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="#prc.beleg.getPrice()#">
 				</div>
 		</div>
 		
@@ -241,7 +241,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Aktueller Ort:</label>
 				<div>
-					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.currentLocation#">
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.beleg.getCurrentLocation()#">
 				</div>
 		</div>	
 		
@@ -249,7 +249,7 @@
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#prc.currentDate#">
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#prc.beleg.getCurrentDate()#">
 				</div>
 		</div>				
 		
@@ -310,25 +310,25 @@
 <!---modal delete documentation end--->
 
 
-
-<div class="container"><!---container_pictures--->
-	<div class="well col-md-12 col-md-12"><!---well_pictures--->			
-		<div class="form-group col-md-12" id="pictures">
-			<cfloop index="i" array=#prc.pictures#>
-					<div data-pic="#i.ID#" class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
-						<a href="#i.picLarge#"  target="_blank" onclick="window.open('#i.picLarge#', 'popup', 'height=500, width=500'); return false;">
-						<div class="menu-overlay"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
-												
-							<a href="##" data-picid="#i.ID#" class="btn btn-default" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
-						
-						</div>
-					<img class="to-hover"  src="#i.picPreview#" alt="#i.getbildName()#">  					
-				</div>				
-			</cfloop>
-		</div>									
-	</div><!---well_pictures--->
-</div><!---container_pictures--->
-
+<cfif prc.beleg.isloaded()>
+	<div class="container"><!---container_pictures--->
+		<div class="well col-md-12 col-md-12"><!---well_pictures--->			
+			<div class="form-group col-md-12" id="pictures">
+				<cfloop index="i" array=#prc.beleg.getBilder()#>
+						<div data-pic="#i.getID#" class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
+							<a href="#i.getUUID(true)#"  target="_blank" onclick="window.open('#i.getUUID(true)#', 'popup', 'height=500, width=500'); return false;">
+							<div class="menu-overlay"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+													
+								<a href="##" data-picid="#i.getID#" class="btn btn-default" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+							
+							</div>
+						<img class="to-hover"  src="#i.getUUIDpreview(true)#" alt="#i.getbildName()#">  					
+					</div>				
+				</cfloop>
+			</div>									
+		</div><!---well_pictures--->
+	</div><!---container_pictures--->
+</cfif>
 
 
 
@@ -350,29 +350,30 @@
 
 	
 <div class="container"><!---container_5--->
-	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->			
-		<button type="submit" class="btn btn-success btn-lg" name="submit_upload">
-			<span class="glyphicon glyphicon-edit" aria-hidden="true" style="margin-right:5px;">
-			</span>Bewirtungsbeleg bearbeiten
-		</button>
+	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->	
+	
+		<cfif prc.isLoggedIn eq true>
+			<button type="submit" class="btn btn-success btn-lg" name="submit_upload">
+				<span class="glyphicon glyphicon-edit" aria-hidden="true" style="margin-right:5px;">
+				</span>Bewirtungsbeleg bearbeiten
+			</button>
+		</cfif>
+		
 		<a href="##" onclick="toggleURL(); return false;" class="btn btn-warning btn-lg" role="button">
 			<span class="glyphicon glyphicon-floppy-disk" aria-hidden="true" style="margin-right:5px;">
 			</span>Als PDF herunterladen</a>
-		<a href="##" data-href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="##confirm-delete-documentation">
-			<span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;">
+			
+		<cfif prc.beleg.isloaded()>
+			<a href="##" data-href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="##confirm-delete-documentation">
+				<span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;">
 			</span>Bewirtungsbeleg löschen</a>
+		</cfif>
 			
 		
 	</div><!---well_5--->
 </div><!---container_5--->	
 
 
-
-
-		<strong>		
-			<div id="warning1">#prc.warning1#
-			</div>
-		</strong>
 
 	</form>
 		

@@ -9,12 +9,6 @@
 	public function saveUser(userBewirtung obj) {
 		super.save(obj);
 	}
-
 	
-	public function getUserName() {
-		
-	}
-	
-		
 }
 	

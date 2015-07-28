@@ -13,6 +13,21 @@
 			
 	BildBewirtung function init() {
 		return this;
+	}
+	
+	
+	function getUUID(boolean fullPath=false){
+		if(!arguments.fullPath)
+			return variables.uuid;
+		else
+			return 'includes/img/' & variables.UUID & '.jpg';
+	}
+	
+	function getUUIDpreview(boolean fullPath=false){
+		if(!arguments.fullPath)
+			return variables.uuid;
+		else
+			return 'includes/img/' & variables.UUIDpreview & '.jpg';
 	}	
 	
 	//this.constraints TODO

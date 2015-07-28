@@ -167,7 +167,7 @@ file
 
 
 
-
+delete
 2015-07-21T07:41:12.569148Z
 e2c35aefc874989c7e0ec95313dc20cf
 2015-07-23T09:53:51.917781Z
@@ -195,6 +195,29 @@ Matze
 
 
 2146
+
+bewirtungLayout_not_used.cfm
+file
+
+
+
+add
+
+e2c35aefc874989c7e0ec95313dc20cf
+
+
+
+
+
+
+
+
+
+
+
+copied
+http://10.12.191.21/repos/trunk/bewirtungsbeleg/layouts/bewirtungLayout.cfm
+14275
 
 bewirtungLayout_BACKUP_not_used.cfm
 file

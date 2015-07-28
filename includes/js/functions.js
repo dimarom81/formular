@@ -1,3 +1,4 @@
+//sending belegID to the action "edit"
 function loadEditView(element,belegID){
 		console.log($(element));
 		$(element).removeAttr( "onclick" );

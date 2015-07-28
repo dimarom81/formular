@@ -97,14 +97,14 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#rc.mealDate#" required >
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy">
 		 		</div>
 		</div>		
 	
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse" required>#rc.location#</textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse" ></textarea>
 		 		</div>
 		</div>	
 				
@@ -112,21 +112,21 @@
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants" value="#rc.participants#" required></div></br>		
+		    			<div><input class="form-control" type="text" name="participants"></div></br>		
 				</div>
 		</div>
 			
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
 				<div>
-					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting" required>#rc.occasion#</textarea>	
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting" ></textarea>	
 				</div>
 		</div>	
 				
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="#rc.price#" required>
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="100.00">
 				</div>
 		</div>
 		
@@ -149,7 +149,7 @@
 			
 		<div class="form-group col-md-3 radio-inline">
 			<label for="Restaurant">
-				<input type="radio" name="restaurant" checked = "checked" value="#rc.restaurant#">In Restaurationsbetrieben
+				<input type="radio" name="restaurant" checked = "checked" value="1">In Restaurationsbetrieben
 			</label>	
 		</div>		
 		
@@ -168,14 +168,14 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Aktueller Ort:</label>
 				<div>
-					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#rc.currentLocation#" required>
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt">
 				</div>
 		</div>	
 		
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#rc.currentDate#" required>
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy">
 				</div>
 		</div>				
 	</div><!---well_3--->
