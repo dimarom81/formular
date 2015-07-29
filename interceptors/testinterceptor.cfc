@@ -5,43 +5,35 @@
 	function configure(){
 	
 	}
-	
+	//always execute
+	//always have a user in my application
 	function preProcess( event, interceptData ) {	
 		//ORMReload(); //NEED TO REMOVE THIS LATER	
-		var userid	= sessionStorage.getVar( "currentUserReferenceID" );
 		var prc		= event.getCollection( private = true );
-		prc.userid = "";
-		prc.isLoggedIn = false;
-		if( userid neq "" ) {
-			prc.userid	= userid;
-			prc.isLoggedIn = true;
+		var userid	= sessionStorage.getVar( "currentUserReferenceID","");
+		prc.user = userBewirtungService.new();
+		var userToCheck = userBewirtungService.findAllWhere( criteria = { referenceID = userid } );
+		if(arraylen(userToCheck) gt 0)
+			prc.user = userToCheck[1];
+	}
+	function facebookLoginSuccess(event,interceptData){ 
+		//override empty user when we come over Facebook. 
+		var prc	= event.getCollection( private = true );
+		var userToCheck = userBewirtungService.findAllWhere( criteria = { referenceID = interceptData.referenceID } );
+		//check if user is in our DB
+		if(Arraylen(userToCheck) gt 0){
+			prc.user = userToCheck[1]; //Take first user if exists. Should only be there or not!
 		}
-	}
-	
-	
-	function afterConfigurationLoad(){
-		
-	}
-	
-	
-	 function facebookLoginSuccess(event,interceptData){ 
-	
-		var temp = userBewirtungService.findAllWhere( criteria = { referenceID = arguments.interceptData.referenceID } );
-			
-		if( !ArrayLen(temp) or (ArrayLen(temp) AND  isNull(temp[1].getreferenceID()))){
-		
+		if( !prc.user.isloaded()){
 		 	prc.user = userBewirtungService.populate( target = userBewirtungService.new(),memento = interceptData ,include= "referenceID,first,last,gender,locale,socialservice,email");
 			userBewirtungService.saveUser(prc.user);
 		}
 		else{
-			userBewirtungService.populate( target = temp[1], memento = interceptData ,include= "referenceID,first,last,gender,locale,socialservice,email");
-			userBewirtungService.saveUser(temp[1]);
+			//update  user!
+			prc.user = userBewirtungService.populate( target = prc.user, memento = interceptData ,include= "referenceID,first,last,gender,locale,socialservice,email");
+			userBewirtungService.saveUser(prc.user);
 		}
-		
 		sessionStorage.setVar( "currentUserReferenceID", interceptData.referenceID );
-		sessionStorage.setVar( "currentUserName", interceptData.first &' '& interceptData.last );
-
-       /* flash.put(name="greetings",value ="Sie sind angemeldet als "& interceptData.first &" "& interceptData.last);*/
      }
-		
+     
 }

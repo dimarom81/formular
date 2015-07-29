@@ -124,8 +124,8 @@
 </div>
 
 	<!---<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data" target="_self">--->
-	<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/saveDocumentation')#" method="post" enctype="multipart/form-data" target="_self">
-
+	<form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" action2="#event.buildlink('bewirtung/generatePDF')#" method="post" enctype="multipart/form-data" target="_self">
+	<input type="hidden" name="belegid" value="#prc.beleg.getID()#">
 	
 <div class="container"><!---container_1--->
 	<div class="well col-sm-12 col-md-12"><!---well_1--->
@@ -134,7 +134,7 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#prc.beleg.getMealDate()#">
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getMealDate(), "dd/MM/yyyy" )#">
 		 		</div>
 		</div>		
 	
@@ -148,12 +148,7 @@
 		 		</div>
 		</div>	
 			
-			
-			
-		
-			
-			
-			
+				
 		<div class="form-group col-md-6">
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
@@ -161,16 +156,6 @@
 		    			<div><input class="form-control" type="text" name="participants" value="#prc.beleg.getParticipants()#"></div></br>		
 				</div>
 		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
 			
 			
 		<div class="form-group col-md-12">
@@ -184,11 +169,9 @@
 		<div class="form-group col-md-3">
 			<label for="betrag">Höhe der Bewirtung</label>
 				<div>
-					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="#prc.beleg.getPrice()#">
+					<input class="form-control" style="-moz-appearance: textfield" type="number" step="0.01" min="0" name="price" size="10" maxlength="10" placeholder="100.00" value="#prc.beleg.getPrice()#" required>
 				</div>
 		</div>
-		
-			
 			
 				
 		<div class="form-group col-md-2">
@@ -205,10 +188,6 @@
 
 	</div><!---well_1--->
 </div><!---container_1--->	
-
-
-
-
 
 
 <div class="container"><!---container_2--->
@@ -232,8 +211,6 @@
 </div><!---container_2--->		
 
 
-
-
 <div class="container"><!---container_3--->
 	<div class="well col-sm-12 col-md-12"><!---well_3--->			
 		
@@ -249,14 +226,13 @@
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#prc.beleg.getCurrentDate()#">
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getCurrentDate(), "dd/MM/yyyy" )#">
 				</div>
 		</div>				
 		
 		
 	</div><!---well_3--->
 </div><!---container_3--->
-
 
 
 <!---modal delete picture--->
@@ -282,7 +258,6 @@
         </div>
     </div>
 <!---modal delete picture end--->
-
 
 
 <!---modal delete documentation--->
@@ -352,10 +327,10 @@
 <div class="container"><!---container_5--->
 	<div class="col-sm-12 col-md-12 text-center"><!---well_5--->	
 	
-		<cfif prc.isLoggedIn eq true>
+		<cfif prc.user.isloaded()>
 			<button type="submit" class="btn btn-success btn-lg" name="submit_upload">
 				<span class="glyphicon glyphicon-edit" aria-hidden="true" style="margin-right:5px;">
-				</span>Bewirtungsbeleg bearbeiten
+				</span>Bewirtungsbeleg speichern
 			</button>
 		</cfif>
 		
@@ -364,7 +339,7 @@
 			</span>Als PDF herunterladen</a>
 			
 		<cfif prc.beleg.isloaded()>
-			<a href="##" data-href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.belegID#')#" class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="##confirm-delete-documentation">
+			<a href="##" data-href="#event.buildLink('bewirtung/removeDocumentation?belegID=#prc.beleg.getId()#')#" class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="##confirm-delete-documentation">
 				<span class="glyphicon glyphicon-remove" aria-hidden="true" style="margin-right:5px;">
 			</span>Bewirtungsbeleg löschen</a>
 		</cfif>

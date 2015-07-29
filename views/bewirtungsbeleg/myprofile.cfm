@@ -9,23 +9,23 @@
     <tbody>
       <tr>
         <td>First name</td>
-        <td><cfoutput>#prc.name#</cfoutput></td>
+        <td><cfoutput>#prc.user.getFirst()#</cfoutput></td>
       </tr>
       <tr>
         <td>Last name</td>
-        <td><cfoutput>#prc.lastname#</cfoutput></td>
+        <td><cfoutput>#prc.user.getLast()#</cfoutput></td>
       </tr>
       <tr>
         <td>Gender</td>
-        <td><cfoutput>#prc.gender#</cfoutput></td>
+        <td><cfoutput>#prc.user.getGender()#</cfoutput></td>
       </tr>
 	  <tr>
         <td>Social network</td>
-        <td><cfoutput>#prc.network#</cfoutput></td>
+        <td><cfoutput>#prc.user.getSocialservice()#</cfoutput></td>
       </tr>
 	  <tr>
         <td>e-mail</td>
-        <td><cfoutput>#prc.email#</cfoutput></td>
+        <td><cfoutput>#prc.user.getEmail()#</cfoutput></td>
       </tr>
     </tbody>
   </table>

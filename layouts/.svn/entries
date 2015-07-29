@@ -31,7 +31,7 @@ file
 
 
 
-
+delete
 2015-07-21T09:45:31.291388Z
 74ad8cffd3157d466446d1d938e65ae1
 2015-07-23T09:53:51.917781Z
@@ -65,7 +65,7 @@ file
 
 
 
-
+delete
 2015-07-17T12:56:49.340729Z
 79dc973eb7a47974c97cffe1f1a88b6a
 2015-07-23T09:53:51.917781Z
@@ -167,8 +167,8 @@ file
 
 
 
-delete
-2015-07-21T07:41:12.569148Z
+
+2015-07-28T12:06:06.256183Z
 e2c35aefc874989c7e0ec95313dc20cf
 2015-07-23T09:53:51.917781Z
 14275
@@ -196,35 +196,12 @@ Matze
 
 2146
 
-bewirtungLayout_not_used.cfm
-file
-
-
-
-add
-
-e2c35aefc874989c7e0ec95313dc20cf
-
-
-
-
-
-
-
-
-
-
-
-copied
-http://10.12.191.21/repos/trunk/bewirtungsbeleg/layouts/bewirtungLayout.cfm
-14275
-
 bewirtungLayout_BACKUP_not_used.cfm
 file
 
 
 
-
+delete
 2015-07-21T07:37:06.680084Z
 839831a0db9dd12e672d9b08df87b02f
 2015-07-23T09:53:51.917781Z

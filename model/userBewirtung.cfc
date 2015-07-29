@@ -22,5 +22,14 @@
 		return this;
 	}	
 	
+	
+	boolean function isLoaded(){
+		return ( len( GETID() ) ? true : false );
+	}
+	
+	string function getFullName(){
+		return getfirst()&' '&getLast();
+	}
+		
 	//this.constraints TODO
 }

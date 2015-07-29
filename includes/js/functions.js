@@ -18,9 +18,9 @@ function loadEditView(element,belegID){
 
 function toggleURL(){
 	var actionURL = $('#integerForm').attr('action');
-	$('#integerForm').attr('action',$('#integerForm').attr('action2'));
-	$('#integerForm').attr('target','_blank');
+	$('#integerForm').attr('action', $('#integerForm').attr('action2'));
+	$('#integerForm').attr('target', '_blank');
 	$('#integerForm').submit();
-	$('#integerForm').attr('action',actionURL);
-	$('#integerForm').attr('target','_self');
+	$('#integerForm').attr('action', actionURL);
+	$('#integerForm').attr('target', '_self');
 }

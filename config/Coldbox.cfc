@@ -74,7 +74,7 @@ limitations under the License.
 			facebook = {
 			        oauth = {
 			            redirectURL     = "http://akidmitry.local/index.cfm/facebook/",
-			            loginSuccess    = "bewirtung.loginsuccess",
+			            loginSuccess    = "bewirtung.form",
 			            loginFailure    = "bewirtung.form",
 			            appID           = "1662438727325970",
 			            appSecret       = "288798b052b63be11130a5ad0b62936a",
@@ -82,7 +82,9 @@ limitations under the License.
 			            responseType    = "code"
 			        }
 			    },
-		    CFGGRAPHICSMAGICK = 'C:\Program Files (x86)\GraphicsMagick-1.3.16-Q8\gm.exe'			
+		    CFGGRAPHICSMAGICK = 'C:\Program Files (x86)\GraphicsMagick-1.3.16-Q8\gm.exe',
+		    partialImgPath = 'includes/img/',
+		    fullImgPath	= 'C:/inetpub/www_akibase/test1/includes/img/'		
 
 		};
 

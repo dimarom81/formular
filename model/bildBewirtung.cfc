@@ -5,6 +5,8 @@
 	property name="UUID"			notnull="false"	 ormtype="string";
 	property name="UUIDpreview"		notnull="false"	 ormtype="string";
 	
+	property name="partialImgPath"  inject="coldbox:setting:partialImgPath";
+	
 	property name="belegBewirtung" 
 			 fieldtype="many-to-one" 
 			 fkcolumn="BELEGID" 
@@ -20,14 +22,14 @@
 		if(!arguments.fullPath)
 			return variables.uuid;
 		else
-			return 'includes/img/' & variables.UUID & '.jpg';
+			return partialImgPath & variables.UUID & '.jpg';
 	}
 	
 	function getUUIDpreview(boolean fullPath=false){
 		if(!arguments.fullPath)
 			return variables.uuid;
 		else
-			return 'includes/img/' & variables.UUIDpreview & '.jpg';
+			return partialImgPath & variables.UUIDpreview & '.jpg';
 	}	
 	
 	//this.constraints TODO
