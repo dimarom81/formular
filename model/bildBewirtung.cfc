@@ -32,5 +32,4 @@
 			return partialImgPath & variables.UUIDpreview & '.jpg';
 	}	
 	
-	//this.constraints TODO
 }

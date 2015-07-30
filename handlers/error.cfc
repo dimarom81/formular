@@ -4,6 +4,7 @@ component output="false" singleton{
 	property name="isDevEnv" inject="coldbox:setting:isDevEnv";
 	
 	function onException(event,rc,prc){
+		
 		rc = event.getCollection();
 		//Grab Exception From request collection, placed by ColdBox
 		var exceptionBean = event.getValue("ExceptionBean");
@@ -18,8 +19,15 @@ component output="false" singleton{
 			abort;
 		}
 		else{
-			//show error page!
-			event.setView( view="bewirtungsbeleg/error");
+			prc.errorMessage = "Leider ist ein Fehler aufgetreten!";
+			event.setHTTPHeader( "500", "Internal Server Error" );
+		
 		}
 	}
+	
+	 function pageNotFound(event,rc,prc){
+	 	prc.errorMessage = "Fehler 404! Die gew&uuml;nschte Seite konnte leider nicht gefunden werden.";
+  		event.setHTTPHeader( "404", "Page Not Found" );
+    	event.renderData(data=renderView('error'),statusCode=404,statusMessage="Page Not Found!");
+ 	}
 }

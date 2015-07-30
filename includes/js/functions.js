@@ -25,9 +25,10 @@ function toggleURL(){
 	$('#integerForm').attr('target', '_self');
 }
 
-function removePicture(btn){					
-	var picID = $(btn).attr("data-id");			
-	var data = {'picID': picID};
+function removePicture(btn){				
+var picID = $(btn).attr("data-id");	
+	var belegID = $('input[name=belegid]').val();	
+	var data = {'picID': picID , 'belegID': belegID};
 		$.post('index.cfm/bewirtung/removeImage', data, function(returnData){
 		if (returnData.error) {
 			alert(returnData.message);

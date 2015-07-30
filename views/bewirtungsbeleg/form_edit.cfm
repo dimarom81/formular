@@ -92,8 +92,8 @@
 		
 		<cfloop index="i" array=#prc.validationErrors#>
 			<cfoutput><div align="left" style="color:red"><em>#i.getMessage()#</em></div></cfoutput>
-		</cfloop>		
-				
+		</cfloop>
+		
 	</div>
 </div>
 
@@ -290,6 +290,7 @@
 	<div class="well col-md-12 col-md-12"><!---well_4--->			
 		<div class="form-group input_files_wrap col-md-6">
 			<label for="beleg"></label>
+				<div align="left" style="color:red"><em>#prc.fileErrors#</em></div>	
 				<button class="add_files_input btn-link">Weitere Dateien hochladen</button>
 			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan_1"></br>
 		</div>							

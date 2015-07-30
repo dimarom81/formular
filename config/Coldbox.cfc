@@ -68,12 +68,12 @@ limitations under the License.
 
 			//Error/Exception Handling
 			exceptionHandler			= "error.onException",
-			onInvalidEvent				= "",
-			customErrorTemplate	= "",
+			customErrorTemplate   	    = "error.cfm",
+			onInvalidEvent              = "error.pageNotFound",
 
 			//Application Aspects
-			handlerCaching 	= true,
-			eventCaching			= true
+			handlerCaching 	            = true,
+			eventCaching			    = true
 		};
 		
 	

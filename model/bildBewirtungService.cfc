@@ -14,6 +14,11 @@
 		super.delete(obj);
 	}
 	
-		
+	public function belongs( bildBewirtung obj, any referenceID ) {
+		if( arguments.obj.getBelegBewirtung().getUser().getReferenceID() == arguments.referenceID){
+			return true;
+		}
+		return false;
+	}
 }
 	
