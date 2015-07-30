@@ -1,7 +1,4 @@
-﻿
-<!---TODO kann nicht verändert werden--->
-
-<div class="container">
+﻿<div class="container">
   <h3>Meine Daten (werden von Facebook zur Verfügung gestellt)</h3>                     
   <table class="table table-striped">
     <thead>

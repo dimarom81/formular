@@ -24,6 +24,7 @@
 		if(Arraylen(userToCheck) gt 0){
 			prc.user = userToCheck[1]; //Take first user if exists. Should only be there or not!
 		}
+		//not in DB - user logs in first time
 		if( !prc.user.isloaded()){
 		 	prc.user = userBewirtungService.populate( target = userBewirtungService.new(),memento = interceptData ,include= "referenceID,first,last,gender,locale,socialservice,email");
 			userBewirtungService.saveUser(prc.user);

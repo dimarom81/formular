@@ -27,7 +27,7 @@
 	
 	function getUUIDpreview(boolean fullPath=false){
 		if(!arguments.fullPath)
-			return variables.uuid;
+			return variables.uuidpreview;
 		else
 			return partialImgPath & variables.UUIDpreview & '.jpg';
 	}	

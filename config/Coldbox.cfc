@@ -29,7 +29,16 @@ limitations under the License.
 		// coldbox directives
 		coldbox = {
 			//Application Setup
-			appName 				= "ContentBox Modular CMS",
+			appName 				= "Bewirtungsbeleg",
+			isDevEnv = false,
+
+			// /////////////////////////////////////////////////////////////////////////
+			// BUG LOG					 												
+			// /////////////////////////////////////////////////////////////////////////
+			bugLogListener		= "http://buglog.akibase.com/listeners/bugLogListenerREST.cfm",
+			bugEmailRecipients	= "errors@akibase.com",
+			bugEmailSender		= "errors@akibase.com",
+			apikey				= "2CF20630-DD24-491F-BA44314842183AFC",			
 
 			//Development Settings
 			debugMode				= true,
@@ -58,7 +67,7 @@ limitations under the License.
 			requestContextDecorator 	= "",
 
 			//Error/Exception Handling
-			exceptionHandler			= "",
+			exceptionHandler			= "error.onException",
 			onInvalidEvent				= "",
 			customErrorTemplate	= "",
 
@@ -139,7 +148,9 @@ limitations under the License.
 
 	// ORTUS DEVELOPMENT ENVIRONMENT, REMOVE FOR YOUR APP IF NEEDED
 	function development(){
-
+		settings.isDevEnv = true;
+		settings.AppName = 'Bewirtungsbeleg_dev';
+		
 		coldbox.debugmode=false;
 		coldbox.handlersIndexAutoReload = true;
 		coldbox.handlerCaching = false;
@@ -148,7 +159,7 @@ limitations under the License.
 		//wirebox.singletonreload = true;
 
 		//Debugger Settings
-		debugger.showRCPanel = false;
+		debugger.showRCPanel = true;
 
 		// debugging file
 		/**

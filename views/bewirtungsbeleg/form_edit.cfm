@@ -1,32 +1,6 @@
 ﻿<script>
 
-		function removePicture(btn){
-					
-			var picID = $(btn).attr("data-id");
-			
-			$(".menu-overlay-container[data-pic="+picID+"]").remove();
-			
-			var data = {'picID': picID};
-			
-				$.post('index.cfm/bewirtung/removeImage', data, function(returnData){
-								
-				if (returnData.error) {
-					alert(returnData.message);
-				}
-				else {
-					if(returnData == true){
-						$(".menu-overlay-container[data-pic="+picID+"]").remove();
-					}
-					else{
-						alert("Error removing the image");
-					}
-					
-				}
-			}, "json")
-				
-		}
-		
-	
+
 	$(document).ready(function () {
 
 		$('#confirm-delete').on('show.bs.modal', function(e) {
@@ -36,7 +10,7 @@
 		
 		$('#confirm-delete-documentation').on('show.bs.modal', function(e) {
 			$(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
-            console.log("here");
+            //console.log("here");
         });
 		
 		$.MenuOverlay({vertical: 'bottom', horizontal: 'bottom'});	
@@ -79,12 +53,12 @@
 					file_count++; //text box increment
 					//documentScan_1//documentScan_2//documentScan_3
 					file_index++;
-					console.log(file_count);
-					console.log(file_index);
+					//console.log(file_count);
+					//console.log(file_index);
 					var next_index = "documentScan_" + file_index;
 					var html_text = '<div><input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name=' + next_index + '><a href="" class="remove_file">Entfernen</a></div>';
 					$(wrapper_files).append(html_text);
-					console.log( $(wrapper_files).find( 'input'));
+					//console.log( $(wrapper_files).find( 'input'));
 						
 					var options = {
 						'input' : $(".filestyle").attr('data-input') === 'false' ? false : true,
@@ -125,6 +99,7 @@
 
 	<!---<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data" target="_self">--->
 	<form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" action2="#event.buildlink('bewirtung/generatePDF')#" method="post" enctype="multipart/form-data" target="_self">
+	
 	<input type="hidden" name="belegid" value="#prc.beleg.getID()#">
 	
 <div class="container"><!---container_1--->
@@ -290,11 +265,11 @@
 		<div class="well col-md-12 col-md-12"><!---well_pictures--->			
 			<div class="form-group col-md-12" id="pictures">
 				<cfloop index="i" array=#prc.beleg.getBilder()#>
-						<div data-pic="#i.getID#" class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
+						<div data-pic="#i.getID()#" class="menu-overlay-container" style="float:left;margin-right:25px;margin-top:25px;">
 							<a href="#i.getUUID(true)#"  target="_blank" onclick="window.open('#i.getUUID(true)#', 'popup', 'height=500, width=500'); return false;">
 							<div class="menu-overlay"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 													
-								<a href="##" data-picid="#i.getID#" class="btn btn-default" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+								<a href="##" data-picid="#i.getID()#" class="btn btn-default" data-toggle="modal" data-target="##confirm-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
 							
 							</div>
 						<img class="to-hover"  src="#i.getUUIDpreview(true)#" alt="#i.getbildName()#">  					
