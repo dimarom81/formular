@@ -9,7 +9,7 @@ component output="false" singleton{
 		//Grab Exception From request collection, placed by ColdBox
 		var exceptionBean = event.getValue("ExceptionBean");
 		buglog.getLogger().logCFCATCH(exceptionBean.getExceptionStruct());
-		if(isDevEnv and false){
+		if(isDevEnv){
 			writeDump(exceptionBean.getExceptionStruct()); 
 			abort;
 		}
@@ -20,8 +20,7 @@ component output="false" singleton{
 		}
 		else{
 			prc.errorMessage = "Leider ist ein Fehler aufgetreten!";
-			event.setHTTPHeader( "500", "Internal Server Error" );
-		
+			event.setHTTPHeader( "500", "Internal Server Error" );		
 		}
 	}
 	

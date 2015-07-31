@@ -20,9 +20,15 @@
 
 	<div class="container">
 		<div class="well well-sm col-sm-12 col-md-12 text-center">
-			<div id="title"><h3>#event.getCollection(private=true).errorMessage#</h3><br>
-			<p>
-				<a href="#event.buildlink('bewirtung/form')#">Zurück zur Startseite</a>
+			<cfset prc = event.getCollection(private=true)>
+			<div id="title"><h3><cfif structkeyexists(prc,'errorMessage')>#prc.errorMessage#</cfif> <cfif structkeyexists(prc,'fileErrors')>#prc.fileErrors#</cfif></h3><br>
+			<p>  <cfif !structkeyexists(prc,'fileErrors')>
+					<a href="#event.buildlink('bewirtung/form')#">Zurück zur Startseite</a>
+				 <cfelse>  <a href="javascript:history.back()">Zurück</a>	
+				 </cfif>
+				 
+				
+				 
 			</p>
 			</div>			
 		</div>

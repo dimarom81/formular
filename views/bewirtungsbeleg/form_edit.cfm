@@ -1,6 +1,5 @@
 ﻿<script>
 
-
 	$(document).ready(function () {
 
 		$('#confirm-delete').on('show.bs.modal', function(e) {
@@ -79,8 +78,7 @@
 			$(wrapper_files).on("click",".remove_file", function(e){ //user click on remove text
 				e.preventDefault(); $(this).parent('div').remove(); text_box_count--;file_count--;file_index--;
 			})
-	});
-		
+	});		
 </script>
 
 
@@ -98,7 +96,7 @@
 </div>
 
 	<!---<form id="integerForm" action2="#event.buildlink('bewirtung/generatePDF')#" action="#event.buildlink('bewirtung/overrideDocumentation?belegID=#prc.belegID#')#" method="post" enctype="multipart/form-data" target="_self">--->
-	<form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" action2="#event.buildlink('bewirtung/generatePDF')#" method="post" enctype="multipart/form-data" target="_self">
+	<form id="integerForm" action="#event.buildlink('bewirtung/saveDocumentation')#" action2="#event.buildlink('bewirtung/generatePDF')#" method="post" enctype="multipart/form-data" target="_self" style="margin-bottom:150px;">
 	
 	<input type="hidden" name="belegid" value="#prc.beleg.getID()#">
 	
@@ -109,7 +107,7 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getMealDate(), "dd/MM/yyyy" )#">
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getMealDate(), "dd/MM/yyyy" )#"     >
 		 		</div>
 		</div>		
 	
@@ -119,7 +117,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse" >#prc.beleg.getLocation()#</textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse"      >#prc.beleg.getLocation()#</textarea>
 		 		</div>
 		</div>	
 			
@@ -128,7 +126,7 @@
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants" value="#prc.beleg.getParticipants()#"></div></br>		
+		    			<div><input class="form-control" type="text" name="participants" value="#prc.beleg.getParticipants()#"    ></div></br>		
 				</div>
 		</div>
 			
@@ -136,7 +134,7 @@
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
 				<div>
-					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting">#prc.beleg.getOccasion()#</textarea>	
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting"     >#prc.beleg.getOccasion()#</textarea>	
 				</div>
 		</div>	
 				
@@ -193,7 +191,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Aktueller Ort:</label>
 				<div>
-					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.beleg.getCurrentLocation()#">
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.beleg.getCurrentLocation()#"     >
 				</div>
 		</div>	
 		
@@ -201,7 +199,7 @@
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getCurrentDate(), "dd/MM/yyyy" )#">
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getCurrentDate(), "dd/MM/yyyy" )#"     >
 				</div>
 		</div>				
 		
@@ -288,13 +286,18 @@
 
 <div class="container"><!---container_4--->
 	<div class="well col-md-12 col-md-12"><!---well_4--->			
-		<div class="form-group input_files_wrap col-md-6">
-			<label for="beleg"></label>
-				<div align="left" style="color:red"><em>#prc.fileErrors#</em></div>	
+		<div class="form-group input_files_wrap col-md-12">
+			<label for="beleg"></label>	
 				<button class="add_files_input btn-link">Weitere Dateien hochladen</button>
 			<input type="file" class="filestyle" data-buttonBefore="true" data-buttonName="btn-primary" name="documentScan_1"></br>
-		</div>							
+		</div>
+		
+		<p style="margin-left:15px;">
+			<i>Unterstützte Dateiformate: jpg, jpeg, png, gif, tiff.</i>
+		</p>
+									
 	</div><!---well_4--->
+		
 </div><!---container_4--->
 	
 	

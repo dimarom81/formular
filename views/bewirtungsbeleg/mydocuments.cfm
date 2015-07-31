@@ -1,5 +1,5 @@
 ﻿<cfoutput>	
-	<div class="container well">
+	<div class="container well" style="margin-bottom:150px;">
 	 <h3>Mein Belegarchiv</h3>               
 	  <div>		
 		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
