@@ -79,6 +79,12 @@ svn:wc:ra_dav:version-url
 V 59
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/Application.cfc
 END
+error.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/error.cfm
+END
 favicon.ico
 K 25
 svn:wc:ra_dav:version-url
