@@ -32,14 +32,17 @@
 		return this;
 	}	
 	
+	boolean function isLoaded(){
+		return ( len( GETID() ) ? true : false );
+	}
 	
 	this.constraints = {
-		/*mealDate        =  {required=true, type="string", requiredMessage="The meal date is required"},
+		mealDate        =  {required=true, type="string", requiredMessage="The meal date is required"},
 		location        =  {required=true, type="string", requiredMessage="The location of the meal is required"},
 		participants    =  {required=true, type="string", requiredMessage="At least one participant is required"},
 		occasion        =  {required=true, type="string", requiredMessage="Occasion is required"},
 		price           =  {required=true, type="numeric",requiredMessage="The price of the meal is required"},
 		currentLocation =  {required=true, type="string", requiredMessage="Current location is required"},
-		currentDate     =  {required=true, type="string", requiredMessage="Current date is required"}*/
+		currentDate     =  {required=true, type="string", requiredMessage="Current date is required"}
 	};
 }

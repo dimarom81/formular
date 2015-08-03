@@ -1,6 +1,14 @@
 ﻿<script>
-
+	//FILES			
+	var max_files             = 5;
+	var wrapper_files         = null;
+	var add_button_files      = null;
+	
 	$(document).ready(function () {
+
+		max_files             = 5; //maximum input files allowed
+		wrapper_files         = $(".input_files_wrap"); //Fields wrapper
+		add_button_files      = $(".add_files_input"); //Add button ID
 
 		$('#confirm-delete').on('show.bs.modal', function(e) {
             //$(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
@@ -15,10 +23,10 @@
 		$.MenuOverlay({vertical: 'bottom', horizontal: 'bottom'});	
 		
 		$('#mealDate').datepicker({
-			format: "dd/mm/yyyy", autoclose:"true"
+			format: "dd.mm.yyyy", autoclose:"true"
 			});
 		$('#currentDate').datepicker({
-			format: "dd/mm/yyyy", autoclose:"true"
+			format: "dd.mm.yyyy", autoclose:"true"
 			});			
 		 //sanwebe.com/2013/03/addremove-input-fields-dynamically-with-jquery
 			var max_fields      = 20; //maximum input boxes allowed
@@ -41,11 +49,6 @@
 				e.preventDefault(); $(this).parent('div').remove(); x--;
 			})
 									
-			//FILES			
-			var max_files             = 5; //maximum input files allowed
-			var wrapper_files         = $(".input_files_wrap"); //Fields wrapper
-			var add_button_files      = $(".add_files_input"); //Add button ID
-			  
 			$(add_button_files).click(function(e){ //on add input button click
 				e.preventDefault();
 				if(file_count < max_files){ //max input box allowed
@@ -79,6 +82,8 @@
 				e.preventDefault(); $(this).parent('div').remove(); text_box_count--;file_count--;file_index--;
 			})
 	});		
+	
+	
 </script>
 
 
@@ -107,7 +112,7 @@
 		<div class="form-group col-md-6">
 			<label for="tag">Tag der Bewirtung</label>
 		  		<div>
-		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getMealDate(), "dd/MM/yyyy" )#"     >
+		  			<input class="form-control" type="text" name="mealDate" id="mealDate" placeholder="dd.mm.yyyy" value="#dateTimeFormat( prc.beleg.getMealDate(), "dd.MM.yyyy" )#"  required   >
 		 		</div>
 		</div>		
 	
@@ -117,7 +122,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Ort der Bewirtung</label>
 		  		<div>
-		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse"      >#prc.beleg.getLocation()#</textarea>
+		  			<textarea class="form-control" type="text" name="location" rows="4" placeholder="Adresse"   required   >#prc.beleg.getLocation()#</textarea>
 		 		</div>
 		</div>	
 			
@@ -126,7 +131,7 @@
 			<label for="participants">Personen, die bewirtet wurden</label>	
 				<div class="input_fields_wrap"> 
 			  		<button class="add_field_button btn-link">Weitere Personen hinzufügen</button>
-		    			<div><input class="form-control" type="text" name="participants" value="#prc.beleg.getParticipants()#"    ></div></br>		
+		    			<div><input class="form-control" type="text" name="participants" value="#prc.beleg.getParticipants()#" required   ></div>		
 				</div>
 		</div>
 			
@@ -134,7 +139,7 @@
 		<div class="form-group col-md-12">
 			<label for="anlass">Anlass der Bewirtung</label>
 				<div>
-					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting"     >#prc.beleg.getOccasion()#</textarea>	
+					<textarea class="form-control" type="text" name="occasion" rows="3" placeholder="Business meeting" required    >#prc.beleg.getOccasion()#</textarea>	
 				</div>
 		</div>	
 				
@@ -191,7 +196,7 @@
 		<div class="form-group col-md-6">
 			<label for="ort">Aktueller Ort:</label>
 				<div>
-					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.beleg.getCurrentLocation()#"     >
+					<input class="form-control" type="text" name="currentLocation" id="currentLocation" placeholder="Frankfurt" value="#prc.beleg.getCurrentLocation()#"  required   >
 				</div>
 		</div>	
 		
@@ -199,7 +204,7 @@
 		<div class="form-group col-md-6">
 		  	<label for="datum">Aktuelles Datum:</label>
 				<div>
-					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd/mm/yyyy" value="#dateTimeFormat( prc.beleg.getCurrentDate(), "dd/MM/yyyy" )#"     >
+					<input class="form-control" type="text" name="currentDate" id="currentDate" placeholder="dd.mm.yyyy" value="#dateTimeFormat( prc.beleg.getCurrentDate(), "dd.MM.yyyy" )#"  required   >
 				</div>
 		</div>				
 		

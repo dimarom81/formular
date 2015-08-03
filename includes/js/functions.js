@@ -12,6 +12,19 @@ function loadEditView(element,belegID){
 		}
 		else {
 			$("#" + belegID).append(returnData);
+			var options = {
+						'input' : $(".filestyle").attr('data-input') === 'false' ? false : true,
+						'icon' : $(".filestyle").attr('data-icon') === 'false' ? false : true,
+						'buttonBefore' : $(".filestyle").attr('data-buttonBefore') === 'true' ? true : false,
+						'disabled' : $(".filestyle").attr('data-disabled') === 'true' ? true : false,
+						'size' : $(".filestyle").attr('data-size'),
+						'buttonText' : $(".filestyle").attr('data-buttonText'),
+						'buttonName' : $(".filestyle").attr('data-buttonName'),
+						'iconName' : $(".filestyle").attr('data-iconName'),
+						'badge' : $(".filestyle").attr('data-badge') === 'false' ? false : true
+					};
+
+					$(wrapper_files).find('input').filestyle(options);
 		}
 	}, "html")	
 }

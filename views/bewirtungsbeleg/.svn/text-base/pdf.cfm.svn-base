@@ -55,9 +55,12 @@
 	</style>
 
 </head>
+
+<cfoutput>
+
 <body data-spy="scroll">
 	
-	<h2 align="center">Angaben ueber Bewirtungsaufwendungen</h2>
+	<h3 align="center">Angaben ueber Bewirtungsaufwendungen</h3>
 	
 <table class="gridtable" style="width:100%">
   <tr>
@@ -65,23 +68,17 @@
     <td><strong>Ort der Bewirtung</strong></td>
   </tr>
   <tr>
-    <td>13.07.2015</td>
-    <td>Frankfurt
-	Schwedler str. 33
+    <td>#prc.mealDate#</td>
+    <td>#prc.location#
 	</td>
   </tr>
   <tr>
     <td colspan="2"><strong>Personen, die bewirtet wurden</strong></td>
   </tr>
   <tr>
-     <td colspan="2">Andy</td>
-  </tr>
-  <tr>
-     <td colspan="2">Matze</td>
-  </tr>
-  <tr>
-     <td colspan="2">Slavik</td>
-  </tr>
+     <td colspan="2">#prc.participants#</td>
+  </tr>  
+ 
   <tr>
      <td colspan="2">&nbsp;</td>
   </tr>
@@ -95,7 +92,7 @@
     <td colspan="2"><strong>Anlass der Bewirtung</strong></td>
   </tr>
   <tr>
-     <td colspan="2">&nbsp;</td>
+     <td colspan="2">#prc.occasion#</td>
   </tr>
   <tr>
      <td colspan="2">&nbsp;</td>
@@ -104,14 +101,17 @@
      <td colspan="2">&nbsp;</td>
   </tr>
   <tr>
-     <td colspan="2">Treffen mit den Kunden, usw usf</td>
+     <td colspan="2">&nbsp;</td>
   </tr>
   <tr>
-    <td><strong>Hoehe der Bewirtung: 100 EUR</strong></td>
-	<td>In Restaurationsbetrieben </td>
+    <td><strong>Hoehe der Bewirtung:</strong></td>
+	<td>#prc.price# EUR</td>
   </tr>
   <tr>
-    <td><strong>Ort, Datum: Frankfurt, 23.07.2015</strong></td>
+     <td colspan="2">#prc.restaurant#</td>
+  </tr>
+  <tr>
+    <td><strong>Ort, Datum: #prc.currentLocation#, den #prc.currentDate#</strong></td>
     <td><strong>Unterschrift:</strong></td>
   </tr>
  
@@ -123,6 +123,7 @@
 	
 	
 	
+</cfoutput>
 
 		
 	

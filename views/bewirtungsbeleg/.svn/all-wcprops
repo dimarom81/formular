@@ -3,35 +3,41 @@ svn:wc:ra_dav:version-url
 V 65
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg
 END
-form_BACKUP_file_works.cfm
+form_BACKUP_file_works_not_used.cfm
 K 25
 svn:wc:ra_dav:version-url
-V 92
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg/form_BACKUP_file_works.cfm
+V 101
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/form_BACKUP_file_works_not_used.cfm
 END
 test.cfm
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg/test.cfm
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/test.cfm
 END
 form.cfm
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg/form.cfm
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/form.cfm
+END
+impressum.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/impressum.cfm
 END
 myprofile.cfm
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg/myprofile.cfm
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/myprofile.cfm
 END
 mydocuments.cfm
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg/mydocuments.cfm
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/mydocuments.cfm
 END
 form_BACKUP_not_used.cfm
 K 25
@@ -43,5 +49,11 @@ form_edit.cfm
 K 25
 svn:wc:ra_dav:version-url
 V 79
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/views/bewirtungsbeleg/form_edit.cfm
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/form_edit.cfm
+END
+pdf.cfm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/views/bewirtungsbeleg/pdf.cfm
 END

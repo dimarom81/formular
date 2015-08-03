@@ -1,8 +1,11 @@
 ﻿<cfoutput>	
-	<div class="container well">
+	<div class="container well" style="margin-bottom:150px;">
 	 <h3>Mein Belegarchiv</h3>               
 	  <div>		
-		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">			
+			<cfif ArrayLen(prc.belege) eq 0>
+					<i>Noch keine Belege vorhanden!</i>
+			</cfif>			
 			<cfloop index="i" array=#prc.belege#>
 			  <div class="panel panel-default">
 			    <div class="panel-heading" role="tab" id="headingOne">

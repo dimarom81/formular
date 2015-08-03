@@ -3,29 +3,17 @@ svn:wc:ra_dav:version-url
 V 56
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css
 END
-bootstrap.css.map
-K 25
-svn:wc:ra_dav:version-url
-V 74
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap.css.map
-END
 bootstrap-theme.css.map
 K 25
 svn:wc:ra_dav:version-url
 V 80
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap-theme.css.map
 END
-fileinput.css
-K 25
-svn:wc:ra_dav:version-url
-V 70
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/fileinput.css
-END
-bootstrap.min.css
+bootstrap.css.map
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap.min.css
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap.css.map
 END
 bootstrap-theme.min.css
 K 25
@@ -33,29 +21,17 @@ svn:wc:ra_dav:version-url
 V 80
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap-theme.min.css
 END
+bootstrap.min.css
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap.min.css
+END
 style.css
 K 25
 svn:wc:ra_dav:version-url
 V 66
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/style.css
-END
-jquery.fileupload-noscript.css
-K 25
-svn:wc:ra_dav:version-url
-V 87
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/jquery.fileupload-noscript.css
-END
-jquery.fileupload.css
-K 25
-svn:wc:ra_dav:version-url
-V 78
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/jquery.fileupload.css
-END
-demo-ie8.css
-K 25
-svn:wc:ra_dav:version-url
-V 69
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/demo-ie8.css
+/repos/!svn/ver/14292/trunk/bewirtungsbeleg/includes/css/style.css
 END
 datepicker.css
 K 25
@@ -63,17 +39,11 @@ svn:wc:ra_dav:version-url
 V 71
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/datepicker.css
 END
-jquery.fileupload-ui-noscript.css
+bootstrap-theme.css
 K 25
 svn:wc:ra_dav:version-url
-V 90
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/jquery.fileupload-ui-noscript.css
-END
-jquery.fileupload-ui.css
-K 25
-svn:wc:ra_dav:version-url
-V 81
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/jquery.fileupload-ui.css
+V 76
+/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap-theme.css
 END
 bootstrap.css
 K 25
@@ -81,21 +51,9 @@ svn:wc:ra_dav:version-url
 V 70
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap.css
 END
-bootstrap-theme.css
-K 25
-svn:wc:ra_dav:version-url
-V 76
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/bootstrap-theme.css
-END
 overlay.css
 K 25
 svn:wc:ra_dav:version-url
 V 68
 /repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/overlay.css
-END
-demo.css
-K 25
-svn:wc:ra_dav:version-url
-V 65
-/repos/!svn/ver/14275/trunk/bewirtungsbeleg/includes/css/demo.css
 END

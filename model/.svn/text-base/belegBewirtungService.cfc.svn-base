@@ -26,6 +26,12 @@
 		return beleg[1].getMealDate();//dateTimeFormat(xxx , "dd.MM.yyyy")
 	}
 	
+	public function belongs( belegBewirtung obj, any referenceID ) {
+		if( arguments.obj.getReferenceID() == arguments.referenceID){
+			return true;
+		}
+		return false;
+	}
 		
 }
 	
